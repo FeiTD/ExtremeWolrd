@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MMPRPGResouce\\mmorpg\\Src\\Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\mmprpgresouce\\mmorpg\\src\\client\\assets\\scripts\\network\\netclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\network\\netclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NetClient.cs",
+              "DocumentMoniker": "D:\\MMPRPGResouce\\mmorpg\\Src\\Client\\Assets\\Scripts\\Network\\NetClient.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Network\\NetClient.cs",
+              "ToolTip": "D:\\MMPRPGResouce\\mmorpg\\Src\\Client\\Assets\\Scripts\\Network\\NetClient.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Network\\NetClient.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:24:26.804Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
