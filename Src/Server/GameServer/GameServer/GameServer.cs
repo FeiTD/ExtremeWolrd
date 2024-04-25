@@ -16,10 +16,14 @@ namespace GameServer
 {
     class GameServer
     {
+        NetService network;
         Thread thread;
         bool running = false;
         public bool Init()
         {
+            int Port = Properties.Settings.Default.ServerPort;
+            network = new NetService();
+            network.Init(Port);
             DBService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
             return true;
