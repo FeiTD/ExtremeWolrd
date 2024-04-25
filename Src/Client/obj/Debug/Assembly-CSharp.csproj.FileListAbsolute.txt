@@ -176,6 +176,7 @@ D:\A\ExtremeWolrd\Src\Client\Temp\bin\Debug\protobuf-net.xml
 D:\A\ExtremeWolrd\Src\Client\Temp\bin\Debug\UnityEngine.ParticlesLegacyModule.xml
 D:\A\ExtremeWolrd\Src\Client\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
 D:\A\ExtremeWolrd\Src\Client\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-D:\A\ExtremeWolrd\Src\Client\obj\Debug\Assembly.44154EF1.Up2Date
 D:\A\ExtremeWolrd\Src\Client\obj\Debug\Assembly-CSharp.dll
 D:\A\ExtremeWolrd\Src\Client\obj\Debug\Assembly-CSharp.pdb
+D:\A\ExtremeWolrd\Src\Client\Temp\bin\Debug\Protocol.pdb
+D:\A\ExtremeWolrd\Src\Client\obj\Debug\Assembly-CSharp.csproj.CopyComplete
