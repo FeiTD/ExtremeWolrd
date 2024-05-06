@@ -24,6 +24,8 @@ namespace GameServer
             int Port = Properties.Settings.Default.ServerPort;
             network = new NetService();
             network.Init(Port);
+            network.Start();
+            UserService.Instance.Init();
             DBService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
             return true;

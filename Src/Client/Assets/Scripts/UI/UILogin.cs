@@ -1,6 +1,5 @@
-﻿using Assets.Scripts.UI;
-using System.Collections;
-using System.Collections.Generic;
+﻿using Assets.Scripts.Services;
+using Assets.Scripts.UI;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -38,7 +37,7 @@ public class UILogin : MonoBehaviour {
             MessageBox.Show("请输入密码");
             return;
         }
-        if (string.IsNullOrEmpty(this.registerPswText.text))
+        if (string.IsNullOrEmpty(this.registerConfirmPswText.text))
         {
             MessageBox.Show("请输入确认密码");
             return;
@@ -48,10 +47,23 @@ public class UILogin : MonoBehaviour {
             MessageBox.Show("两次输入的密码不一致");
             return;
         }
+
+        UserService.Instance.SendRegister(registerUserText.text,registerPswText.text);
     }
 
 	public void OnClickLogIn()
 	{
+        if (string.IsNullOrEmpty(this.loginUserText.text))
+        {
+            MessageBox.Show("请输入账号");
+            return;
+        }
+        if (string.IsNullOrEmpty(this.loginPswText.text))
+        {
+            MessageBox.Show("请输入密码");
+            return;
+        }
 
-	}
+        UserService.Instance.SendLogin(loginUserText.text, loginPswText.text);
+    }
 }

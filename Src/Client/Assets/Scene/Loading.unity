@@ -803,6 +803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 405880655}
   - component: {fileID: 405880656}
+  - component: {fileID: 405880657}
   m_Layer: 0
   m_Name: LoadingManager
   m_TagString: Untagged
@@ -839,6 +840,18 @@ MonoBehaviour:
   UILogin: {fileID: 201531804}
   progressBar: {fileID: 162202724}
   progressText: {fileID: 761302549}
+--- !u!114 &405880657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 405880654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 750c4d578a0cc594f9408253b427d2e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  global: 1
 --- !u!1 &430213332
 GameObject:
   m_ObjectHideFlags: 0

@@ -35,8 +35,11 @@ namespace Assets.Scripts.UI
         public void Init(string title, string message, MessageBoxType type = MessageBoxType.Information, string btnOK = "", string btnCancel = "")
         {
             Debug.Log("Init MessageBox");
+
             if (!string.IsNullOrEmpty(title)) this.title.text = title;
+
             this.message.text = message;
+
             this.icons[0].enabled = type == MessageBoxType.Information;
             this.icons[1].enabled = type == MessageBoxType.Confirm;
             this.icons[2].enabled = type == MessageBoxType.Error;
@@ -49,7 +52,7 @@ namespace Assets.Scripts.UI
 
             this.buttonNo.gameObject.SetActive(type == MessageBoxType.Confirm);
 
-           
+
         }
 
         void OnClickYes()
