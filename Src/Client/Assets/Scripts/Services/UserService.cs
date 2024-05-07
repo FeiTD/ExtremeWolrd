@@ -157,7 +157,6 @@ namespace Assets.Scripts.Services
             if (this.OnLogin != null)
             {
                 this.OnLogin(response.Result, response.Errormsg);
-
             }
         }
     }
