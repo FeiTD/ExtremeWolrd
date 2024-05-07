@@ -20,7 +20,7 @@ public class UICharacterView : MonoBehaviour {
 	}
 	// Use this for initialization
 	void Start () {
-		
+		UpdateRole();
 	}
 	
 	// Update is called once per frame

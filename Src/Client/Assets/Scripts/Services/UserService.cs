@@ -154,6 +154,8 @@ namespace Assets.Scripts.Services
         {
             if (response.Errormsg != "None")
                 MessageBox.Show(response.Errormsg);
+            else
+                SceneManager.Instance.LoadScene("CharactorSelect");
             if (this.OnLogin != null)
             {
                 this.OnLogin(response.Result, response.Errormsg);
