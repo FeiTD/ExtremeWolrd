@@ -16,6 +16,7 @@ namespace GameServer.Services
         {
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserRegisterRequest>(this.OnRegister);
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserLoginRequest>(this.OnLogin);
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserCreateCharacterRequest>(this.OnCreatCharacter);
         }
 
         public void Init()
@@ -46,32 +47,62 @@ namespace GameServer.Services
             conn.SendResponse();
         }
 
-        private void OnLogin(NetConnection<NetSession> conn, UserLoginRequest request)
+        private void OnLogin(NetConnection<NetSession> sender, UserLoginRequest request)
         {
-            Log.InfoFormat("UserLoinRequest: User:{0}  Pass:{1}", request.User, request.Passward);
-            conn.Session.Response.userLogin = new UserLoginResponse();
+            Log.InfoFormat("UserLoginRequest: User:{0}  Pass:{1}", request.User, request.Passward);
 
+            sender.Session.Response.userLogin = new UserLoginResponse();
 
             TUser user = DBService.Instance.Entities.Users.Where(u => u.Username == request.User).FirstOrDefault();
-            if (user != null)
+            if (user == null)
             {
-                if(user.Password != request.Passward)
-                {
-                    conn.Session.Response.userLogin.Result = Result.Failed;
-                    conn.Session.Response.userLogin.Errormsg = "账号或者密码错误";
-                }
-                else
-                {
-                    conn.Session.Response.userLogin.Result = Result.Success;
-                    conn.Session.Response.userLogin.Errormsg = "None";
-                }
+                sender.Session.Response.userLogin.Result = Result.Failed;
+                sender.Session.Response.userLogin.Errormsg = "用户不存在";
+            }
+            else if (user.Password != request.Passward)
+            {
+                sender.Session.Response.userLogin.Result = Result.Failed;
+                sender.Session.Response.userLogin.Errormsg = "密码错误";
             }
             else
             {
-                conn.Session.Response.userLogin.Result = Result.Failed;
-                conn.Session.Response.userLogin.Errormsg = "该用户未注册！";
+                sender.Session.User = user;
+
+                sender.Session.Response.userLogin.Result = Result.Success;
+                sender.Session.Response.userLogin.Errormsg = "None";
+                sender.Session.Response.userLogin.Userinfo = new NUserInfo();
+                sender.Session.Response.userLogin.Userinfo.Id = (int)user.ID;
+                sender.Session.Response.userLogin.Userinfo.Player = new NPlayerInfo();
+                sender.Session.Response.userLogin.Userinfo.Player.Id = user.Player.ID;
             }
-            conn.SendResponse();
+            sender.SendResponse();
+        }
+
+        private void OnCreatCharacter(NetConnection<NetSession> conn, UserCreateCharacterRequest request)
+        {
+            Log.InfoFormat("UserCreatCharacterRequest: Name:{0}  Class:{1}", request.Name, request.Class);
+            conn.Session.Response.createChar = new UserCreateCharacterResponse();
+
+            TCharacter character = DBService.Instance.Entities.Characters.Where(u => u.Name == request.Name).FirstOrDefault();
+            if(character == null)
+            {
+                TCharacter newCharacter = DBService.Instance.Entities.Characters.Add(new TCharacter() {
+                    Name = request.Name, 
+                    Class = (int)request.Class,
+                    TID = (int)request.Class,
+                    MapID = 1,
+                    MapPosX = 5000,
+                    MapPosY = 4000,
+                    MapPosZ = 820
+                });
+                conn.Session.User.Player.Characters.Add(newCharacter);
+                DBService.Instance.Entities.SaveChanges();
+            }
+            else
+            {
+                conn.Session.Response.createChar.Result = Result.Failed;
+                conn.Session.Response.createChar.Errormsg = "已存在相同名称的角色";
+            }
         }
     }
 }

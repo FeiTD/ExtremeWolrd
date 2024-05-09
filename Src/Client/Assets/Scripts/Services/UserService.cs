@@ -15,6 +15,8 @@ namespace Assets.Scripts.Services
 
         public UnityEngine.Events.UnityAction<Result, string> OnLogin;
 
+        public UnityEngine.Events.UnityAction<Result, string> OnCreatCharacter;
+
         NetMessage pendingMessage = null;
 
         bool connected = false;
@@ -25,12 +27,14 @@ namespace Assets.Scripts.Services
             NetClient.Instance.OnDisconnect += OnGameServerDisconnect;
             MessageDistributer.Instance.Subscribe<UserRegisterResponse>(this.OnUserRegister);
             MessageDistributer.Instance.Subscribe<UserLoginResponse>(this.OnUserLogin);
+            MessageDistributer.Instance.Subscribe<UserCreateCharacterResponse>(this.OnUserCreatCharacter);
         }
 
         public void Dispose()
         {
             MessageDistributer.Instance.Unsubscribe<UserRegisterResponse>(this.OnUserRegister);
             MessageDistributer.Instance.Unsubscribe<UserLoginResponse>(this.OnUserLogin);
+            MessageDistributer.Instance.Unsubscribe<UserCreateCharacterResponse>(this.OnUserCreatCharacter);
 
             NetClient.Instance.OnConnect -= OnGameServerConnect;
             NetClient.Instance.OnDisconnect -= OnGameServerDisconnect;
@@ -139,6 +143,27 @@ namespace Assets.Scripts.Services
             }
         }
 
+        public void SendCreatCharacter(string name, CharacterClass characterClass)
+        {
+            Debug.LogFormat("UserCreatCharacterRequest::name :{0} characterClass:{1}", name, characterClass);
+            NetMessage message = new NetMessage();
+            message.Request = new NetMessageRequest();
+            message.Request.createChar = new UserCreateCharacterRequest();
+            message.Request.createChar.Class = characterClass;
+            message.Request.createChar.Name = name;
+            if (this.connected && NetClient.Instance.Connected)
+            {
+                this.pendingMessage = null;
+                NetClient.Instance.SendMessage(message);
+            }
+            else
+            {
+                this.pendingMessage = message;
+                this.ConnectToServer();
+                connected = true;
+            }
+        }
+
         void OnUserRegister(object sender, UserRegisterResponse response)
         {
             if(response.Errormsg != "None")
@@ -159,6 +184,18 @@ namespace Assets.Scripts.Services
             if (this.OnLogin != null)
             {
                 this.OnLogin(response.Result, response.Errormsg);
+            }
+        }
+
+        void OnUserCreatCharacter(object sender,UserCreateCharacterResponse response)
+        {
+            if (response.Result == Result.Failed)
+            {
+                MessageBox.Show(response.Errormsg);
+            }
+            if (this.OnCreatCharacter != null)
+            {
+                this.OnCreatCharacter(response.Result, response.Errormsg);
             }
         }
     }

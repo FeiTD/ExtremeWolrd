@@ -1,0 +1,109 @@
+
+2024-05-09 19:24:38,189 [1] [INFO ] [GameServer] ：Game Server Init
+2024-05-09 19:24:38,445 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-05-09 19:24:39,136 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:24:39,136 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:24:39,137 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:24:39,137 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:24:39,137 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:24:39,141 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:24:39,142 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:24:39,150 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:24:39,470 [1] [WARN ] [GameServer] ：NetService Started
+2024-05-09 19:25:54,678 [12] [WARN ] [GameServer] ：Client[127.0.0.1:64957]] Connected
+2024-05-09 19:25:54,872 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2024-05-09 19:25:55,129 [4] [INFO ] [GameServer] ：UserLoinRequest: User:cza  Pass:250
+2024-05-09 19:26:26,079 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-05-09 19:26:26,089 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Adc  Class:Archer
+2024-05-09 19:26:58,161 [4] [ERROR] [GameServer] ：Message handler exception:System.Data.Entity.Core.UpdateException: “ExtremeWorldEntities.Characters”中的实体参与“PlayerCharacter”关系。找到 0 个相关的“Player”。应有 1 个“Player”。
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.RelationshipConstraintValidator.ValidateConstraints()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ProduceCommands()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges(), “ExtremeWorldEntities.Characters”中的实体参与“PlayerCharacter”关系。找到 0 个相关的“Player”。应有 1 个“Player”。, EntityFramework,    在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 GameServer.Services.UserService.OnCreatCharacter(NetConnection`1 conn, UserCreateCharacterRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 97
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-05-09 19:29:04,822 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-05-09 19:29:04,824 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Adc  Class:Archer
+2024-05-09 19:29:45,175 [4] [ERROR] [GameServer] ：Message handler exception:System.Data.Entity.Core.UpdateException: “ExtremeWorldEntities.Characters”中的实体参与“PlayerCharacter”关系。找到 0 个相关的“Player”。应有 1 个“Player”。
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.RelationshipConstraintValidator.ValidateConstraints()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ProduceCommands()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges(), “ExtremeWorldEntities.Characters”中的实体参与“PlayerCharacter”关系。找到 0 个相关的“Player”。应有 1 个“Player”。, EntityFramework,    在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 GameServer.Services.UserService.OnCreatCharacter(NetConnection`1 conn, UserCreateCharacterRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 97
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-05-09 19:31:35,633 [1] [INFO ] [GameServer] ：Game Server Init
+2024-05-09 19:31:35,791 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-05-09 19:31:36,092 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:31:36,092 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:31:36,093 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:31:36,093 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:31:36,093 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:31:36,095 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:31:36,098 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:31:36,098 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:31:36,177 [1] [WARN ] [GameServer] ：NetService Started
+2024-05-09 19:32:03,606 [3] [WARN ] [GameServer] ：Client[127.0.0.1:65034]] Connected
+2024-05-09 19:32:03,811 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2024-05-09 19:32:04,086 [4] [INFO ] [GameServer] ：UserLoginRequest: User:cza  Pass:250
+2024-05-09 19:32:14,847 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-05-09 19:32:14,852 [5] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Cza  Class:Warrior
+2024-05-09 19:35:14,755 [1] [INFO ] [GameServer] ：Game Server Init
+2024-05-09 19:35:14,978 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-05-09 19:35:15,281 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:35:15,282 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:35:15,283 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:35:15,284 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:35:15,285 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:35:15,288 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:35:15,288 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:35:15,289 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:35:15,385 [1] [WARN ] [GameServer] ：NetService Started
+2024-05-09 19:35:22,853 [3] [WARN ] [GameServer] ：Client[127.0.0.1:65076]] Connected
+2024-05-09 19:35:22,867 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-05-09 19:35:23,404 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Cza  Class:Warrior
+2024-05-09 19:35:25,999 [4] [ERROR] [GameServer] ：Message handler exception:, 值不能为 null。
+参数名: entity, EntityFramework,    在 System.Data.Entity.Utilities.Check.NotNull[T](T value, String parameterName)
+   在 System.Data.Entity.DbSet`1.Add(TEntity entity)
+   在 GameServer.Services.UserService.OnCreatCharacter(NetConnection`1 conn, UserCreateCharacterRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 98
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-05-09 19:35:45,713 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-05-09 19:35:48,169 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Cza  Class:Warrior
+2024-05-09 19:36:47,627 [1] [INFO ] [GameServer] ：Game Server Init
+2024-05-09 19:36:47,729 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-05-09 19:36:47,931 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:36:47,932 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:36:47,932 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:36:47,932 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:36:47,934 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:36:47,935 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:36:47,938 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:36:47,940 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:36:47,976 [1] [WARN ] [GameServer] ：NetService Started
+2024-05-09 19:36:49,183 [3] [WARN ] [GameServer] ：Client[127.0.0.1:65097]] Connected
+2024-05-09 19:36:49,378 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-05-09 19:36:52,065 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Cza  Class:Warrior
+2024-05-09 19:37:25,700 [1] [INFO ] [GameServer] ：Game Server Init
+2024-05-09 19:37:26,021 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-05-09 19:37:26,788 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:37:26,788 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:37:26,788 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:37:26,788 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:37:26,790 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:37:26,803 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:37:26,804 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:37:26,813 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-09 19:37:26,914 [1] [WARN ] [GameServer] ：NetService Started
+2024-05-09 19:37:44,228 [3] [WARN ] [GameServer] ：Client[127.0.0.1:65115]] Connected
+2024-05-09 19:37:44,426 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2024-05-09 19:37:44,737 [4] [INFO ] [GameServer] ：UserLoginRequest: User:cza  Pass:250
+2024-05-09 19:37:51,765 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-05-09 19:37:53,611 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Cza  Class:Warrior
+2024-05-09 19:38:30,224 [14] [WARN ] [GameServer] ：Client[] Disconnected

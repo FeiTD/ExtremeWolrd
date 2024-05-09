@@ -41,7 +41,7 @@
     <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <NavigationProperty Name="Player" Relationship="ExtremeWorldModel.PlayerCharacter" FromRole="Character" ToRole="Player" />
     <Property Name="TID" Type="Int32" Nullable="false" />
-    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
     <Property Name="Class" Type="Int32" Nullable="false" />
     <Property Name="MapID" Type="Int32" Nullable="false" DefaultValue="1" />
     <Property Name="MapPosX" Type="Int32" Nullable="false" />
