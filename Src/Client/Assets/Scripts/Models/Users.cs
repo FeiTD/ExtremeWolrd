@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Models
 {
-    public class User : Singleton<User>
+    public class Users : Singleton<Users>
     {
         SkillBridge.Message.NUserInfo userInfo;
 

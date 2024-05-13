@@ -23,5 +23,4 @@ D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\obj\Debug\GameServer.exe.conf
 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.CoreCompileInputs.cache
 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\obj\Debug\GameServer.exe
 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\obj\Debug\GameServer.pdb
-D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.SuggestedBindingRedirects.cache
-D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.Up2Date
+D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.CopyComplete

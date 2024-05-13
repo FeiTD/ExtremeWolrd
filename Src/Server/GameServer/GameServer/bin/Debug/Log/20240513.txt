@@ -1,0 +1,50 @@
+
+2024-05-13 19:06:15,503 [1] [INFO ] [GameServer] £ºGame Server Init
+2024-05-13 19:06:15,711 [1] [WARN ] [GameServer] £ºStarting Listener...
+2024-05-13 19:06:16,373 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-05-13 19:06:16,373 [4] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-05-13 19:06:16,375 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-05-13 19:06:16,379 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-05-13 19:06:16,388 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-05-13 19:06:16,389 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-05-13 19:06:16,390 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-05-13 19:06:16,393 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-05-13 19:06:16,497 [1] [WARN ] [GameServer] £ºNetService Started
+2024-05-13 19:07:10,023 [13] [WARN ] [GameServer] £ºClient[127.0.0.1:65487]] Connected
+2024-05-13 19:07:10,195 [13] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2024-05-13 19:07:10,371 [4] [INFO ] [GameServer] £ºUserLoginRequest: User:cza  Pass:250
+2024-05-13 19:07:57,666 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:15
+2024-05-13 19:07:57,672 [4] [INFO ] [GameServer] £ºUserCreatCharacterRequest: Name:Cza  Class:Archer
+2024-05-13 19:08:01,803 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:16
+2024-05-13 19:08:01,804 [4] [INFO ] [GameServer] £ºUserCreatCharacterRequest: Name:Czaa  Class:Archer
+2024-05-13 19:11:49,150 [17] [WARN ] [GameServer] £ºClient[] Disconnected
+2024-05-13 19:13:25,794 [17] [WARN ] [GameServer] £ºClient[127.0.0.1:49222]] Connected
+2024-05-13 19:13:25,960 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2024-05-13 19:13:25,961 [4] [INFO ] [GameServer] £ºUserLoginRequest: User:cza  Pass:250
+2024-05-13 19:13:44,318 [21] [WARN ] [GameServer] £ºClient[] Disconnected
+2024-05-13 19:15:43,863 [22] [WARN ] [GameServer] £ºClient[127.0.0.1:49272]] Connected
+2024-05-13 19:15:44,031 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2024-05-13 19:15:44,031 [4] [INFO ] [GameServer] £ºUserLoginRequest: User:cza  Pass:250
+2024-05-13 19:16:42,863 [26] [WARN ] [GameServer] £ºClient[] Disconnected
+2024-05-13 19:17:57,471 [26] [WARN ] [GameServer] £ºClient[127.0.0.1:49312]] Connected
+2024-05-13 19:17:57,640 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2024-05-13 19:17:57,640 [4] [INFO ] [GameServer] £ºUserLoginRequest: User:cza  Pass:250
+2024-05-13 19:18:30,496 [32] [WARN ] [GameServer] £ºClient[] Disconnected
+2024-05-13 19:21:05,477 [32] [WARN ] [GameServer] £ºClient[127.0.0.1:49532]] Connected
+2024-05-13 19:21:05,662 [32] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2024-05-13 19:21:05,663 [4] [INFO ] [GameServer] £ºUserLoginRequest: User:cza  Pass:250
+2024-05-13 19:23:14,162 [31] [WARN ] [GameServer] £ºClient[] Disconnected
+2024-05-13 19:24:35,455 [31] [WARN ] [GameServer] £ºClient[127.0.0.1:49583]] Connected
+2024-05-13 19:24:35,631 [31] [WARN ] [GameServer] £ºClient[] DataReceived Len:14
+2024-05-13 19:24:35,631 [4] [INFO ] [GameServer] £ºUserLoginRequest: User:1  Pass:1
+2024-05-13 19:24:56,104 [31] [WARN ] [GameServer] £ºClient[] DataReceived Len:14
+2024-05-13 19:24:56,106 [4] [INFO ] [GameServer] £ºUserCreatCharacterRequest: Name:Ca  Class:Warrior
+2024-05-13 19:25:24,995 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:13
+2024-05-13 19:25:24,997 [4] [INFO ] [GameServer] £ºUserCreatCharacterRequest: Name:A  Class:Wizard
+2024-05-13 19:25:31,738 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:13
+2024-05-13 19:25:31,739 [4] [INFO ] [GameServer] £ºUserCreatCharacterRequest: Name:S  Class:Wizard
+2024-05-13 19:25:36,912 [21] [WARN ] [GameServer] £ºClient[] DataReceived Len:15
+2024-05-13 19:25:36,912 [4] [INFO ] [GameServer] £ºUserCreatCharacterRequest: Name:Abc  Class:Wizard
+2024-05-13 19:25:44,125 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2024-05-13 19:25:44,125 [4] [INFO ] [GameServer] £ºUserCreatCharacterRequest: Name:Abcwww  Class:Wizard
+2024-05-13 19:25:51,431 [22] [WARN ] [GameServer] £ºClient[] Disconnected

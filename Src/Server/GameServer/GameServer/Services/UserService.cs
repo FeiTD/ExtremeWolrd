@@ -74,6 +74,15 @@ namespace GameServer.Services
                 sender.Session.Response.userLogin.Userinfo.Id = (int)user.ID;
                 sender.Session.Response.userLogin.Userinfo.Player = new NPlayerInfo();
                 sender.Session.Response.userLogin.Userinfo.Player.Id = user.Player.ID;
+                foreach (var c in user.Player.Characters)
+                {
+                    NCharacterInfo info = new NCharacterInfo();
+                    info.Id = c.ID;
+                    info.Name = c.Name;
+                    info.Type = CharacterType.Player;
+                    info.Class = (CharacterClass)c.Class;                  
+                    sender.Session.Response.userLogin.Userinfo.Player.Characters.Add(info);
+                }
             }
             sender.SendResponse();
         }
@@ -97,12 +106,24 @@ namespace GameServer.Services
                 });
                 conn.Session.User.Player.Characters.Add(newCharacter);
                 DBService.Instance.Entities.SaveChanges();
+                conn.Session.Response.createChar.Result = Result.Success;
+                conn.Session.Response.createChar.Errormsg = "None";
+                foreach (var c in conn.Session.User.Player.Characters)
+                {
+                    NCharacterInfo info = new NCharacterInfo();
+                    info.Id = c.ID;
+                    info.Name = c.Name;
+                    info.Type = CharacterType.Player;
+                    info.Class = (CharacterClass)c.Class;
+                    conn.Session.Response.createChar.Characters.Add(info);
+                }
             }
             else
             {
                 conn.Session.Response.createChar.Result = Result.Failed;
                 conn.Session.Response.createChar.Errormsg = "已存在相同名称的角色";
             }
+            conn.SendResponse();
         }
     }
 }

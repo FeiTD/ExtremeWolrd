@@ -1,4 +1,5 @@
 ﻿
+using Assets.Scripts.Models;
 using Assets.Scripts.UI;
 using Common;
 using log4net;
@@ -177,10 +178,15 @@ namespace Assets.Scripts.Services
 
         void OnUserLogin(object sender, UserLoginResponse response)
         {
-            if (response.Errormsg != "None")
+            if (response.Result == Result.Failed)
                 MessageBox.Show(response.Errormsg);
             else
+            {
                 SceneManager.Instance.LoadScene("CharactorSelect");
+                //登陆成功逻辑
+                Users.Instance.SetupUserInfo(response.Userinfo);
+            }
+                
             if (this.OnLogin != null)
             {
                 this.OnLogin(response.Result, response.Errormsg);
@@ -189,14 +195,27 @@ namespace Assets.Scripts.Services
 
         void OnUserCreatCharacter(object sender,UserCreateCharacterResponse response)
         {
-            if (response.Result == Result.Failed)
+            try
             {
-                MessageBox.Show(response.Errormsg);
+                if (response.Result == Result.Failed)
+                {
+                    MessageBox.Show(response.Errormsg);
+                }
+                if (response.Result == Result.Success)
+                {
+                    Users.Instance.Info.Player.Characters.Clear();
+                    Users.Instance.Info.Player.Characters.AddRange(response.Characters);
+                }
+                if (this.OnCreatCharacter != null)
+                {
+                    this.OnCreatCharacter(response.Result, response.Errormsg);
+                }
             }
-            if (this.OnCreatCharacter != null)
+            catch(Exception ex)
             {
-                this.OnCreatCharacter(response.Result, response.Errormsg);
+
             }
+           
         }
     }
 }
