@@ -23,7 +23,6 @@ public class UICharacterSelect : MonoBehaviour {
 
 	private CharacterClass charClass;
 	private int selectCharIndex = -1;
-	
 	// Use this for initialization
 	void Start () {
 		UserService.Instance.OnCreatCharacter = OnCreatCharacter;
@@ -78,6 +77,7 @@ public class UICharacterSelect : MonoBehaviour {
 			ci.Selected = idx == i;
 		}
 		CharacterView.CurrentRole = (int)Users.Instance.Info.Player.Characters[idx].Class - 1;
+		selectCharIndex = CharacterView.CurrentRole;
 	}
 
 	public void UpdateTitle(int charClass)
@@ -121,4 +121,12 @@ public class UICharacterSelect : MonoBehaviour {
 			}
         }
 	}
+
+	public void GameEnter()
+    {
+		if(selectCharIndex >= 0)
+        {
+			UserService.Instance.SendGameEnter(selectCharIndex);
+        }
+    }
 }

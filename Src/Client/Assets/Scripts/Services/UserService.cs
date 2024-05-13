@@ -18,6 +18,8 @@ namespace Assets.Scripts.Services
 
         public UnityEngine.Events.UnityAction<Result, string> OnCreatCharacter;
 
+        public UnityEngine.Events.UnityAction<Result, string> OnGameEnter;
+
         NetMessage pendingMessage = null;
 
         bool connected = false;
@@ -29,6 +31,7 @@ namespace Assets.Scripts.Services
             MessageDistributer.Instance.Subscribe<UserRegisterResponse>(this.OnUserRegister);
             MessageDistributer.Instance.Subscribe<UserLoginResponse>(this.OnUserLogin);
             MessageDistributer.Instance.Subscribe<UserCreateCharacterResponse>(this.OnUserCreatCharacter);
+            MessageDistributer.Instance.Subscribe<UserGameEnterResponse>(this.OnUserEnterGame);
         }
 
         public void Dispose()
@@ -36,6 +39,7 @@ namespace Assets.Scripts.Services
             MessageDistributer.Instance.Unsubscribe<UserRegisterResponse>(this.OnUserRegister);
             MessageDistributer.Instance.Unsubscribe<UserLoginResponse>(this.OnUserLogin);
             MessageDistributer.Instance.Unsubscribe<UserCreateCharacterResponse>(this.OnUserCreatCharacter);
+            MessageDistributer.Instance.Unsubscribe<UserGameEnterResponse>(this.OnUserEnterGame);
 
             NetClient.Instance.OnConnect -= OnGameServerConnect;
             NetClient.Instance.OnDisconnect -= OnGameServerDisconnect;
@@ -165,6 +169,26 @@ namespace Assets.Scripts.Services
             }
         }
 
+        public void SendGameEnter(int idx)
+        {
+            Debug.LogFormat("UserGameEnterRequest::idx :{0}", idx);
+            NetMessage message = new NetMessage();
+            message.Request = new NetMessageRequest();
+            message.Request.gameEnter = new UserGameEnterRequest();
+            message.Request.gameEnter.characterIdx = idx;
+            if (this.connected && NetClient.Instance.Connected)
+            {
+                this.pendingMessage = null;
+                NetClient.Instance.SendMessage(message);
+            }
+            else
+            {
+                this.pendingMessage = message;
+                this.ConnectToServer();
+                connected = true;
+            }
+        }
+
         void OnUserRegister(object sender, UserRegisterResponse response)
         {
             if(response.Errormsg != "None")
@@ -195,27 +219,24 @@ namespace Assets.Scripts.Services
 
         void OnUserCreatCharacter(object sender,UserCreateCharacterResponse response)
         {
-            try
+            if (response.Result == Result.Failed)
             {
-                if (response.Result == Result.Failed)
-                {
-                    MessageBox.Show(response.Errormsg);
-                }
-                if (response.Result == Result.Success)
-                {
-                    Users.Instance.Info.Player.Characters.Clear();
-                    Users.Instance.Info.Player.Characters.AddRange(response.Characters);
-                }
-                if (this.OnCreatCharacter != null)
-                {
-                    this.OnCreatCharacter(response.Result, response.Errormsg);
-                }
+                MessageBox.Show(response.Errormsg);
             }
-            catch(Exception ex)
+            if (response.Result == Result.Success)
             {
+                Users.Instance.Info.Player.Characters.Clear();
+                Users.Instance.Info.Player.Characters.AddRange(response.Characters);
+            }
+            if (this.OnCreatCharacter != null)
+            {
+                this.OnCreatCharacter(response.Result, response.Errormsg);
+            }
+        }
 
-            }
-           
+        void OnUserEnterGame(object sender, UserGameEnterResponse response)
+        {
+            
         }
     }
 }

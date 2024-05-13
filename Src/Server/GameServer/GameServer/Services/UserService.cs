@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Common;
+using GameServer.Entities;
+using GameServer.Managers;
 using Network;
 using SkillBridge.Message;
 
@@ -17,7 +19,10 @@ namespace GameServer.Services
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserRegisterRequest>(this.OnRegister);
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserLoginRequest>(this.OnLogin);
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserCreateCharacterRequest>(this.OnCreatCharacter);
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserGameEnterRequest>(this.OnGameEnter);
         }
+
+
 
         public void Init()
         {
@@ -124,6 +129,20 @@ namespace GameServer.Services
                 conn.Session.Response.createChar.Errormsg = "已存在相同名称的角色";
             }
             conn.SendResponse();
+        }
+
+        private void OnGameEnter(NetConnection<NetSession> sender, UserGameEnterRequest request)
+        {
+            Log.InfoFormat("UserGameEnterRequest: characterIdx:{0}", request.characterIdx);
+            TCharacter dbchar = sender.Session.User.Player.Characters.ElementAt(request.characterIdx);
+            Character character = CharacterManager.Instance.AddCharacter(dbchar);
+
+            sender.Session.Response.gameEnter = new UserGameEnterResponse();
+            sender.Session.Response.gameEnter.Result = Result.Success;
+            sender.Session.Response.gameEnter.Errormsg = "None";
+
+
+            sender.SendResponse();
         }
     }
 }
