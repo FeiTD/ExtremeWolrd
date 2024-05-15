@@ -6,4 +6,3 @@ D:\A\ExtremeWolrd\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CoreCompileInputs.c
 D:\A\ExtremeWolrd\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CopyComplete
 D:\A\ExtremeWolrd\Src\Lib\Protocol\obj\Debug\Protocol.dll
 D:\A\ExtremeWolrd\Src\Lib\Protocol\obj\Debug\Protocol.pdb
-D:\A\ExtremeWolrd\Src\Lib\Protocol\obj\Debug\Protocol.csproj.AssemblyReference.cache

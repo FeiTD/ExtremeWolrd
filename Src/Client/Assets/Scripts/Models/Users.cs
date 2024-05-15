@@ -12,6 +12,9 @@ namespace Assets.Scripts.Models
     {
         SkillBridge.Message.NUserInfo userInfo;
 
+        public MapDefine CurrentMapData { get; set; }
+
+
         public SkillBridge.Message.NUserInfo Info
         {
             get { return userInfo; }

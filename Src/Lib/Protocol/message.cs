@@ -407,6 +407,9 @@ namespace SkillBridge.Message
         [global::ProtoBuf.ProtoMember(1)]
         public int characterId { get; set; }
 
+        [global::ProtoBuf.ProtoMember(2)]
+        public int entityId { get; set; }
+
     }
 
     [global::ProtoBuf.ProtoContract()]
