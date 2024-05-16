@@ -135,13 +135,19 @@ namespace GameServer.Services
         {
             Log.InfoFormat("UserGameEnterRequest: characterIdx:{0}", request.characterIdx);
             TCharacter dbchar = sender.Session.User.Player.Characters.ElementAt(request.characterIdx);
+            Log.InfoFormat("UserGameEnterRequest: characterID:{0}:{1} Map:{2}", dbchar.ID, dbchar.Name, dbchar.MapID);
             Character character = CharacterManager.Instance.AddCharacter(dbchar);
 
             sender.Session.Response.gameEnter = new UserGameEnterResponse();
             sender.Session.Response.gameEnter.Result = Result.Success;
             sender.Session.Response.gameEnter.Errormsg = "None";
 
+            sender.Session.Character = character;
+            sender.Session.PostResponser = character;
 
+            sender.Session.Response.gameEnter.Character = character.Info;
+
+            //MapManager.Instance[dbchar.MapID].CharacterEnter(sender, character);
             sender.SendResponse();
         }
     }

@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using Assets.Scripts.Manager;
+using Assets.Scripts.Services;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,6 +19,7 @@ namespace Assets.Scripts
         {
             log4net.Config.XmlConfigurator.ConfigureAndWatch(new System.IO.FileInfo("log4net.xml"));
 
+            MapService.Instance.Init();
             UITips.SetActive(true);
             UILoading.SetActive(false);
             UILogin.SetActive(false);
@@ -25,6 +28,8 @@ namespace Assets.Scripts
             yield return new WaitForSeconds(1f);
             UITips.SetActive(false);
 
+            yield return DataManager.Instance.LoadData();
+            
             // Fake Loading Simulate
             for (float i = 50; i < 100;)
             {

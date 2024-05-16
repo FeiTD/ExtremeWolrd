@@ -2388,7 +2388,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1023616289239580}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97c99e2cbb8f032409e0e1d25c142557, type: 3}
+  m_Script: {fileID: 11500000, guid: db30e8a204509af44bb06e46c56c0e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 54694007077697496}
@@ -2396,7 +2396,6 @@ MonoBehaviour:
   turnAngle: 10
   speed: 0
   entityController: {fileID: 0}
-  onAir: 0
 --- !u!114 &114984784174661268
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2405,7 +2404,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1023616289239580}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 422006e2d7ced2f4b9b2415cf83e4629, type: 3}
+  m_Script: {fileID: 11500000, guid: 353aa7f8c3662794eaf522aeea46a60b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 95842149403464802}
@@ -2417,8 +2416,7 @@ MonoBehaviour:
   animSpeed: 1.5
   jumpPower: 3
   isPlayer: 0
-  rideController: {fileID: 0}
-  rideBone: {fileID: 4947274273310360}
+  rideBone: {fileID: 0}
 --- !u!136 &136387830155563700
 CapsuleCollider:
   m_ObjectHideFlags: 1

@@ -236,7 +236,15 @@ namespace Assets.Scripts.Services
 
         void OnUserEnterGame(object sender, UserGameEnterResponse response)
         {
-            
+            Debug.LogFormat("OnGameEnter:{0} [{1}]", response.Result, response.Errormsg);
+
+            if (response.Result == Result.Success)
+            {
+                if (response.Character != null)
+                {
+                    Users.Instance.CurrentCharacter = response.Character;
+                }
+            }
         }
     }
 }

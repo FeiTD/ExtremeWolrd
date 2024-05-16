@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using GameServer;
+using GameServer.Entities;
 using GameServer.Services;
 using SkillBridge.Message;
 
@@ -14,6 +15,7 @@ namespace Network
     {
         public TUser User { get; set; }
         public NEntity Entity { get; set; }
+        public Character Character { get; set; }
         public IPostResponser PostResponser { get; set; }
 
         public void Disconnected()
@@ -38,6 +40,8 @@ namespace Network
                 return response.Response;
             }
         }
+
+
 
         public byte[] GetResponse()
         {
