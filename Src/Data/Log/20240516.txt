@@ -218,3 +218,27 @@
 2024-05-16 21:47:09,446 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:13:Aa Map:1
 2024-05-16 21:47:09,446 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Aa
 2024-05-16 22:19:56,572 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2024-05-16 22:25:37,386 [1] [INFO ] [GameServer] ：Game Server Init
+2024-05-16 22:25:37,537 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-05-16 22:25:38,155 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-16 22:25:38,155 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-16 22:25:38,156 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-16 22:25:38,157 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-16 22:25:38,157 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-16 22:25:38,158 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-16 22:25:38,158 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-16 22:25:38,159 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-16 22:25:38,572 [1] [WARN ] [GameServer] ：NetService Started
+2024-05-16 22:25:39,674 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-05-16 22:25:39,771 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2024-05-16 22:25:39,786 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2024-05-16 22:25:39,786 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2024-05-16 22:25:39,787 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2024-05-16 22:26:43,620 [3] [WARN ] [GameServer] ：Client[127.0.0.1:63277]] Connected
+2024-05-16 22:26:43,699 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-05-16 22:26:44,031 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-05-16 22:27:45,065 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-05-16 22:27:48,458 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-05-16 22:27:48,513 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:13:Aa Map:1
+2024-05-16 22:28:23,524 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2024-05-16 22:28:44,611 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Aa

@@ -4,6 +4,7 @@ using UnityEngine;
 using SkillBridge.Message;
 using Assets.Scripts.Manager;
 using Assets.Scripts.Entities;
+using Assets.Scripts.Models;
 
 public class GameObjectManager : MonoBehaviour {
 	Dictionary<int, GameObject> Characters = new Dictionary<int, GameObject>();
@@ -40,7 +41,23 @@ public class GameObjectManager : MonoBehaviour {
 
             Characters[character.Info.Id] = go;
 
-            
+            PlayerInputController pc = go.GetComponent<PlayerInputController>();
+            if (pc != null)
+            {
+
+                if (character.IsCurrentPlayer)
+                {
+                    Users.Instance.CurrentCharacterObject = pc;
+                    MainPlayerCamera.Instance.Player = go;
+                    pc.enabled = true;
+                    pc.character = character;
+                    //pc.entityController = ec;
+                }
+                else
+                {
+                    pc.enabled = false;
+                }
+            }
         }
     }
 

@@ -147,7 +147,7 @@ namespace GameServer.Services
 
             sender.Session.Response.gameEnter.Character = character.Info;
 
-            //MapManager.Instance[dbchar.MapID].CharacterEnter(sender, character);
+            MapManager.Instance[dbchar.MapID].CharacterEnter(sender, character);
             sender.SendResponse();
         }
     }
