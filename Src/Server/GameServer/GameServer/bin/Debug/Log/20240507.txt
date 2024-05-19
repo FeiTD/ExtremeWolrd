@@ -1,0 +1,28 @@
+
+2024-05-07 19:25:36,766 [1] [INFO ] [GameServer] £ºGame Server Init
+2024-05-07 19:25:36,864 [1] [WARN ] [GameServer] £ºStarting Listener...
+2024-05-07 19:25:37,534 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-05-07 19:25:37,534 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-05-07 19:25:37,534 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-05-07 19:25:37,534 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-05-07 19:25:37,534 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-05-07 19:25:37,534 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-05-07 19:25:37,534 [4] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-05-07 19:25:37,534 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-05-07 19:25:37,569 [1] [WARN ] [GameServer] £ºNetService Started
+2024-05-07 19:25:43,359 [13] [WARN ] [GameServer] £ºClient[127.0.0.1:52942]] Connected
+2024-05-07 19:25:43,555 [13] [WARN ] [GameServer] £ºClient[] DataReceived Len:14
+2024-05-07 19:25:43,718 [4] [INFO ] [GameServer] £ºUserLoinRequest: User:1  Pass:1
+2024-05-07 19:26:27,599 [13] [WARN ] [GameServer] £ºClient[] Disconnected
+2024-05-07 19:26:55,846 [13] [WARN ] [GameServer] £ºClient[127.0.0.1:52973]] Connected
+2024-05-07 19:26:56,016 [13] [WARN ] [GameServer] £ºClient[] DataReceived Len:14
+2024-05-07 19:26:56,016 [4] [INFO ] [GameServer] £ºUserLoinRequest: User:1  Pass:1
+2024-05-07 19:28:16,680 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:14
+2024-05-07 19:28:16,682 [4] [INFO ] [GameServer] £ºUserLoinRequest: User:1  Pass:1
+2024-05-07 19:29:36,306 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:14
+2024-05-07 19:29:36,307 [4] [INFO ] [GameServer] £ºUserLoinRequest: User:1  Pass:1
+2024-05-07 19:29:59,792 [19] [WARN ] [GameServer] £ºClient[] Disconnected
+2024-05-07 19:30:29,412 [19] [WARN ] [GameServer] £ºClient[127.0.0.1:53050]] Connected
+2024-05-07 19:30:29,583 [19] [WARN ] [GameServer] £ºClient[] DataReceived Len:14
+2024-05-07 19:30:29,584 [4] [INFO ] [GameServer] £ºUserLoinRequest: User:1  Pass:1
+2024-05-07 19:31:16,568 [19] [WARN ] [GameServer] £ºClient[] Disconnected

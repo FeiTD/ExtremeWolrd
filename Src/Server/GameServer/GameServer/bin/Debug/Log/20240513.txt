@@ -1,0 +1,101 @@
+
+2024-05-13 19:06:15,503 [1] [INFO ] [GameServer] ：Game Server Init
+2024-05-13 19:06:15,711 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-05-13 19:06:16,373 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 19:06:16,373 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 19:06:16,375 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 19:06:16,379 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 19:06:16,388 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 19:06:16,389 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 19:06:16,390 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 19:06:16,393 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 19:06:16,497 [1] [WARN ] [GameServer] ：NetService Started
+2024-05-13 19:07:10,023 [13] [WARN ] [GameServer] ：Client[127.0.0.1:65487]] Connected
+2024-05-13 19:07:10,195 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2024-05-13 19:07:10,371 [4] [INFO ] [GameServer] ：UserLoginRequest: User:cza  Pass:250
+2024-05-13 19:07:57,666 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-05-13 19:07:57,672 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Cza  Class:Archer
+2024-05-13 19:08:01,803 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2024-05-13 19:08:01,804 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Czaa  Class:Archer
+2024-05-13 19:11:49,150 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2024-05-13 19:13:25,794 [17] [WARN ] [GameServer] ：Client[127.0.0.1:49222]] Connected
+2024-05-13 19:13:25,960 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2024-05-13 19:13:25,961 [4] [INFO ] [GameServer] ：UserLoginRequest: User:cza  Pass:250
+2024-05-13 19:13:44,318 [21] [WARN ] [GameServer] ：Client[] Disconnected
+2024-05-13 19:15:43,863 [22] [WARN ] [GameServer] ：Client[127.0.0.1:49272]] Connected
+2024-05-13 19:15:44,031 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2024-05-13 19:15:44,031 [4] [INFO ] [GameServer] ：UserLoginRequest: User:cza  Pass:250
+2024-05-13 19:16:42,863 [26] [WARN ] [GameServer] ：Client[] Disconnected
+2024-05-13 19:17:57,471 [26] [WARN ] [GameServer] ：Client[127.0.0.1:49312]] Connected
+2024-05-13 19:17:57,640 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2024-05-13 19:17:57,640 [4] [INFO ] [GameServer] ：UserLoginRequest: User:cza  Pass:250
+2024-05-13 19:18:30,496 [32] [WARN ] [GameServer] ：Client[] Disconnected
+2024-05-13 19:21:05,477 [32] [WARN ] [GameServer] ：Client[127.0.0.1:49532]] Connected
+2024-05-13 19:21:05,662 [32] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2024-05-13 19:21:05,663 [4] [INFO ] [GameServer] ：UserLoginRequest: User:cza  Pass:250
+2024-05-13 19:23:14,162 [31] [WARN ] [GameServer] ：Client[] Disconnected
+2024-05-13 19:24:35,455 [31] [WARN ] [GameServer] ：Client[127.0.0.1:49583]] Connected
+2024-05-13 19:24:35,631 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-05-13 19:24:35,631 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-05-13 19:24:56,104 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-05-13 19:24:56,106 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Ca  Class:Warrior
+2024-05-13 19:25:24,995 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-05-13 19:25:24,997 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:A  Class:Wizard
+2024-05-13 19:25:31,738 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-05-13 19:25:31,739 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:S  Class:Wizard
+2024-05-13 19:25:36,912 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-05-13 19:25:36,912 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Abc  Class:Wizard
+2024-05-13 19:25:44,125 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2024-05-13 19:25:44,125 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Abcwww  Class:Wizard
+2024-05-13 19:25:51,431 [22] [WARN ] [GameServer] ：Client[] Disconnected
+2024-05-13 21:37:32,492 [1] [INFO ] [GameServer] ：Game Server Init
+2024-05-13 21:37:32,608 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-05-13 21:37:32,971 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 21:37:32,971 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 21:37:32,971 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 21:37:32,971 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 21:37:32,973 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 21:37:32,975 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 21:37:32,976 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 21:37:32,976 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 21:37:33,028 [1] [WARN ] [GameServer] ：NetService Started
+2024-05-13 21:40:19,814 [3] [WARN ] [GameServer] ：Client[127.0.0.1:52764]] Connected
+2024-05-13 21:40:19,886 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2024-05-13 21:40:20,094 [4] [INFO ] [GameServer] ：UserLoginRequest: User:cza  Pass:250
+2024-05-13 21:41:11,118 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2024-05-13 21:42:18,177 [3] [WARN ] [GameServer] ：Client[127.0.0.1:52847]] Connected
+2024-05-13 21:42:18,259 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2024-05-13 21:42:18,259 [4] [INFO ] [GameServer] ：UserLoginRequest: User:cza  Pass:250
+2024-05-13 21:42:21,239 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-13 21:42:23,859 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:2
+2024-05-13 21:42:30,530 [4] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 Network.NetConnection`1.SendResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetConnection.cs:行号 135
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 147
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-05-13 21:42:46,524 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-13 21:42:49,285 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:2
+2024-05-13 21:43:03,067 [4] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 Network.NetConnection`1.SendResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetConnection.cs:行号 135
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 147
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-05-13 21:43:06,539 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-13 21:43:08,371 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:2
+2024-05-13 21:43:36,149 [4] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 Network.NetConnection`1.SendResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetConnection.cs:行号 135
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 147
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-05-13 22:05:04,116 [1] [INFO ] [GameServer] ：Game Server Init
+2024-05-13 22:05:04,198 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-05-13 22:05:04,397 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 22:05:04,397 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 22:05:04,400 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 22:05:04,402 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 22:05:04,405 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 22:05:04,405 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 22:05:04,406 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 22:05:04,407 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-13 22:05:04,442 [1] [WARN ] [GameServer] ：NetService Started
+2024-05-13 22:05:30,652 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53455]] Connected
+2024-05-13 22:05:30,718 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2024-05-13 22:05:30,934 [4] [INFO ] [GameServer] ：UserLoginRequest: User:cza  Pass:250
+2024-05-13 22:05:56,907 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-13 22:05:56,910 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:2
+2024-05-13 22:05:58,217 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-13 22:05:58,217 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:2

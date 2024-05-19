@@ -67,7 +67,12 @@ namespace SkillBridge.Message
 
         [global::ProtoBuf.ProtoMember(8, Name = @"entity")]
         public NEntity Entity { get; set; }
+        
+        [global::ProtoBuf.ProtoMember(9, Name = @"configId")]
+        public int ConfigId { get; set; }
 
+        [global::ProtoBuf.ProtoMember(10, Name = @"entityId")]
+        public int EntityId { get; set; }
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -338,6 +343,10 @@ namespace SkillBridge.Message
         [global::System.ComponentModel.DefaultValue("")]
         public string Errormsg { get; set; } = "";
 
+
+        [global::ProtoBuf.ProtoMember(3, Name = @"character")]
+        public NCharacterInfo Character { get; set; }
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -401,6 +410,9 @@ namespace SkillBridge.Message
 
         [global::ProtoBuf.ProtoMember(1)]
         public int characterId { get; set; }
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public int entityId { get; set; }
 
     }
 
