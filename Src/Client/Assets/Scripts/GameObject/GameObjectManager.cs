@@ -25,7 +25,6 @@ public class GameObjectManager : MonoBehaviour {
 
 	public void CreatCharacterObject(Character character)
     {
-
         if (!Characters.ContainsKey(character.entityId) || Characters[character.entityId] == null)
         {
             Object obj = Resloader.Load<Object>(character.Define.Resource);
@@ -34,12 +33,20 @@ public class GameObjectManager : MonoBehaviour {
                 Debug.LogErrorFormat("Character[{0}] Resource[{1}] not existed.", character.Define.TID, character.Define.Resource);
                 return;
             }
-            GameObject go = (GameObject)Instantiate(obj);
+            GameObject go = (GameObject)Instantiate(obj,this.transform);
             go.name = "Character_" + character.Id + "_" + character.Name;
+            Characters[character.Info.Id] = go;
+
+
             go.transform.position = GameObjectTool.LogicToWorld(character.position);
             go.transform.forward = GameObjectTool.LogicToWorld(character.direction);
-
-            Characters[character.Info.Id] = go;
+            EntityController ec = go.GetComponent<EntityController>();
+            if (ec != null)
+            {
+                ec.entity = character;
+                ec.isPlayer = character.IsCurrentPlayer;
+                //ec.Ride(character.Info.Ride);
+            }
 
             PlayerInputController pc = go.GetComponent<PlayerInputController>();
             if (pc != null)
@@ -51,13 +58,15 @@ public class GameObjectManager : MonoBehaviour {
                     MainPlayerCamera.Instance.Player = go;
                     pc.enabled = true;
                     pc.character = character;
-                    //pc.entityController = ec;
+                    pc.entityController = ec;
                 }
                 else
                 {
                     pc.enabled = false;
                 }
             }
+
+            UIWorldElementManager.Instance.AddCharacterNameBar(go.transform, character);
         }
     }
 

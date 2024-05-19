@@ -62,7 +62,7 @@ namespace GameServer.Models
             }
             
             conn.SendResponse();
-        }
+         }
 
         void AddCharacterEnterMap(NetConnection<NetSession> conn, NCharacterInfo character)
         {

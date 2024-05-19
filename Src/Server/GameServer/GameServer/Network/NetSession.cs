@@ -14,7 +14,7 @@ namespace Network
     class NetSession : INetSession
     {
         public TUser User { get; set; }
-        public NEntity Entity { get; set; }
+        //public NEntity Entity { get; set; }
         public Character Character { get; set; }
         public IPostResponser PostResponser { get; set; }
 
