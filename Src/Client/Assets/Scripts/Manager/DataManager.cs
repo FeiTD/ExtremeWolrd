@@ -18,7 +18,6 @@ namespace Assets.Scripts.Manager
         public DataManager()
         {
             this.DataPath = "Data/";
-            Debug.LogFormat("DataManager > DataManager()");
         }
         public void Load()
         {

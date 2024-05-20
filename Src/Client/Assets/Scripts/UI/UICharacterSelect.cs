@@ -77,7 +77,7 @@ public class UICharacterSelect : MonoBehaviour {
 			ci.Selected = idx == i;
 		}
 		CharacterView.CurrentRole = (int)Users.Instance.Info.Player.Characters[idx].Class - 1;
-		selectCharIndex = CharacterView.CurrentRole;
+		selectCharIndex = idx;
 	}
 
 	public void UpdateTitle(int charClass)
