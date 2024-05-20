@@ -1,200 +1,108 @@
 
-2024-05-20 20:31:41,431 [1] [INFO ] [GameServer] ：Game Server Init
-2024-05-20 20:31:41,607 [1] [WARN ] [GameServer] ：Starting Listener...
-2024-05-20 20:31:43,048 [8] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 20:31:43,048 [7] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 20:31:43,048 [11] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 20:31:43,048 [13] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 20:31:43,048 [9] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 20:31:43,048 [10] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 20:31:43,048 [12] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 20:31:43,048 [6] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 20:31:43,147 [1] [WARN ] [GameServer] ：NetService Started
-2024-05-20 20:31:44,009 [1] [INFO ] [GameServer] ：DataManager > DataManager()
-2024-05-20 20:31:44,015 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
-2024-05-20 20:31:44,031 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
-2024-05-20 20:31:44,032 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
-2024-05-20 20:31:44,032 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
-2024-05-20 20:33:38,220 [14] [WARN ] [GameServer] ：Client[127.0.0.1:52277]] Connected
-2024-05-20 20:33:38,294 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:14
-2024-05-20 20:33:38,511 [6] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
-2024-05-20 20:33:42,222 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
-2024-05-20 20:33:42,224 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
-2024-05-20 20:33:42,226 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:13:Aa Map:1
-2024-05-20 20:33:49,560 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
-2024-05-20 20:33:49,562 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Aa
-2024-05-20 20:33:54,582 [6] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 Network.NetConnection`1.SendResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetConnection.cs:行号 135
+2024-05-20 22:09:01,531 [1] [INFO ] [GameServer] ：Game Server Init
+2024-05-20 22:09:01,803 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-05-20 22:09:02,348 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:09:02,348 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:09:02,348 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:09:02,348 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:09:02,348 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:09:02,348 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:09:02,350 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:09:02,351 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:09:02,407 [1] [WARN ] [GameServer] ：NetService Started
+2024-05-20 22:09:03,294 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-05-20 22:09:03,298 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2024-05-20 22:09:03,307 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2024-05-20 22:09:03,307 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2024-05-20 22:09:03,308 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2024-05-20 22:10:17,420 [12] [WARN ] [GameServer] ：Client[127.0.0.1:54719]] Connected
+2024-05-20 22:10:17,586 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-05-20 22:10:17,881 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-05-20 22:10:31,559 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-20 22:10:31,562 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:3
+2024-05-20 22:10:31,564 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:16:Abc Map:1
+2024-05-20 22:10:42,057 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2024-05-20 22:10:42,058 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Abc
+2024-05-20 22:10:45,514 [5] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 Network.NetConnection`1.SendResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetConnection.cs:行号 135
    在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 151
    在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
-2024-05-20 20:34:14,441 [5] [WARN ] [GameServer] ：Client[] Disconnected
-2024-05-20 20:36:00,333 [5] [WARN ] [GameServer] ：Client[127.0.0.1:52369]] Connected
-2024-05-20 20:36:00,407 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:14
-2024-05-20 20:36:00,408 [6] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
-2024-05-20 20:36:02,681 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:8
-2024-05-20 20:36:02,681 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
-2024-05-20 20:36:02,682 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:13:Aa Map:1
-2024-05-20 20:36:02,682 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
-2024-05-20 20:36:02,682 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Aa
-2024-05-20 20:36:18,582 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Aa
-2024-05-20 20:37:50,005 [17] [WARN ] [GameServer] ：Client[] Disconnected
-2024-05-20 21:39:31,368 [1] [INFO ] [GameServer] ：Game Server Init
-2024-05-20 21:39:31,498 [1] [WARN ] [GameServer] ：Starting Listener...
-2024-05-20 21:39:31,821 [7] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:39:31,821 [5] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:39:31,821 [9] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:39:31,821 [4] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:39:31,824 [8] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:39:31,830 [11] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:39:31,832 [10] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:39:31,832 [6] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:39:31,930 [1] [WARN ] [GameServer] ：NetService Started
-2024-05-20 21:39:32,642 [1] [INFO ] [GameServer] ：DataManager > DataManager()
-2024-05-20 21:39:32,649 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
-2024-05-20 21:39:32,655 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
-2024-05-20 21:39:32,656 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
-2024-05-20 21:39:32,656 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
-2024-05-20 21:39:52,015 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54012]] Connected
-2024-05-20 21:39:52,089 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
-2024-05-20 21:39:52,403 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
-2024-05-20 21:40:00,378 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
-2024-05-20 21:40:00,382 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
-2024-05-20 21:40:00,383 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:13:Aa Map:1
-2024-05-20 21:40:00,391 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
-2024-05-20 21:40:00,393 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Aa
-2024-05-20 21:40:06,807 [5] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 Network.NetConnection`1.SendResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetConnection.cs:行号 135
+2024-05-20 22:10:55,096 [14] [WARN ] [GameServer] ：Client[] Disconnected
+2024-05-20 22:11:13,442 [14] [WARN ] [GameServer] ：Client[127.0.0.1:54741]] Connected
+2024-05-20 22:11:13,675 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-05-20 22:11:13,676 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-05-20 22:11:28,757 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-20 22:11:28,760 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:8
+2024-05-20 22:11:28,760 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:22:顶顶顶 Map:1
+2024-05-20 22:11:34,358 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2024-05-20 22:11:34,358 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:顶顶顶
+2024-05-20 22:11:38,400 [4] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 Network.NetConnection`1.SendResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetConnection.cs:行号 135
    在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 151
    在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
-2024-05-20 21:40:58,891 [3] [WARN ] [GameServer] ：Client[] Disconnected
-2024-05-20 21:47:03,112 [1] [INFO ] [GameServer] ：Game Server Init
-2024-05-20 21:47:03,223 [1] [WARN ] [GameServer] ：Starting Listener...
-2024-05-20 21:47:03,482 [11] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:47:03,482 [4] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:47:03,482 [8] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:47:03,483 [7] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:47:03,482 [10] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:47:03,486 [9] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:47:03,487 [6] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:47:03,490 [5] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:47:03,519 [1] [WARN ] [GameServer] ：NetService Started
-2024-05-20 21:47:04,134 [1] [INFO ] [GameServer] ：DataManager > DataManager()
-2024-05-20 21:47:04,161 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
-2024-05-20 21:47:04,168 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
-2024-05-20 21:47:04,168 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
-2024-05-20 21:47:04,170 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
-2024-05-20 21:47:20,469 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54211]] Connected
-2024-05-20 21:47:20,580 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
-2024-05-20 21:47:20,798 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
-2024-05-20 21:47:25,418 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
-2024-05-20 21:47:25,421 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
-2024-05-20 21:47:25,423 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:13:Aa Map:1
-2024-05-20 21:47:25,430 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
-2024-05-20 21:47:25,431 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Aa
-2024-05-20 21:48:22,285 [4] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 Network.NetConnection`1.SendResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetConnection.cs:行号 135
+2024-05-20 22:12:01,877 [16] [WARN ] [GameServer] ：Client[] Disconnected
+2024-05-20 22:12:25,734 [18] [WARN ] [GameServer] ：Client[127.0.0.1:54757]] Connected
+2024-05-20 22:12:25,968 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-05-20 22:12:25,968 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-05-20 22:12:39,755 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-20 22:12:39,755 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:2
+2024-05-20 22:12:39,756 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:15:Qa Map:1
+2024-05-20 22:13:37,700 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2024-05-20 22:13:37,700 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Qa
+2024-05-20 22:13:49,161 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Qa
+2024-05-20 22:14:28,971 [20] [WARN ] [GameServer] ：Client[] Disconnected
+2024-05-20 22:17:30,146 [24] [WARN ] [GameServer] ：Client[127.0.0.1:54829]] Connected
+2024-05-20 22:17:30,331 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-05-20 22:17:30,331 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-05-20 22:17:54,195 [1] [INFO ] [GameServer] ：Game Server Init
+2024-05-20 22:17:54,337 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-05-20 22:17:54,749 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:17:54,749 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:17:54,749 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:17:54,751 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:17:54,752 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:17:54,753 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:17:54,755 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:17:54,758 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:17:54,844 [1] [WARN ] [GameServer] ：NetService Started
+2024-05-20 22:17:55,370 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-05-20 22:17:55,373 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-05-20 22:17:55,379 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-05-20 22:17:55,380 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-05-20 22:17:55,380 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-05-20 22:18:08,045 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54854]] Connected
+2024-05-20 22:18:08,242 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-05-20 22:18:08,566 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-05-20 22:18:15,553 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-20 22:18:15,560 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:3
+2024-05-20 22:18:15,562 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:16:Abc Map:1
+2024-05-20 22:18:26,467 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2024-05-20 22:18:26,470 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Abc
+2024-05-20 22:19:13,458 [4] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 Network.NetConnection`1.SendResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetConnection.cs:行号 135
    在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 151
    在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
-2024-05-20 21:49:50,937 [14] [WARN ] [GameServer] ：Client[] Disconnected
-2024-05-20 21:50:33,583 [14] [WARN ] [GameServer] ：Client[127.0.0.1:54250]] Connected
-2024-05-20 21:50:33,685 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:14
-2024-05-20 21:50:33,685 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
-2024-05-20 21:50:36,929 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:8
-2024-05-20 21:50:36,929 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
-2024-05-20 21:50:36,930 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:13:Aa Map:1
-2024-05-20 21:50:36,930 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
-2024-05-20 21:50:36,930 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Aa
-2024-05-20 21:51:55,740 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Aa
-2024-05-20 21:52:10,334 [19] [WARN ] [GameServer] ：Client[] Disconnected
-2024-05-20 21:52:24,088 [19] [WARN ] [GameServer] ：Client[127.0.0.1:54274]] Connected
-2024-05-20 21:52:24,190 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:14
-2024-05-20 21:52:24,191 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
-2024-05-20 21:52:28,517 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:8
-2024-05-20 21:52:28,517 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
-2024-05-20 21:52:28,517 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:13:Aa Map:1
-2024-05-20 21:52:47,487 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
-2024-05-20 21:52:47,487 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Aa
-2024-05-20 21:52:54,307 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Aa
-2024-05-20 21:53:15,914 [23] [WARN ] [GameServer] ：Client[] Disconnected
-2024-05-20 21:53:27,784 [25] [WARN ] [GameServer] ：Client[127.0.0.1:54283]] Connected
-2024-05-20 21:53:27,850 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:14
-2024-05-20 21:53:27,850 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
-2024-05-20 21:53:34,732 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:8
-2024-05-20 21:53:34,735 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
-2024-05-20 21:53:34,735 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:13:Aa Map:1
-2024-05-20 21:53:43,371 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
-2024-05-20 21:53:43,372 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Aa
-2024-05-20 21:53:45,682 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Aa
-2024-05-20 21:54:12,333 [25] [WARN ] [GameServer] ：Client[] Disconnected
-2024-05-20 21:55:18,572 [1] [INFO ] [GameServer] ：Game Server Init
-2024-05-20 21:55:18,646 [1] [WARN ] [GameServer] ：Starting Listener...
-2024-05-20 21:55:18,808 [4] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:55:18,808 [7] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:55:18,809 [5] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:55:18,810 [6] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:55:18,810 [11] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:55:18,811 [10] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:55:18,812 [8] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:55:18,813 [9] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:55:18,893 [1] [WARN ] [GameServer] ：NetService Started
-2024-05-20 21:55:19,177 [1] [INFO ] [GameServer] ：DataManager > DataManager()
-2024-05-20 21:55:19,179 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
-2024-05-20 21:55:19,181 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
-2024-05-20 21:55:19,181 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
-2024-05-20 21:55:19,182 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
-2024-05-20 21:55:55,159 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54353]] Connected
-2024-05-20 21:55:55,305 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
-2024-05-20 21:55:55,472 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
-2024-05-20 21:56:32,807 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
-2024-05-20 21:56:32,810 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
-2024-05-20 21:56:32,811 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:13:Aa Map:1
-2024-05-20 21:57:05,303 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
-2024-05-20 21:57:05,304 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Aa
-2024-05-20 21:57:18,678 [4] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 Network.NetConnection`1.SendResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetConnection.cs:行号 135
-   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 151
-   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
-2024-05-20 21:58:12,954 [15] [WARN ] [GameServer] ：Client[] Disconnected
-2024-05-20 21:58:24,306 [1] [INFO ] [GameServer] ：Game Server Init
-2024-05-20 21:58:24,424 [1] [WARN ] [GameServer] ：Starting Listener...
-2024-05-20 21:58:24,656 [8] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:58:24,656 [11] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:58:24,656 [6] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:58:24,656 [9] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:58:24,656 [4] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:58:24,660 [10] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:58:24,661 [7] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:58:24,661 [5] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 21:58:24,690 [1] [WARN ] [GameServer] ：NetService Started
-2024-05-20 21:58:25,224 [1] [INFO ] [GameServer] ：DataManager > DataManager()
-2024-05-20 21:58:25,226 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
-2024-05-20 21:58:25,229 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
-2024-05-20 21:58:25,229 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
-2024-05-20 21:58:25,229 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
-2024-05-20 21:59:06,722 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54395]] Connected
-2024-05-20 21:59:06,931 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
-2024-05-20 21:59:07,167 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
-2024-05-20 22:00:34,026 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
-2024-05-20 22:00:34,031 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
-2024-05-20 22:00:34,032 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:13:Aa Map:1
-2024-05-20 22:01:26,124 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
-2024-05-20 22:01:26,125 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Aa
-2024-05-20 22:01:36,718 [4] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 Network.NetConnection`1.SendResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetConnection.cs:行号 135
-   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 151
-   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
-2024-05-20 22:01:49,346 [13] [WARN ] [GameServer] ：Client[] Disconnected
-2024-05-20 22:03:00,813 [1] [INFO ] [GameServer] ：Game Server Init
-2024-05-20 22:03:00,892 [1] [WARN ] [GameServer] ：Starting Listener...
-2024-05-20 22:03:01,095 [10] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 22:03:01,095 [5] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 22:03:01,096 [8] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 22:03:01,097 [7] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 22:03:01,097 [9] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 22:03:01,097 [4] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 22:03:01,098 [6] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 22:03:01,098 [11] [WARN ] [GameServer] ：MessageDistribute thread start
-2024-05-20 22:03:01,226 [1] [WARN ] [GameServer] ：NetService Started
-2024-05-20 22:03:01,582 [1] [INFO ] [GameServer] ：DataManager > DataManager()
-2024-05-20 22:03:01,584 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
-2024-05-20 22:03:01,588 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
-2024-05-20 22:03:01,588 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
-2024-05-20 22:03:01,588 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
-2024-05-20 22:03:23,132 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54476]] Connected
-2024-05-20 22:03:23,296 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
-2024-05-20 22:03:23,461 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-05-20 22:19:38,458 [12] [WARN ] [GameServer] ：Client[] Disconnected
+2024-05-20 22:20:19,736 [1] [INFO ] [GameServer] ：Game Server Init
+2024-05-20 22:20:19,829 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-05-20 22:20:20,056 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:20:20,056 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:20:20,056 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:20:20,056 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:20:20,058 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:20:20,065 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:20:20,066 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:20:20,067 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-20 22:20:20,164 [1] [WARN ] [GameServer] ：NetService Started
+2024-05-20 22:20:20,583 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-05-20 22:20:20,586 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-05-20 22:20:20,590 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-05-20 22:20:20,590 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-05-20 22:20:20,590 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-05-20 22:20:40,424 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54906]] Connected
+2024-05-20 22:20:40,615 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-05-20 22:20:40,983 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-05-20 22:21:11,497 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-20 22:21:11,501 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:7
+2024-05-20 22:21:11,502 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:21:Abcwww Map:1
+2024-05-20 22:21:11,513 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Abcwww
+2024-05-20 22:21:11,521 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2024-05-20 22:21:11,523 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:0:Abcwww
+2024-05-20 22:21:51,063 [14] [WARN ] [GameServer] ：Client[] Disconnected
