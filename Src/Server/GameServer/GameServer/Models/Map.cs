@@ -79,13 +79,20 @@ namespace GameServer.Models
         internal void CharacterLeave(Character cha)
         {
             Log.InfoFormat("CharacterLeave: Map:{0} characterId:{1}", this.Define.ID, cha.Id);
-            //foreach (var kv in this.MapCharacters)
-            //{
-            //    this.SendCharacterLeaveMap(kv.Value.connection, cha);
-            //}
+            foreach (var kv in this.MapCharacters)
+            {
+                this.SendCharacterLeaveMap(kv.Value.connection, cha);
+            }
             this.MapCharacters.Remove(cha.Id);
         }
 
+        private void SendCharacterLeaveMap(NetConnection<NetSession> conn, Character character)
+        {
+            Log.InfoFormat("SendCharacterLeaveMap To {0}:{1} : Map:{2} Character:{3}:{4}", conn.Session.Character.Id, conn.Session.Character.Info.Name, this.Define.ID, character.Id, character.Info.Name);
+            conn.Session.Response.mapCharacterLeave = new MapCharacterLeaveResponse();
+            conn.Session.Response.mapCharacterLeave.entityId = character.entityId;
+            conn.SendResponse();
+        }
 
         public void Update()
         {

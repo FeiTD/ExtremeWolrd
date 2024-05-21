@@ -20,6 +20,8 @@ namespace Assets.Scripts.Services
 
         public UnityEngine.Events.UnityAction<Result, string> OnGameEnter;
 
+        public UnityEngine.Events.UnityAction<Result, string> OnGameLeave;
+
         NetMessage pendingMessage = null;
 
         bool connected = false;
@@ -32,6 +34,7 @@ namespace Assets.Scripts.Services
             MessageDistributer.Instance.Subscribe<UserLoginResponse>(this.OnUserLogin);
             MessageDistributer.Instance.Subscribe<UserCreateCharacterResponse>(this.OnUserCreatCharacter);
             MessageDistributer.Instance.Subscribe<UserGameEnterResponse>(this.OnUserEnterGame);
+            MessageDistributer.Instance.Subscribe<UserGameLeaveResponse>(this.OnUserLeaveGame);
         }
 
         public void Dispose()
@@ -40,6 +43,7 @@ namespace Assets.Scripts.Services
             MessageDistributer.Instance.Unsubscribe<UserLoginResponse>(this.OnUserLogin);
             MessageDistributer.Instance.Unsubscribe<UserCreateCharacterResponse>(this.OnUserCreatCharacter);
             MessageDistributer.Instance.Unsubscribe<UserGameEnterResponse>(this.OnUserEnterGame);
+            MessageDistributer.Instance.Subscribe<UserGameLeaveResponse>(this.OnUserLeaveGame);
 
             NetClient.Instance.OnConnect -= OnGameServerConnect;
             NetClient.Instance.OnDisconnect -= OnGameServerDisconnect;
@@ -189,6 +193,25 @@ namespace Assets.Scripts.Services
             }
         }
 
+        public void SendGameLeave()
+        {
+            Debug.LogFormat("UserGameLeaveRequest");
+            NetMessage message = new NetMessage();
+            message.Request = new NetMessageRequest();
+            message.Request.gameLeave = new UserGameLeaveRequest();
+            if (this.connected && NetClient.Instance.Connected)
+            {
+                this.pendingMessage = null;
+                NetClient.Instance.SendMessage(message);
+            }
+            else
+            {
+                this.pendingMessage = message;
+                this.ConnectToServer();
+                connected = true;
+            }
+        }
+
         void OnUserRegister(object sender, UserRegisterResponse response)
         {
             if(response.Errormsg != "None")
@@ -244,6 +267,27 @@ namespace Assets.Scripts.Services
                 {
                     Users.Instance.CurrentCharacter = response.Character;
                 }
+            }
+
+            if (this.OnGameEnter != null)
+            {
+                this.OnGameEnter(response.Result, response.Errormsg);
+            }
+        }
+
+        void OnUserLeaveGame(object sender, UserGameLeaveResponse response)
+        {
+            Debug.LogFormat("OnGameEnter:{0} [{1}]", response.Result, response.Errormsg);
+
+            if (response.Result == Result.Success)
+            {
+                MapService.Instance.CurrentMapId = 0;
+                Users.Instance.CurrentCharacter = null;
+            }
+
+            if (this.OnGameLeave != null)
+            {
+                this.OnGameLeave(response.Result, response.Errormsg);
             }
         }
     }

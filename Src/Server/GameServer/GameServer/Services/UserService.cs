@@ -20,6 +20,7 @@ namespace GameServer.Services
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserLoginRequest>(this.OnLogin);
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserCreateCharacterRequest>(this.OnCreatCharacter);
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserGameEnterRequest>(this.OnGameEnter);
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserGameLeaveRequest>(this.OnGameLeave);
         }
 
 
@@ -148,6 +149,20 @@ namespace GameServer.Services
             sender.Session.Response.gameEnter.Character = character.Info;
             sender.SendResponse();
             MapManager.Instance[dbchar.MapID].CharacterEnter(sender, character);
+        }
+
+        private void OnGameLeave(NetConnection<NetSession> sender, UserGameLeaveRequest request)
+        {
+            Character character = sender.Session.Character;
+            Log.InfoFormat("UserGameLeaveRequest: characterID:{0}:{1} Map:{2}", character.Id, character.Info.Name, character.Info.mapId);
+
+            CharacterManager.Instance.RemoveCharacter(character.Id);
+            MapManager.Instance[character.Info.mapId].CharacterLeave(character);
+
+            sender.Session.Response.gameLeave = new UserGameLeaveResponse();
+            sender.Session.Response.gameLeave.Result = Result.Success;
+            sender.Session.Response.gameLeave.Errormsg = "None";
+            sender.SendResponse();
         }
     }
 }

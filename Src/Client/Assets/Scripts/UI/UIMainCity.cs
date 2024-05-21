@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.Models;
+using Assets.Scripts.Services;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,5 +23,11 @@ public class UIMainCity : MonoBehaviour {
     {
 		this.Name.text = Users.Instance.CurrentCharacter.Name;
 		this.Level.text = Users.Instance.CurrentCharacter.Level.ToString();
+    }
+
+	public void BackToCharSelect()
+    {
+		SceneManager.Instance.LoadScene("CharactorSelect");
+		UserService.Instance.SendGameLeave();
     }
 }
