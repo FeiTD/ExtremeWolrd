@@ -1,11 +1,12 @@
 ﻿using Assets.Scripts.Entities;
+using Assets.Scripts.Manager;
 using SkillBridge.Message;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EntityController : MonoBehaviour {
+public class EntityController : MonoBehaviour,IEntityNotify {
 
     public Animator anim;
     public Rigidbody rb;
@@ -35,7 +36,7 @@ public class EntityController : MonoBehaviour {
     void Start () {
         if (entity != null)
         {
-            //EntityManager.Instance.RegisterEntityChangeNotify(entity.entityId, this);
+            EntityManager.Instance.RegisterEntityChangedNotify(entity.entityId, this);
             this.UpdateTransform();
         }
 
@@ -106,5 +107,14 @@ public class EntityController : MonoBehaviour {
                 break;
         }
         //if (this.rideController != null) this.rideController.OnEntityEvent(entityEvent, param);
+    }
+
+    public void OnEntityRemove()
+    {
+        if(UIWorldElementManager.Instance != null)
+        {
+            UIWorldElementManager.Instance.RemoveCharacterNameBar(this.transform);
+        }
+        Destroy(this.gameObject);
     }
 }

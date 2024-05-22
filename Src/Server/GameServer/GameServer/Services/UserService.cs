@@ -145,7 +145,6 @@ namespace GameServer.Services
 
             sender.Session.Character = character;
             sender.Session.PostResponser = character;
-            //sender.Session.Entity = character;
             sender.Session.Response.gameEnter.Character = character.Info;
             sender.SendResponse();
             MapManager.Instance[dbchar.MapID].CharacterEnter(sender, character);
@@ -156,7 +155,7 @@ namespace GameServer.Services
             Character character = sender.Session.Character;
             Log.InfoFormat("UserGameLeaveRequest: characterID:{0}:{1} Map:{2}", character.Id, character.Info.Name, character.Info.mapId);
 
-            CharacterManager.Instance.RemoveCharacter(character.Id);
+            CharacterManager.Instance.RemoveCharacter(character.Info.Id);
             MapManager.Instance[character.Info.mapId].CharacterLeave(character);
 
             sender.Session.Response.gameLeave = new UserGameLeaveResponse();

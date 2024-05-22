@@ -18,7 +18,16 @@ public class UIMiniMap : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		float realWidth = MiniMapBox.bounds.size.x;
+
+		if (PlayerTransform == null)
+		{
+			if (Users.Instance.CurrentCharacterObject == null)
+				return;
+            PlayerTransform = Users.Instance.CurrentCharacterObject.transform;
+        }
+			
+
+        float realWidth = MiniMapBox.bounds.size.x;
 		float realHeight = MiniMapBox.bounds.size.z;
 
 		float relativeX = PlayerTransform.position.x - MiniMapBox.bounds.min.x;
@@ -41,6 +50,5 @@ public class UIMiniMap : MonoBehaviour {
 		}
 		MiniMap.SetNativeSize();
 		MiniMap.transform.localPosition = Vector3.zero;
-		PlayerTransform = Users.Instance.CurrentCharacterObject.transform;
 	}
 }

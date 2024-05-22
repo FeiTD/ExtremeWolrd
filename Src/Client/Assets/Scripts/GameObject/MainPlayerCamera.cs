@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Assets.Scripts.Models;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,7 +12,9 @@ public class MainPlayerCamera : MonoSingleton<MainPlayerCamera> {
     {
 		if(Player == null)
         {
-			return;
+			if (Users.Instance.CurrentCharacterObject == null)
+				return;
+			Player = Users.Instance.CurrentCharacterObject.gameObject;
         }
 
 		this.transform.position = Player.transform.position;

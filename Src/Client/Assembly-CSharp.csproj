@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\Log\UnityLogger.cs" />
      <Compile Include="Assets\Scripts\Manager\CharacterManager.cs" />
      <Compile Include="Assets\Scripts\Manager\DataManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\EntityManager.cs" />
      <Compile Include="Assets\Scripts\Manager\MiniMapManager.cs" />
      <Compile Include="Assets\Scripts\Models\Users.cs" />
      <Compile Include="Assets\Scripts\Network\NetClient.cs" />
