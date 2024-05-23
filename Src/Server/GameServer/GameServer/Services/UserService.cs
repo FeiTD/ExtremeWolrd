@@ -23,7 +23,7 @@ namespace GameServer.Services
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserGameLeaveRequest>(this.OnGameLeave);
         }
 
-
+        private int CharID = 0;
 
         public void Init()
         {
@@ -102,14 +102,15 @@ namespace GameServer.Services
             if(character == null)
             {
                 TCharacter newCharacter = DBService.Instance.Entities.Characters.Add(new TCharacter() {
-                    Name = request.Name, 
+                    ID = CharID++,
+                    Name = request.Name,
                     Class = (int)request.Class,
                     TID = (int)request.Class,
                     MapID = 1,
-                    MapPosX = 5000,
-                    MapPosY = 4000,
-                    MapPosZ = 820
-                });
+                    MapPosX = 5000, //初始出生位置X
+                    MapPosY = 4000, //初始出生位置Y
+                    MapPosZ = 820,
+                }) ;
                 conn.Session.User.Player.Characters.Add(newCharacter);
                 DBService.Instance.Entities.SaveChanges();
                 conn.Session.Response.createChar.Result = Result.Success;

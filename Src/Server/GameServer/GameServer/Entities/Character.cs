@@ -1,5 +1,6 @@
 ﻿using Common;
 using GameServer.Core;
+using GameServer.Managers;
 using Network;
 using SkillBridge.Message;
 using System;
@@ -28,6 +29,7 @@ namespace GameServer.Entities
             base(new Core.Vector3Int(cha.MapPosX, cha.MapPosY, cha.MapPosZ), new Core.Vector3Int(100, 0, 0))
         {
             this.Data = cha;
+            this.Id = cha.ID;
             this.Info = new NCharacterInfo();
             this.Info.Type = type;
             this.Info.Id = cha.ID;
@@ -38,6 +40,7 @@ namespace GameServer.Entities
             this.Info.Class = (CharacterClass)cha.Class;
             this.Info.mapId = cha.MapID;
             this.Info.Entity = this.EntityData;
+            this.Define = DataManager.Instance.Characters[this.Info.ConfigId];
         }
 
         public void PostProcess(NetMessageResponse message)
