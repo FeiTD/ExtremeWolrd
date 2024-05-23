@@ -22,9 +22,6 @@ namespace GameServer.Services
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserGameEnterRequest>(this.OnGameEnter);
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserGameLeaveRequest>(this.OnGameLeave);
         }
-
-        private int CharID = 0;
-
         public void Init()
         {
 
@@ -102,7 +99,6 @@ namespace GameServer.Services
             if(character == null)
             {
                 TCharacter newCharacter = DBService.Instance.Entities.Characters.Add(new TCharacter() {
-                    ID = CharID++,
                     Name = request.Name,
                     Class = (int)request.Class,
                     TID = (int)request.Class,
