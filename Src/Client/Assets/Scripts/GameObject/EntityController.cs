@@ -117,4 +117,14 @@ public class EntityController : MonoBehaviour,IEntityNotify {
         }
         Destroy(this.gameObject);
     }
+
+    public void OnEntityChanged(Entity entity1)
+    {
+        
+    }
+
+    public void OnEntityEvent(EntityEvent @event)
+    {
+        
+    }
 }

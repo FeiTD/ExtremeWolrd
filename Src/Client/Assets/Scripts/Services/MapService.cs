@@ -18,6 +18,7 @@ namespace Assets.Scripts.Services
         {
             MessageDistributer.Instance.Subscribe<MapCharacterEnterResponse>(this.OnMapCharacterEnter);
             MessageDistributer.Instance.Subscribe<MapCharacterLeaveResponse>(this.OnMapCharacterLeave);
+            MessageDistributer.Instance.Subscribe<MapEntitySyncResponse>(this.OnMapEntitySync);
         }
 
         public void Dispose()
@@ -83,9 +84,16 @@ namespace Assets.Scripts.Services
                 Id = entity.Id,
                 Event = entityEvent,
                 Entity = entity,
-                //Param = param
             };
             NetClient.Instance.SendMessage(message);
+        }
+
+        private void OnMapEntitySync(object sender,MapEntitySyncResponse response)
+        {
+            foreach(var entity in response.entitySyncs)
+            {
+                EntityManager.Instance.OnEntitySync(entity);
+            }
         }
     }
 }

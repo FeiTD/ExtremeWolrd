@@ -1,6 +1,7 @@
 ﻿using Common;
 using Common.Data;
 using GameServer.Entities;
+using GameServer.Services;
 using Network;
 using SkillBridge.Message;
 using System;
@@ -99,5 +100,21 @@ namespace GameServer.Models
 
         }
 
+        internal void UpdateEntity(NEntitySync entitySync)
+        {
+            foreach(var kv in this.MapCharacters)
+            {
+                if(kv.Value.character.entityId == entitySync.Id)
+                {
+                    kv.Value.character.Position = entitySync.Entity.Position;
+                    kv.Value.character.Direction = entitySync.Entity.Direction;
+                    kv.Value.character.Speed = entitySync.Entity.Speed;
+                }
+                else
+                {
+                    MapService.Instance.SendEntityUpdate(kv.Value.connection, entitySync);
+                }
+            }
+        }
     }
 }

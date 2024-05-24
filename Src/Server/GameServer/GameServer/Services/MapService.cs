@@ -15,13 +15,25 @@ namespace GameServer.Services
     {
         public MapService()
         {
-           
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<MapEntitySyncRequest>(this.OnMapEntitySync);
+            
         }
-
         public void Init()
         {
             MapManager.Instance.Init();
         }
 
+        internal void SendEntityUpdate(NetConnection<NetSession> conn, NEntitySync entitySync)
+        {
+            conn.Session.Response.mapEntitySync = new MapEntitySyncResponse();
+            conn.Session.Response.mapEntitySync.entitySyncs.Add(entitySync);
+            conn.SendResponse();
+        }
+        private void OnMapEntitySync(NetConnection<NetSession> sender, MapEntitySyncRequest request)
+        {
+            Character character = sender.Session.Character;
+
+            MapManager.Instance[character.Info.mapId].UpdateEntity(request.entitySync);
+        }
     }
 }
