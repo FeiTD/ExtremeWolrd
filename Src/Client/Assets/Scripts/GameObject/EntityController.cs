@@ -40,8 +40,8 @@ public class EntityController : MonoBehaviour,IEntityNotify {
             this.UpdateTransform();
         }
 
-        if (!this.isPlayer)
-            rb.useGravity = false;
+        //if (!this.isPlayer)
+        //    rb.useGravity = false;
     }
 
 	// Update is called once per frame
