@@ -55,17 +55,17 @@ namespace Assets.Scripts.Manager
         }
 
 
-        public void RemoveCharacter(int entityId)
+        public void RemoveCharacter(int Id)
         {
-            Debug.LogFormat("RemoveCharacter:{0}", entityId);
-            if (this.Characters.ContainsKey(entityId))
+            Debug.LogFormat("RemoveCharacter:{0}", Id);
+            if (this.Characters.ContainsKey(Id))
             {
-                EntityManager.Instance.RemoveEntity(this.Characters[entityId].Info.Entity);
+                EntityManager.Instance.RemoveEntity(this.Characters[Id].Info.Entity);
                 if (OnCharacterLeave != null)
                 {
-                    OnCharacterLeave(this.Characters[entityId]);
+                    OnCharacterLeave(this.Characters[Id]);
                 }
-                this.Characters.Remove(entityId);
+                this.Characters.Remove(Id);
             }
         }
 

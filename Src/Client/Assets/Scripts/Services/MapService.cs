@@ -54,7 +54,7 @@ namespace Assets.Scripts.Services
         {
             Debug.LogFormat("OnMapCharacterLeave: CharID:{0}", response.entityId);
             if (response.entityId != Users.Instance.CurrentCharacter.EntityId)
-                CharacterManager.Instance.RemoveCharacter(response.entityId);
+                CharacterManager.Instance.RemoveCharacter(response.characterId);
             else
                 CharacterManager.Instance.Clear();
         }
