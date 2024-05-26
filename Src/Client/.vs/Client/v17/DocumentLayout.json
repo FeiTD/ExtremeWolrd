@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\A\\ExtremeWolrd\\Src\\Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\gameobject\\playerinputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\playerinputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\ui\\uicharacterselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uicharacterselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\gameobject\\gameobjecttool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\gameobjecttool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\ui\\uicharacterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uicharacterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\services\\mapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\services\\mapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\loadingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loadingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\gameobject\\gameobjectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\gameobjectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\gameobject\\entitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\entitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,58 +26,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GameObjectTool.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\GameObject\\GameObjectTool.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\GameObjectTool.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\GameObject\\GameObjectTool.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameObject\\GameObjectTool.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAA0wBYAAAAtAAAA",
+              "Title": "UICharacterView.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UICharacterView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UICharacterView.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UICharacterView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UICharacterView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T13:33:11.806Z",
+              "WhenOpened": "2024-05-26T13:54:21.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MapService.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Services\\MapService.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Services\\MapService.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Services\\MapService.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Services\\MapService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAFgAAAAJAAAA",
+              "Title": "LoadingManager.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\LoadingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoadingManager.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\LoadingManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoadingManager.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T12:37:51.569Z",
+              "WhenOpened": "2024-05-26T13:48:29.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerInputController.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\GameObject\\PlayerInputController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\PlayerInputController.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\GameObject\\PlayerInputController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameObject\\PlayerInputController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAmwDYAAAAjAAAA",
+              "Title": "UICharacterSelect.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UICharacterSelect.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UICharacterSelect.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UICharacterSelect.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UICharacterSelect.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAqwGgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T12:34:51.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EntityController.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\GameObject\\EntityController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\EntityController.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\GameObject\\EntityController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameObject\\EntityController.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAmwGgAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T12:34:04.955Z",
+              "WhenOpened": "2024-05-26T13:28:44.722Z",
               "EditorCaption": ""
             },
             {
@@ -92,9 +79,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\GameObjectManager.cs",
               "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\GameObject\\GameObjectManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameObject\\GameObjectManager.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAIwCMAAAAwAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T12:32:49.977Z",
+              "WhenOpened": "2024-05-26T12:17:27.237Z",
               "EditorCaption": ""
             }
           ]
