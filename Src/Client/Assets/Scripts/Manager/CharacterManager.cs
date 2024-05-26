@@ -48,6 +48,7 @@ namespace Assets.Scripts.Manager
             Character character = new Character(cha);
             this.Characters[cha.Id] = character;
             EntityManager.Instance.AddEntity(character);
+            character.Info.Id = character.Id;
             if (OnCharacterEnter != null)
             {
                 OnCharacterEnter(character);

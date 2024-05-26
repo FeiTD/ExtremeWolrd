@@ -28,7 +28,7 @@ public class UICharacterSelect : MonoBehaviour {
 		UserService.Instance.OnCreatCharacter = OnCreatCharacter;
 		InitCharList(true);
 		OnSelectClass(0);
-		UpdateTitle(1);
+		UpdateTitle(0);
 	}
 
 	void OnCreatCharacter(Result result, string message)
@@ -60,13 +60,14 @@ public class UICharacterSelect : MonoBehaviour {
 
 	public void OnBackUp()
     {
-		CharacterSelect.SetActive(true);
+        OnSelectClass(0);
+        CharacterSelect.SetActive(true);
 		CharacterCreat.SetActive(false);
 	}
 	public void OnSelectClass(int charClass)
     {
 		this.charClass = (CharacterClass)charClass;
-		CharacterView.CurrentRole = charClass - 1;
+		CharacterView.CurrentRole = charClass;
 		UpdateTitle(charClass);
 	}
 	public void OnSelectCharacter(int idx)
@@ -84,9 +85,17 @@ public class UICharacterSelect : MonoBehaviour {
     {
 		for (int i = 0; i < titles.Length; i++)
 		{
-			titles[i].gameObject.SetActive(i == charClass - 1);
+			titles[i].gameObject.SetActive(i == charClass);
 		}
-		Dscribtion.text = DataManager.Instance.Characters[charClass].Description;
+		DataManager.Instance.Load();
+		if (DataManager.Instance.Characters.ContainsKey(charClass))
+		{
+            Dscribtion.text = DataManager.Instance.Characters[charClass].Description;
+        }
+		else
+		{
+			Dscribtion.text = "";
+        }	
 	}
 
 	public void InitCharList(bool init)

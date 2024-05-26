@@ -6,6 +6,7 @@ using Network;
 using SkillBridge.Message;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -49,7 +50,7 @@ namespace GameServer.Models
         /// <param name="character"></param>
         internal void CharacterEnter(NetConnection<NetSession> conn, Character character)
         {
-            Log.InfoFormat("CharacterEnter: Map:{0} characterId:{1}", this.Define.ID, character.Id);
+            Log.InfoFormat("CharacterEnter: Map:{0} characterId:{1} Position:{2}", this.Define.ID, character.Id,character.Position);
             character.Info.mapId = this.ID;
             this.MapCharacters[character.Id] = new MapCharacter(conn, character);
 
@@ -103,6 +104,7 @@ namespace GameServer.Models
 
         internal void UpdateEntity(NEntitySync entitySync)
         {
+            Log.InfoFormat("UpdateEntity : Position X:{0} Y:{1} Z:{2}",entitySync.Entity.Position.X,entitySync.Entity.Position.Y,entitySync.Entity.Position.Z);
             foreach(var kv in this.MapCharacters)
             {
                 if(kv.Value.character.entityId == entitySync.Id)
