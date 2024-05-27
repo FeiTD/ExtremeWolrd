@@ -576,10 +576,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4991727956260050}
-  - component: {fileID: 54499142378551830}
   - component: {fileID: 136158063157274762}
-  - component: {fileID: 114959877521383870}
-  - component: {fileID: 114503384418050942}
+  - component: {fileID: 95785664471253696}
+  - component: {fileID: 54650869889914128}
+  - component: {fileID: 114664539563657486}
+  - component: {fileID: 114492969511507808}
   m_Layer: 0
   m_Name: Wizard
   m_TagString: Untagged
@@ -2431,7 +2432,7 @@ Transform:
   m_Father: {fileID: 4838794226340264}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &54499142378551830
+--- !u!54 &54650869889914128
 Rigidbody:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2464,23 +2465,25 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114503384418050942
-MonoBehaviour:
+--- !u!95 &95785664471253696
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1442858012577984}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db30e8a204509af44bb06e46c56c0e96, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 54499142378551830}
-  rotateSpeed: 2
-  turnAngle: 10
-  speed: 0
-  entityController: {fileID: 0}
---- !u!114 &114959877521383870
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a149e0294082bb948a9b133df36a6ebd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114492969511507808
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2492,7 +2495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 95599080199780296}
-  rb: {fileID: 54499142378551830}
+  rb: {fileID: 54650869889914128}
   position: {x: 0, y: 0, z: 0}
   direction: {x: 0, y: 0, z: 0}
   lastPosition: {x: 0, y: 0, z: 0}
@@ -2501,6 +2504,22 @@ MonoBehaviour:
   jumpPower: 3
   isPlayer: 0
   rideBone: {fileID: 0}
+--- !u!114 &114664539563657486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1442858012577984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db30e8a204509af44bb06e46c56c0e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 54650869889914128}
+  rotateSpeed: 2
+  turnAngle: 10
+  speed: 0
+  entityController: {fileID: 0}
 --- !u!136 &136158063157274762
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -2511,9 +2530,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 2.016446
+  m_Height: 2.0455732
   m_Direction: 1
-  m_Center: {x: 0, y: 0.95568514, z: 0}
+  m_Center: {x: 0, y: 0.9411216, z: 0}
 --- !u!137 &137382836790493244
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

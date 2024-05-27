@@ -54,7 +54,8 @@ public class UICharacterSelect : MonoBehaviour {
 
 	public void OnCreatNewChar()
     {
-		CharacterSelect.SetActive(false);
+        OnSelectClass(0);
+        CharacterSelect.SetActive(false);
 		CharacterCreat.SetActive(true);
 	}
 
@@ -77,7 +78,7 @@ public class UICharacterSelect : MonoBehaviour {
 			UICharInfo ci = this.uiChars[i].GetComponent<UICharInfo>();
 			ci.Selected = idx == i;
 		}
-		CharacterView.CurrentRole = (int)Users.Instance.Info.Player.Characters[idx].Class - 1;
+		CharacterView.CurrentRole = (int)Users.Instance.Info.Player.Characters[idx].Class;
 		selectCharIndex = idx;
 	}
 

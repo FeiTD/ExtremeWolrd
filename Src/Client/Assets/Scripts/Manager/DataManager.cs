@@ -15,10 +15,12 @@ namespace Assets.Scripts.Manager
         public string DataPath;
         public Dictionary<int, CharacterDefine> Characters = null;
         public Dictionary<int, MapDefine> Maps = null;
+        public Dictionary<int, TeleporterDefine> Telepoters = null;
         public DataManager()
         {
             this.DataPath = "Data/";
         }
+
         public void Load()
         {
             string json = File.ReadAllText(this.DataPath + "CharacterDefine.txt");
@@ -26,6 +28,9 @@ namespace Assets.Scripts.Manager
 
             json = File.ReadAllText(this.DataPath + "MapDefine.txt");
             this.Maps = JsonConvert.DeserializeObject<Dictionary<int, MapDefine>>(json);
+
+            json = File.ReadAllText(this.DataPath + "TeleporterDefine.txt");
+            this.Telepoters = JsonConvert.DeserializeObject<Dictionary<int, TeleporterDefine>>(json);
         }
 
         public IEnumerator LoadData()
@@ -35,6 +40,9 @@ namespace Assets.Scripts.Manager
 
             json = File.ReadAllText(this.DataPath + "MapDefine.txt");
             this.Maps = JsonConvert.DeserializeObject<Dictionary<int, MapDefine>>(json);
+
+            json = File.ReadAllText(this.DataPath + "TeleporterDefine.txt");
+            this.Telepoters = JsonConvert.DeserializeObject<Dictionary<int, TeleporterDefine>>(json);
 
             yield return null;
         }

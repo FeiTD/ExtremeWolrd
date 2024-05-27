@@ -35,6 +35,11 @@ namespace Assets.Scripts.Services
         private void OnMapCharacterEnter(object sender, MapCharacterEnterResponse response)
         {
             Debug.LogFormat("OnMapCharacterEnter:Map:{0} Count:{1}", response.mapId, response.Characters.Count);
+            if (CurrentMapId != response.mapId)
+            {
+                this.EnterMap(response.mapId);
+                this.CurrentMapId = response.mapId;
+            }
             foreach (var cha in response.Characters)
             {
                 if (Users.Instance.CurrentCharacter == null || (cha.Type == CharacterType.Player && Users.Instance.CurrentCharacter.Id == cha.Id))
@@ -42,11 +47,6 @@ namespace Assets.Scripts.Services
                     Users.Instance.CurrentCharacter = cha;
                 }
                 CharacterManager.Instance.AddCharacter(cha);
-            }
-            if (CurrentMapId != response.mapId)
-            {
-                this.EnterMap(response.mapId);
-                this.CurrentMapId = response.mapId;
             }
         }
 
@@ -94,6 +94,11 @@ namespace Assets.Scripts.Services
             {
                 EntityManager.Instance.OnEntitySync(entity);
             }
+        }
+
+        public void SendMapTeleport(int iD)
+        {
+            throw new NotImplementedException();
         }
     }
 }

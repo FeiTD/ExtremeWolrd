@@ -682,10 +682,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4174984745379422}
-  - component: {fileID: 54255169930946384}
   - component: {fileID: 136599443910912012}
-  - component: {fileID: 114379617363847916}
-  - component: {fileID: 114993706621082294}
+  - component: {fileID: 95560592509224036}
+  - component: {fileID: 54612975180320838}
+  - component: {fileID: 114011151716914074}
+  - component: {fileID: 114366305434301954}
   m_Layer: 0
   m_Name: Warrior
   m_TagString: Untagged
@@ -1383,7 +1384,7 @@ Transform:
   m_Father: {fileID: 4418149974974130}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &54255169930946384
+--- !u!54 &54612975180320838
 Rigidbody:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1398,6 +1399,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!95 &95560592509224036
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1953393978184550}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0f6f66c25b3e5cf4bae999569d09d9c4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!95 &95715579257785278
 Animator:
   serializedVersion: 3
@@ -1416,7 +1435,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114379617363847916
+--- !u!114 &114011151716914074
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1953393978184550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db30e8a204509af44bb06e46c56c0e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 54612975180320838}
+  rotateSpeed: 2
+  turnAngle: 10
+  speed: 0
+  entityController: {fileID: 0}
+--- !u!114 &114366305434301954
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1428,7 +1463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 95715579257785278}
-  rb: {fileID: 54255169930946384}
+  rb: {fileID: 54612975180320838}
   position: {x: 0, y: 0, z: 0}
   direction: {x: 0, y: 0, z: 0}
   lastPosition: {x: 0, y: 0, z: 0}
@@ -1437,22 +1472,6 @@ MonoBehaviour:
   jumpPower: 3
   isPlayer: 0
   rideBone: {fileID: 0}
---- !u!114 &114993706621082294
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1953393978184550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db30e8a204509af44bb06e46c56c0e96, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 54255169930946384}
-  rotateSpeed: 2
-  turnAngle: 10
-  speed: 0
-  entityController: {fileID: 0}
 --- !u!136 &136599443910912012
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -1463,9 +1482,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 2.031872
+  m_Height: 2.0461695
   m_Direction: 1
-  m_Center: {x: 0, y: 0.9575101, z: 0}
+  m_Center: {x: 0, y: 0.9503614, z: 0}
 --- !u!137 &137024025333119272
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
