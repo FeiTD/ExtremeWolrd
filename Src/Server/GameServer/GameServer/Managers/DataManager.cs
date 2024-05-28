@@ -12,10 +12,10 @@ namespace GameServer.Managers
 {
     public class DataManager : Singleton<DataManager>
     {
-        internal string DataPath;
-        internal Dictionary<int, CharacterDefine> Characters = null;
-        internal Dictionary<int, MapDefine> Maps = null;
-
+        public string DataPath;
+        public Dictionary<int, CharacterDefine> Characters = null;
+        public Dictionary<int, MapDefine> Maps = null;
+        public Dictionary<int, TeleporterDefine> Teleporters = null;
         public DataManager()
         {
             this.DataPath = "Data/";
@@ -23,13 +23,16 @@ namespace GameServer.Managers
             Log.Info("DataManager > DataManager()");
         }
 
-        internal void Load()
+        public void Load()
         {
             string json = File.ReadAllText(this.DataPath + "CharacterDefine.txt");
             this.Characters = JsonConvert.DeserializeObject<Dictionary<int, CharacterDefine>>(json);
 
             json = File.ReadAllText(this.DataPath + "MapDefine.txt");
             this.Maps = JsonConvert.DeserializeObject<Dictionary<int, MapDefine>>(json);
+
+            json = File.ReadAllText(this.DataPath + "TeleporterDefine.txt");
+            this.Teleporters = JsonConvert.DeserializeObject<Dictionary<int, TeleporterDefine>>(json);
         }
     }
 }

@@ -46,5 +46,13 @@ namespace Assets.Scripts.Manager
 
             yield return null;
         }
+#if UNITY_EDITOR
+        public void SaveTeleporters()
+        {
+            string json = JsonConvert.SerializeObject(this.Telepoters,Formatting.Indented);
+            File.WriteAllText(this.DataPath + "TeleporterDefine.txt", json);
+        }
+#endif
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using Assets.Scripts.Manager;
+﻿using Assets.Scripts.Entities;
+using Assets.Scripts.Manager;
 using Assets.Scripts.Models;
 using Common.Data;
 using Network;
@@ -8,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Assets.Scripts.Services
 {
@@ -98,7 +100,11 @@ namespace Assets.Scripts.Services
 
         public void SendMapTeleport(int iD)
         {
-            throw new NotImplementedException();
+            NetMessage message = new NetMessage();
+            message.Request = new NetMessageRequest();
+            message.Request.mapTeleport = new MapTeleportRequest();
+            message.Request.mapTeleport.teleporterId = iD;
+            NetClient.Instance.SendMessage(message);
         }
     }
 }
