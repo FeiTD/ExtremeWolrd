@@ -18,7 +18,7 @@ public class TeleporterObject : MonoBehaviour {
 		
 	}
 
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         PlayerInputController playerInputController = other.GetComponent<PlayerInputController>();
 		if(playerInputController != null && playerInputController.isActiveAndEnabled)

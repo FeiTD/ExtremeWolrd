@@ -15202,7 +15202,7 @@ GameObject:
   - component: {fileID: 451353602}
   - component: {fileID: 451353605}
   m_Layer: 0
-  m_Name: Telepoter3
+  m_Name: Telepoter2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15219,7 +15219,7 @@ Transform:
   m_LocalScale: {x: 4.0966096, y: 0.3399539, z: 5.5037}
   m_Children: []
   m_Father: {fileID: 2145910138}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &451353602
 BoxCollider:
@@ -15286,7 +15286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53fd5a8d7e077af4b99c0073e9749b95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 3
+  ID: 2
 --- !u!4 &456298318 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6e7e974bfd5b7c8418356654f80a2c2f,
@@ -25417,7 +25417,7 @@ GameObject:
   - component: {fileID: 821224841}
   - component: {fileID: 821224844}
   m_Layer: 0
-  m_Name: Telepoter2
+  m_Name: Telepoter3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25434,7 +25434,7 @@ Transform:
   m_LocalScale: {x: 3.113264, y: 0.5384837, z: 4.6107416}
   m_Children: []
   m_Father: {fileID: 2145910138}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &821224841
 BoxCollider:
@@ -25501,7 +25501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53fd5a8d7e077af4b99c0073e9749b95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 2
+  ID: 3
 --- !u!4 &821503383 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 89f7c031377cc764cb9a6491643b481e,
@@ -63439,8 +63439,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 437856445}
-  - {fileID: 821224840}
   - {fileID: 451353601}
+  - {fileID: 821224840}
   - {fileID: 552580419}
   m_Father: {fileID: 0}
   m_RootOrder: 14

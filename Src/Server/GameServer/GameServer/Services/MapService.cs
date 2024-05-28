@@ -40,7 +40,7 @@ namespace GameServer.Services
         private void OnMapTeleport(NetConnection<NetSession> sender, MapTeleportRequest request)
         {
             Character character = sender.Session.Character;
-
+            DataManager.Instance.Load();
             if (!DataManager.Instance.Teleporters.ContainsKey(request.teleporterId))
             {
                 Log.InfoFormat("TeleporterID [{0}] not existed", request.teleporterId);

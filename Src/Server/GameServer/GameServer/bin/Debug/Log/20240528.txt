@@ -1,0 +1,359 @@
+
+2024-05-28 22:24:59,569 [1] [INFO ] [GameServer] ：Game Server Init
+2024-05-28 22:24:59,905 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-05-28 22:25:00,384 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-28 22:25:00,384 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-28 22:25:00,384 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-28 22:25:00,384 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-28 22:25:00,385 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-28 22:25:00,384 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-28 22:25:00,388 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-28 22:25:00,395 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-05-28 22:25:00,446 [1] [WARN ] [GameServer] ：NetService Started
+2024-05-28 22:25:03,040 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-05-28 22:25:03,059 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-05-28 22:25:03,087 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-05-28 22:25:03,087 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-05-28 22:25:03,089 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-05-28 22:25:08,905 [6] [WARN ] [GameServer] ：Client[127.0.0.1:51926]] Connected
+2024-05-28 22:25:09,142 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-05-28 22:25:09,500 [8] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-05-28 22:25:14,024 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-28 22:25:14,033 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:3
+2024-05-28 22:25:14,037 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:16:Abc Map:1
+2024-05-28 22:25:14,054 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:16:Abc
+2024-05-28 22:25:14,067 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:16 Position:(5000, 4000, 820)
+2024-05-28 22:25:14,069 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:16:Abc
+2024-05-28 22:25:16,269 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:25:16,281 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:5000 Y:4000 Z:820
+2024-05-28 22:25:16,472 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-05-28 22:25:16,472 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:5010 Y:3998 Z:820
+2024-05-28 22:25:16,679 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:25:16,680 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:5063 Y:3967 Z:820
+2024-05-28 22:25:16,775 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:25:16,777 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:5063 Y:3967 Z:820
+2024-05-28 22:25:16,894 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:25:16,894 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:5119 Y:3925 Z:820
+2024-05-28 22:25:17,035 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:25:17,036 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:5143 Y:3893 Z:820
+2024-05-28 22:25:17,168 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:25:17,169 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:5155 Y:3869 Z:820
+2024-05-28 22:25:17,308 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:25:17,308 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:5160 Y:3844 Z:820
+2024-05-28 22:25:17,447 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:17,447 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:5155 Y:3789 Z:820
+2024-05-28 22:25:17,591 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:17,592 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:5149 Y:3759 Z:820
+2024-05-28 22:25:17,802 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:17,803 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:5137 Y:3735 Z:820
+2024-05-28 22:25:17,877 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:17,878 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:5104 Y:3691 Z:820
+2024-05-28 22:25:18,020 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:18,022 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:5104 Y:3691 Z:820
+2024-05-28 22:25:18,166 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:18,166 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:5104 Y:3691 Z:820
+2024-05-28 22:25:19,833 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:19,839 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:4692 Y:3382 Z:820
+2024-05-28 22:25:20,176 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:20,179 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:4652 Y:3352 Z:820
+2024-05-28 22:25:23,748 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:23,749 [14] [INFO ] [GameServer] ：UpdateEntity : Position X:3668 Y:2975 Z:807
+2024-05-28 22:25:24,254 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:24,255 [15] [INFO ] [GameServer] ：UpdateEntity : Position X:3538 Y:2923 Z:807
+2024-05-28 22:25:24,501 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:25:24,502 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:3478 Y:2911 Z:807
+2024-05-28 22:25:27,266 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:27,266 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:2693 Y:2911 Z:807
+2024-05-28 22:25:27,434 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:27,434 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:2658 Y:2904 Z:807
+2024-05-28 22:25:27,720 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:27,721 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:2628 Y:2892 Z:807
+2024-05-28 22:25:27,811 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:27,812 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:2588 Y:2862 Z:807
+2024-05-28 22:25:28,388 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:28,388 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:2452 Y:2760 Z:807
+2024-05-28 22:25:28,587 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:28,588 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:2428 Y:2742 Z:807
+2024-05-28 22:25:28,963 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:28,963 [14] [INFO ] [GameServer] ：UpdateEntity : Position X:2398 Y:2730 Z:807
+2024-05-28 22:25:29,059 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:29,060 [15] [INFO ] [GameServer] ：UpdateEntity : Position X:2328 Y:2716 Z:807
+2024-05-28 22:25:29,777 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:29,778 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:2113 Y:2716 Z:807
+2024-05-28 22:25:36,987 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-28 22:25:39,575 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-05-28 22:25:39,575 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:908 Y:2475 Z:807
+2024-05-28 22:25:41,671 [9] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:16
+2024-05-28 22:25:41,673 [9] [INFO ] [GameServer] ：SendCharacterLeaveMap To 16:Abc : Map:1 Character:16:Abc
+2024-05-28 22:25:41,674 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:16:Abc
+2024-05-28 22:25:46,648 [9] [INFO ] [GameServer] ：CharacterEnter: Map:2 characterId:16 Position:(3078, 4145, 40)
+2024-05-28 22:25:46,648 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:16:Abc
+2024-05-28 22:25:50,044 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2024-05-28 22:25:50,044 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:3078 Y:4145 Z:40
+2024-05-28 22:25:50,328 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2024-05-28 22:25:50,329 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:3078 Y:4145 Z:40
+2024-05-28 22:25:50,596 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2024-05-28 22:25:50,596 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:3078 Y:4145 Z:40
+2024-05-28 22:25:50,861 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2024-05-28 22:25:50,863 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:3078 Y:4145 Z:40
+2024-05-28 22:25:51,130 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-05-28 22:25:51,131 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:3058 Y:4145 Z:40
+2024-05-28 22:25:51,385 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-05-28 22:25:51,389 [14] [INFO ] [GameServer] ：UpdateEntity : Position X:3058 Y:4145 Z:40
+2024-05-28 22:25:51,652 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-05-28 22:25:51,653 [15] [INFO ] [GameServer] ：UpdateEntity : Position X:3058 Y:4145 Z:40
+2024-05-28 22:25:51,919 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-05-28 22:25:51,919 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:3058 Y:4145 Z:40
+2024-05-28 22:25:52,189 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2024-05-28 22:25:52,191 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:3058 Y:4145 Z:40
+2024-05-28 22:25:52,443 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-05-28 22:25:52,443 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:3058 Y:4145 Z:40
+2024-05-28 22:25:53,509 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-28 22:25:53,514 [11] [INFO ] [GameServer] ：CharacterLeave: Map:2 characterId:16
+2024-05-28 22:25:53,523 [11] [INFO ] [GameServer] ：SendCharacterLeaveMap To 16:Abc : Map:2 Character:16:Abc
+2024-05-28 22:25:53,525 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:16:Abc
+2024-05-28 22:25:53,526 [11] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:16 Position:(6349, 2604, 789)
+2024-05-28 22:25:53,527 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:16:Abc
+2024-05-28 22:25:54,493 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-05-28 22:25:54,504 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:6349 Y:2604 Z:789
+2024-05-28 22:25:55,004 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-05-28 22:25:55,005 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:6349 Y:2704 Z:789
+2024-05-28 22:25:55,822 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:25:55,823 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:6349 Y:2704 Z:789
+2024-05-28 22:25:56,001 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:25:56,002 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:6349 Y:2704 Z:789
+2024-05-28 22:25:56,124 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:25:56,124 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:6349 Y:2704 Z:789
+2024-05-28 22:25:56,208 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:25:56,209 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:6349 Y:2704 Z:789
+2024-05-28 22:25:56,314 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:25:56,315 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:6349 Y:2704 Z:789
+2024-05-28 22:25:56,456 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:25:56,458 [14] [INFO ] [GameServer] ：UpdateEntity : Position X:6349 Y:2704 Z:789
+2024-05-28 22:25:56,600 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:25:56,601 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:6329 Y:2708 Z:789
+2024-05-28 22:25:56,694 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2024-05-28 22:25:56,696 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:6294 Y:2708 Z:789
+2024-05-28 22:25:56,738 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:56,740 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:6294 Y:2708 Z:789
+2024-05-28 22:25:56,840 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:25:56,841 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:6294 Y:2708 Z:789
+2024-05-28 22:25:58,527 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-05-28 22:25:58,528 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:5734 Y:2596 Z:789
+2024-05-28 22:25:58,859 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:25:58,860 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:5734 Y:2596 Z:789
+2024-05-28 22:25:58,952 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:25:58,954 [14] [INFO ] [GameServer] ：UpdateEntity : Position X:5734 Y:2596 Z:789
+2024-05-28 22:25:59,122 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:25:59,123 [15] [INFO ] [GameServer] ：UpdateEntity : Position X:5734 Y:2596 Z:789
+2024-05-28 22:25:59,227 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:25:59,227 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:5734 Y:2596 Z:789
+2024-05-28 22:25:59,378 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-05-28 22:25:59,380 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:5730 Y:2599 Z:789
+2024-05-28 22:25:59,427 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:25:59,430 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:5702 Y:2627 Z:789
+2024-05-28 22:25:59,494 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:25:59,497 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:5681 Y:2655 Z:789
+2024-05-28 22:25:59,588 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-05-28 22:25:59,588 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:5681 Y:2655 Z:789
+2024-05-28 22:26:04,867 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2024-05-28 22:26:57,520 [17] [WARN ] [GameServer] ：Client[127.0.0.1:52015]] Connected
+2024-05-28 22:26:57,731 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-05-28 22:26:57,732 [8] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-05-28 22:26:59,669 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-28 22:26:59,670 [8] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:3
+2024-05-28 22:26:59,670 [8] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:16:Abc Map:1
+2024-05-28 22:26:59,671 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:16:Abc
+2024-05-28 22:26:59,671 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:16 Position:(5000, 4000, 820)
+2024-05-28 22:26:59,672 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:16:Abc
+2024-05-28 22:27:00,314 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-28 22:27:00,315 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:3
+2024-05-28 22:27:00,315 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:16:Abc Map:1
+2024-05-28 22:27:00,315 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:16:Abc
+2024-05-28 22:27:00,316 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:16 Position:(5000, 4000, 820)
+2024-05-28 22:27:00,316 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:16:Abc
+2024-05-28 22:27:01,562 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:27:01,563 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:5000 Y:4000 Z:820
+2024-05-28 22:27:01,795 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:27:01,796 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:5000 Y:4000 Z:820
+2024-05-28 22:27:02,109 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:27:02,109 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:5000 Y:4000 Z:820
+2024-05-28 22:27:02,263 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:27:02,264 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:5022 Y:3973 Z:820
+2024-05-28 22:27:02,342 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-05-28 22:27:02,343 [14] [INFO ] [GameServer] ：UpdateEntity : Position X:5040 Y:3937 Z:820
+2024-05-28 22:27:02,497 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:27:02,498 [15] [INFO ] [GameServer] ：UpdateEntity : Position X:5040 Y:3937 Z:820
+2024-05-28 22:27:02,756 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:27:02,757 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:5040 Y:3937 Z:820
+2024-05-28 22:27:02,932 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:27:02,932 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:5040 Y:3937 Z:820
+2024-05-28 22:27:03,463 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:27:03,464 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:5138 Y:3692 Z:820
+2024-05-28 22:27:03,560 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:03,561 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:5146 Y:3622 Z:820
+2024-05-28 22:27:03,793 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:03,795 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:5140 Y:3592 Z:820
+2024-05-28 22:27:04,044 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:04,045 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:5128 Y:3562 Z:820
+2024-05-28 22:27:04,118 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:04,118 [14] [INFO ] [GameServer] ：UpdateEntity : Position X:5090 Y:3523 Z:820
+2024-05-28 22:27:04,378 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:04,380 [15] [INFO ] [GameServer] ：UpdateEntity : Position X:5066 Y:3511 Z:820
+2024-05-28 22:27:04,483 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:04,485 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:5016 Y:3491 Z:820
+2024-05-28 22:27:04,632 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:04,632 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:5016 Y:3491 Z:820
+2024-05-28 22:27:04,800 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:04,800 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:5016 Y:3491 Z:820
+2024-05-28 22:27:08,899 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:08,900 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:3746 Y:3338 Z:807
+2024-05-28 22:27:09,154 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:09,155 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:3671 Y:3323 Z:807
+2024-05-28 22:27:09,319 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:09,320 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:3626 Y:3305 Z:807
+2024-05-28 22:27:09,511 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:09,512 [14] [INFO ] [GameServer] ：UpdateEntity : Position X:3582 Y:3278 Z:807
+2024-05-28 22:27:09,769 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:09,769 [15] [INFO ] [GameServer] ：UpdateEntity : Position X:3550 Y:3226 Z:807
+2024-05-28 22:27:09,943 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:09,943 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:3550 Y:3226 Z:807
+2024-05-28 22:27:10,024 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:10,025 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:3550 Y:3226 Z:807
+2024-05-28 22:27:10,511 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:10,512 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:3472 Y:3031 Z:807
+2024-05-28 22:27:10,681 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:10,681 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:3456 Y:2999 Z:807
+2024-05-28 22:27:10,929 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:10,929 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:3402 Y:2948 Z:807
+2024-05-28 22:27:11,019 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:11,020 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:3402 Y:2948 Z:807
+2024-05-28 22:27:11,270 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:11,271 [14] [INFO ] [GameServer] ：UpdateEntity : Position X:3350 Y:2922 Z:807
+2024-05-28 22:27:12,806 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:12,808 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:2925 Y:2752 Z:807
+2024-05-28 22:27:15,383 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:15,384 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:2205 Y:2697 Z:807
+2024-05-28 22:27:19,679 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-28 22:27:19,692 [9] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:16
+2024-05-28 22:27:19,692 [9] [INFO ] [GameServer] ：SendCharacterLeaveMap To 16:Abc : Map:1 Character:16:Abc
+2024-05-28 22:27:19,693 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:16:Abc
+2024-05-28 22:27:19,693 [9] [INFO ] [GameServer] ：CharacterEnter: Map:2 characterId:16 Position:(3078, 4145, 40)
+2024-05-28 22:27:19,694 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:16:Abc
+2024-05-28 22:27:20,131 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-05-28 22:27:20,135 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:3078 Y:4145 Z:40
+2024-05-28 22:27:20,625 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2024-05-28 22:27:20,628 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:3078 Y:4215 Z:40
+2024-05-28 22:27:21,553 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2024-05-28 22:27:21,553 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:3078 Y:4215 Z:40
+2024-05-28 22:27:21,655 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2024-05-28 22:27:21,655 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:3078 Y:4215 Z:40
+2024-05-28 22:27:21,759 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2024-05-28 22:27:21,761 [14] [INFO ] [GameServer] ：UpdateEntity : Position X:3078 Y:4215 Z:40
+2024-05-28 22:27:21,826 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2024-05-28 22:27:21,827 [15] [INFO ] [GameServer] ：UpdateEntity : Position X:3078 Y:4215 Z:40
+2024-05-28 22:27:21,928 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2024-05-28 22:27:21,929 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:3078 Y:4215 Z:40
+2024-05-28 22:27:22,003 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2024-05-28 22:27:22,015 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:3078 Y:4215 Z:40
+2024-05-28 22:27:22,127 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2024-05-28 22:27:22,128 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:3078 Y:4215 Z:40
+2024-05-28 22:27:22,199 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2024-05-28 22:27:22,201 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:3068 Y:4219 Z:40
+2024-05-28 22:27:22,281 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-05-28 22:27:22,285 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:3038 Y:4225 Z:40
+2024-05-28 22:27:22,355 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-05-28 22:27:22,376 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:3038 Y:4225 Z:40
+2024-05-28 22:27:22,436 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-05-28 22:27:22,443 [14] [INFO ] [GameServer] ：UpdateEntity : Position X:2998 Y:4225 Z:40
+2024-05-28 22:27:24,111 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-05-28 22:27:24,113 [15] [INFO ] [GameServer] ：CharacterLeave: Map:2 characterId:16
+2024-05-28 22:27:24,114 [15] [INFO ] [GameServer] ：SendCharacterLeaveMap To 16:Abc : Map:2 Character:16:Abc
+2024-05-28 22:27:24,114 [15] [INFO ] [GameServer] ：PostProcess > Character: characterID:16:Abc
+2024-05-28 22:27:24,115 [15] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:16 Position:(1570, 2559, 816)
+2024-05-28 22:27:24,116 [15] [INFO ] [GameServer] ：PostProcess > Character: characterID:16:Abc
+2024-05-28 22:27:24,838 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-05-28 22:27:24,854 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:1570 Y:2559 Z:816
+2024-05-28 22:27:25,291 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-05-28 22:27:25,292 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:1570 Y:2659 Z:816
+2024-05-28 22:27:26,160 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-05-28 22:27:26,161 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:1570 Y:2659 Z:816
+2024-05-28 22:27:26,232 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-05-28 22:27:26,233 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:1570 Y:2659 Z:816
+2024-05-28 22:27:26,508 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-05-28 22:27:26,508 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:1570 Y:2659 Z:816
+2024-05-28 22:27:26,693 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-05-28 22:27:26,693 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:1570 Y:2659 Z:816
+2024-05-28 22:27:26,874 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-05-28 22:27:26,874 [14] [INFO ] [GameServer] ：UpdateEntity : Position X:1570 Y:2659 Z:816
+2024-05-28 22:27:27,066 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:27:27,066 [15] [INFO ] [GameServer] ：UpdateEntity : Position X:1570 Y:2659 Z:816
+2024-05-28 22:27:27,329 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:27:27,329 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:1570 Y:2659 Z:816
+2024-05-28 22:27:27,437 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:27:27,437 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:1602 Y:2635 Z:816
+2024-05-28 22:27:27,579 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:27:27,579 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:1602 Y:2635 Z:816
+2024-05-28 22:27:27,741 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:27:27,741 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:1602 Y:2635 Z:816
+2024-05-28 22:27:27,905 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:27:27,906 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:1602 Y:2635 Z:816
+2024-05-28 22:27:28,060 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-05-28 22:27:28,060 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:1602 Y:2635 Z:816
+2024-05-28 22:27:28,134 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:27:28,134 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:1770 Y:2509 Z:816
+2024-05-28 22:27:28,386 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:27:28,387 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:1824 Y:2491 Z:816
+2024-05-28 22:27:28,590 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-05-28 22:27:28,591 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:1889 Y:2478 Z:816
+2024-05-28 22:27:28,782 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-05-28 22:27:28,782 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:1889 Y:2478 Z:816
+2024-05-28 22:27:28,972 [5] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-05-28 22:27:28,972 [14] [INFO ] [GameServer] ：UpdateEntity : Position X:1889 Y:2478 Z:816
+2024-05-28 22:27:29,652 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-05-28 22:27:29,652 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:2154 Y:2478 Z:816
+2024-05-28 22:27:29,735 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-05-28 22:27:29,736 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:2164 Y:2480 Z:816
+2024-05-28 22:27:29,895 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-05-28 22:27:29,895 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:2164 Y:2480 Z:816
+2024-05-28 22:27:30,180 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-05-28 22:27:30,180 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:2164 Y:2480 Z:816
+2024-05-28 22:27:30,390 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-05-28 22:27:30,391 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:2164 Y:2480 Z:816
+2024-05-28 22:27:30,583 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-05-28 22:27:30,583 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:2164 Y:2480 Z:816
+2024-05-28 22:27:30,764 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:27:30,765 [14] [INFO ] [GameServer] ：UpdateEntity : Position X:2164 Y:2480 Z:816
+2024-05-28 22:27:30,929 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:27:30,931 [15] [INFO ] [GameServer] ：UpdateEntity : Position X:2164 Y:2480 Z:816
+2024-05-28 22:27:31,102 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:27:31,102 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:2164 Y:2480 Z:816
+2024-05-28 22:27:31,303 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:27:31,303 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:2164 Y:2480 Z:816
+2024-05-28 22:27:31,538 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:31,538 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:2109 Y:2484 Z:816
+2024-05-28 22:27:31,617 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:31,617 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:2109 Y:2484 Z:816
+2024-05-28 22:27:31,743 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:31,743 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:2109 Y:2484 Z:816
+2024-05-28 22:27:31,922 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:31,922 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:2109 Y:2484 Z:816
+2024-05-28 22:27:32,061 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-05-28 22:27:32,062 [14] [INFO ] [GameServer] ：UpdateEntity : Position X:2109 Y:2484 Z:816
+2024-05-28 22:27:32,158 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:27:32,159 [15] [INFO ] [GameServer] ：UpdateEntity : Position X:1909 Y:2444 Z:816
+2024-05-28 22:27:32,385 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-05-28 22:27:32,385 [8] [INFO ] [GameServer] ：UpdateEntity : Position X:1879 Y:2444 Z:816
+2024-05-28 22:27:32,614 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-05-28 22:27:32,614 [9] [INFO ] [GameServer] ：UpdateEntity : Position X:1819 Y:2456 Z:816
+2024-05-28 22:27:32,701 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:27:32,702 [10] [INFO ] [GameServer] ：UpdateEntity : Position X:1789 Y:2468 Z:816
+2024-05-28 22:27:32,855 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:27:32,855 [11] [INFO ] [GameServer] ：UpdateEntity : Position X:1789 Y:2468 Z:816
+2024-05-28 22:27:33,020 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:27:33,022 [12] [INFO ] [GameServer] ：UpdateEntity : Position X:1789 Y:2468 Z:816
+2024-05-28 22:27:33,176 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-05-28 22:27:33,178 [13] [INFO ] [GameServer] ：UpdateEntity : Position X:1789 Y:2468 Z:816
+2024-05-28 22:27:33,250 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-05-28 22:27:33,250 [14] [INFO ] [GameServer] ：UpdateEntity : Position X:1789 Y:2468 Z:816
+2024-05-28 22:27:33,745 [3] [WARN ] [GameServer] ：Client[] Disconnected
