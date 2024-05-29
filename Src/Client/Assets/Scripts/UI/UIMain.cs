@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIMainCity : MonoBehaviour {
+public class UIMain : MonoSingleton<UIMain>{
 
 	public Text Name;
 	public Text Level;

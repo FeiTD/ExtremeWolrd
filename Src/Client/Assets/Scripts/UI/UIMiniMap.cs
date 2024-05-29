@@ -13,7 +13,8 @@ public class UIMiniMap : MonoBehaviour {
 	private Transform PlayerTransform;
 	// Use this for initialization
 	void Start () {
-		Init();
+		MiniMapManager.Instance.miniMap = this;
+        UpdateMap();
 	}
 	
 	// Update is called once per frame
@@ -41,14 +42,13 @@ public class UIMiniMap : MonoBehaviour {
 		Arrow.transform.eulerAngles = new Vector3(0,0,-PlayerTransform.eulerAngles.y);
 	}
 
-	void Init()
+	public void UpdateMap()
     {
 		MapName.text = Users.Instance.CurrentMapData.Name;
-		if (MiniMap.overrideSprite == null)
-		{
-			MiniMap.overrideSprite = MiniMapManager.Instance.LoadCurrentMiniMap();
-		}
+	    MiniMap.overrideSprite = MiniMapManager.Instance.LoadCurrentMiniMap();
 		MiniMap.SetNativeSize();
 		MiniMap.transform.localPosition = Vector3.zero;
+		MiniMapBox = MiniMapManager.Instance.MinimapBoundBox;
+		this.PlayerTransform = null;
 	}
 }
