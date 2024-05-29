@@ -29,7 +29,7 @@ namespace Assets.Scripts.Manager
                 UIElement info = this.UIResource[type];
                 if(info.Instance != null)
                 {
-                    info.Instance.SetActive(false);
+                    info.Instance.SetActive(true);
                 }
                 else
                 {
