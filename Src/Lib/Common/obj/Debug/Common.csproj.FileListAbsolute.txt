@@ -9,6 +9,6 @@ D:\A\ExtremeWolrd\Src\Lib\Common\bin\Debug\log4net.xml
 D:\A\ExtremeWolrd\Src\Lib\Common\bin\Debug\protobuf-net.xml
 D:\A\ExtremeWolrd\Src\Lib\Common\obj\Debug\Common.csproj.AssemblyReference.cache
 D:\A\ExtremeWolrd\Src\Lib\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
-D:\A\ExtremeWolrd\Src\Lib\Common\obj\Debug\Common.csproj.CopyComplete
 D:\A\ExtremeWolrd\Src\Lib\Common\obj\Debug\Common.dll
 D:\A\ExtremeWolrd\Src\Lib\Common\obj\Debug\Common.pdb
+D:\A\ExtremeWolrd\Src\Lib\Common\obj\Debug\Common.csproj.Up2Date

@@ -12,14 +12,11 @@ namespace Assets.Scripts.Manager
 {
     public class DataManager : Singleton<DataManager>
     {
-        public string DataPath;
+        public string DataPath = "Data/";
         public Dictionary<int, CharacterDefine> Characters = null;
         public Dictionary<int, MapDefine> Maps = null;
         public Dictionary<int, TeleporterDefine> Telepoters = null;
-        public DataManager()
-        {
-            this.DataPath = "Data/";
-        }
+        public Dictionary<int,NpcDefine> Npcs = null;
 
         public void Load()
         {
@@ -31,6 +28,9 @@ namespace Assets.Scripts.Manager
 
             json = File.ReadAllText(this.DataPath + "TeleporterDefine.txt");
             this.Telepoters = JsonConvert.DeserializeObject<Dictionary<int, TeleporterDefine>>(json);
+
+            json = File.ReadAllText(this.DataPath + "NpcDefine.txt");
+            this.Npcs = JsonConvert.DeserializeObject<Dictionary<int, NpcDefine>>(json);
         }
 
         public IEnumerator LoadData()
@@ -43,6 +43,9 @@ namespace Assets.Scripts.Manager
 
             json = File.ReadAllText(this.DataPath + "TeleporterDefine.txt");
             this.Telepoters = JsonConvert.DeserializeObject<Dictionary<int, TeleporterDefine>>(json);
+
+            json = File.ReadAllText(this.DataPath + "NpcDefine.txt");
+            this.Npcs = JsonConvert.DeserializeObject<Dictionary<int, NpcDefine>>(json);
 
             yield return null;
         }

@@ -18,7 +18,7 @@ namespace Assets.Scripts
         IEnumerator Start()
         {
             log4net.Config.XmlConfigurator.ConfigureAndWatch(new System.IO.FileInfo("log4net.xml"));
-
+            TestManager.Instance.Init();
             MapService.Instance.Init();
             UITips.SetActive(true);
             UILoading.SetActive(false);

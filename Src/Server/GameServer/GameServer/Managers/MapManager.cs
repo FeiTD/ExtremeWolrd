@@ -14,6 +14,7 @@ namespace GameServer.Managers
 
         public void Init()
         {
+            DataManager.Instance.Load();
             foreach (var mapdefine in DataManager.Instance.Maps.Values)
             {
                 Map map = new Map(mapdefine);

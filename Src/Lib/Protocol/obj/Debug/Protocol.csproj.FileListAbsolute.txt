@@ -2,8 +2,8 @@ D:\A\ExtremeWolrd\Src\Lib\Protocol\bin\Debug\Protocol.dll
 D:\A\ExtremeWolrd\Src\Lib\Protocol\bin\Debug\Protocol.pdb
 D:\A\ExtremeWolrd\Src\Lib\Protocol\bin\Debug\protobuf-net.dll
 D:\A\ExtremeWolrd\Src\Lib\Protocol\bin\Debug\protobuf-net.xml
+D:\A\ExtremeWolrd\Src\Lib\Protocol\obj\Debug\Protocol.csproj.AssemblyReference.cache
 D:\A\ExtremeWolrd\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CoreCompileInputs.cache
-D:\A\ExtremeWolrd\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CopyComplete
+D:\A\ExtremeWolrd\Src\Lib\Protocol\obj\Debug\Protocol.csproj.Up2Date
 D:\A\ExtremeWolrd\Src\Lib\Protocol\obj\Debug\Protocol.dll
 D:\A\ExtremeWolrd\Src\Lib\Protocol\obj\Debug\Protocol.pdb
-D:\A\ExtremeWolrd\Src\Lib\Protocol\obj\Debug\Protocol.csproj.AssemblyReference.cache
