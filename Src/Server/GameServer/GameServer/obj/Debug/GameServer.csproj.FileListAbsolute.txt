@@ -19,13 +19,9 @@ D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\bin\Debug\protobuf-net.xml
 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\bin\Debug\zh-Hans\EntityFramework.resources.dll
 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.AssemblyReference.cache
+D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.SuggestedBindingRedirects.cache
 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\obj\Debug\GameServer.exe.config
 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.CoreCompileInputs.cache
+D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.Up2Date
 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\obj\Debug\GameServer.exe
 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\obj\Debug\GameServer.pdb
-D:\A\ExtremeWolrd\Src\Data\log4net.xml
-D:\A\ExtremeWolrd\Src\Data\GameServer.exe.config
-D:\A\ExtremeWolrd\Src\Data\GameServer.exe
-D:\A\ExtremeWolrd\Src\Data\GameServer.pdb
-D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.SuggestedBindingRedirects.cache
-D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.Up2Date

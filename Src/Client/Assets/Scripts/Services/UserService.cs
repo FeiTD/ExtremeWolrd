@@ -1,4 +1,5 @@
 ﻿
+using Assets.Scripts.Manager;
 using Assets.Scripts.Models;
 using Assets.Scripts.UI;
 using Common;
@@ -266,6 +267,7 @@ namespace Assets.Scripts.Services
                 if (response.Character != null)
                 {
                     Users.Instance.CurrentCharacter = response.Character;
+                    ItemManager.Instance.Init(response.Character.Items);
                 }
             }
 

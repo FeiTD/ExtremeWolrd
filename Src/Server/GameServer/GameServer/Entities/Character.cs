@@ -20,7 +20,7 @@ namespace GameServer.Entities
         public TCharacter Data;
         private CharacterType player;
         private TCharacter cha;
-
+        ItemManager ItemManager;
         public Character(Vector3Int pos, Vector3Int dir) : base(pos, dir)
         {
         }
@@ -41,6 +41,9 @@ namespace GameServer.Entities
             this.Info.mapId = cha.MapID;
             this.Info.Entity = this.EntityData;
             this.Define = DataManager.Instance.Characters[this.Info.ConfigId];
+
+            ItemManager = new ItemManager(this);
+            ItemManager.GetItemInfos(this.Info.Items);
         }
 
         public void PostProcess(NetMessageResponse message)

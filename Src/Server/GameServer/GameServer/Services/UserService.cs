@@ -139,6 +139,7 @@ namespace GameServer.Services
             sender.Session.Response.gameEnter = new UserGameEnterResponse();
             sender.Session.Response.gameEnter.Result = Result.Success;
             sender.Session.Response.gameEnter.Errormsg = "None";
+            sender.Session.Response.gameEnter.Character = character.Info;
 
             sender.Session.Character = character;
             sender.Session.PostResponser = character;
