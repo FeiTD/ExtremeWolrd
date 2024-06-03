@@ -81,6 +81,11 @@ message NItemInfo{
 	int32 id = 1;
 	int32 count = 2;
 }
+
+message NBagInfo{
+	int32 Unlocked = 1;
+	bytes Items = 2;
+}
 message NVector3
 {
 	int32 x = 1;
@@ -240,4 +245,14 @@ message MapEntitySyncResponse
 message MapTeleportRequest
 {
 	int32 teleporterId = 1;
+}
+
+//ÇëÇó±£´æ±³°ü
+message BagSaveRequest{
+	NBagInfo BagInfo = 1;
+}
+
+message BagSaveResponse{
+	RESULT result = 1;
+	string errormsg = 2;
 }
