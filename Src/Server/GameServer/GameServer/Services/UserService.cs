@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Common;
 using GameServer.Entities;
 using GameServer.Managers;
+using GameServer.Models;
 using Network;
 using SkillBridge.Message;
 
@@ -107,6 +108,11 @@ namespace GameServer.Services
                     MapPosY = 4000, //初始出生位置Y
                     MapPosZ = 820,
                 }) ;
+                var bag = new TCharacterBag();
+                bag.Owner = character;
+                bag.Items = new byte[0];
+                bag.Unlocked = 20;
+                newCharacter.Bag = DBService.Instance.Entities.CharacterBag.Add(bag);
                 conn.Session.User.Player.Characters.Add(newCharacter);
                 DBService.Instance.Entities.SaveChanges();
                 conn.Session.Response.createChar.Result = Result.Success;
@@ -144,6 +150,24 @@ namespace GameServer.Services
             sender.Session.Character = character;
             sender.Session.PostResponser = character;
             sender.Session.Response.gameEnter.Character = character.Info;
+
+            //道具系统测试--------------------------------
+            int itemId = 2;
+            bool hasItem = character.ItemManager.HasItem(itemId);
+            if (hasItem)
+            {
+                //character.ItemManager.RemoveItem(itemId, 1);
+            }
+            else
+            {
+                character.ItemManager.AddItem(1, 200);
+                character.ItemManager.AddItem(2, 200);
+                character.ItemManager.AddItem(3, 200);
+                character.ItemManager.AddItem(4, 200);
+            }
+            Item item = character.ItemManager.GetItem(itemId);
+            DBService.Instance.Save();
+            //----------------------------------------------
             sender.SendResponse();
             MapManager.Instance[dbchar.MapID].CharacterEnter(sender, character);
         }

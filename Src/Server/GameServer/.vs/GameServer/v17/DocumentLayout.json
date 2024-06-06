@@ -3,39 +3,12 @@
   "WorkspaceRootPath": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|d:\\a\\extremewolrd\\src\\lib\\common\\data\\itemdefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\managers\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\managers\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\gameserver\\tcharacteritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\tcharacteritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\entities.edmx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\entities.edmx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\entities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\entities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\entities.edmx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\entities.edmx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\entities.edmx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
-      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\entities.edmx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\services\\bagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\services\\bagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,96 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ItemDefine.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Lib\\Common\\Data\\ItemDefine.cs",
-              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\Data\\ItemDefine.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Lib\\Common\\Data\\ItemDefine.cs",
-              "RelativeToolTip": "..\\..\\Lib\\Common\\Data\\ItemDefine.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAADwvxQAAAAYAAAA",
+              "DocumentIndex": 1,
+              "Title": "BagService.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\BagService.cs",
+              "RelativeDocumentMoniker": "GameServer\\Services\\BagService.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\BagService.cs",
+              "RelativeToolTip": "GameServer\\Services\\BagService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T11:48:18.97Z",
+              "WhenOpened": "2024-06-06T11:17:48.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "GameServer\\Services\\UserService.cs",
               "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\UserService.cs",
               "RelativeToolTip": "GameServer\\Services\\UserService.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAkwHwAAAANAAAA",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAgwG4AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T13:57:25.452Z",
+              "WhenOpened": "2024-06-06T11:17:47.774Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CharacterManager.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Managers\\CharacterManager.cs",
-              "RelativeDocumentMoniker": "GameServer\\Managers\\CharacterManager.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Managers\\CharacterManager.cs",
-              "RelativeToolTip": "GameServer\\Managers\\CharacterManager.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAQwCYAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T13:56:29.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Character.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities\\Character.cs",
-              "RelativeDocumentMoniker": "GameServer\\Entities\\Character.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities\\Character.cs",
-              "RelativeToolTip": "GameServer\\Entities\\Character.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAzwBEAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T13:54:25.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Entities.edmx.sql ",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities.edmx.sql",
-              "RelativeDocumentMoniker": "GameServer\\Entities.edmx.sql",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities.edmx.sql",
-              "RelativeToolTip": "GameServer\\Entities.edmx.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-06-02T13:50:43.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TCharacterItem.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\TCharacterItem.cs",
-              "RelativeDocumentMoniker": "GameServer\\TCharacterItem.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\TCharacterItem.cs",
-              "RelativeToolTip": "GameServer\\TCharacterItem.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAADwvw8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T13:45:50.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Entities.edmx [Diagram1]",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities.edmx",
-              "RelativeDocumentMoniker": "GameServer\\Entities.edmx",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities.edmx [Diagram1]",
-              "RelativeToolTip": "GameServer\\Entities.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-06-02T13:19:16.51Z",
-              "EditorCaption": " [Diagram1]"
             }
           ]
         }

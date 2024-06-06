@@ -17,6 +17,7 @@ namespace Assets.Scripts.Manager
         public Dictionary<int, MapDefine> Maps = null;
         public Dictionary<int, TeleporterDefine> Telepoters = null;
         public Dictionary<int,NpcDefine> Npcs = null;
+        public Dictionary<int, ItemDefine> Items = null;
 
         public void Load()
         {
@@ -31,6 +32,9 @@ namespace Assets.Scripts.Manager
 
             json = File.ReadAllText(this.DataPath + "NpcDefine.txt");
             this.Npcs = JsonConvert.DeserializeObject<Dictionary<int, NpcDefine>>(json);
+
+            json = File.ReadAllText(this.DataPath + "ItemDefine.txt");
+            this.Items = JsonConvert.DeserializeObject<Dictionary<int, ItemDefine>>(json);
         }
 
         public IEnumerator LoadData()
@@ -47,6 +51,8 @@ namespace Assets.Scripts.Manager
             json = File.ReadAllText(this.DataPath + "NpcDefine.txt");
             this.Npcs = JsonConvert.DeserializeObject<Dictionary<int, NpcDefine>>(json);
 
+            json = File.ReadAllText(this.DataPath + "ItemDefine.txt");
+            this.Items = JsonConvert.DeserializeObject<Dictionary<int, ItemDefine>>(json);
             yield return null;
         }
 #if UNITY_EDITOR

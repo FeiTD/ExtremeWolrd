@@ -77,6 +77,9 @@ namespace SkillBridge.Message
         [global::ProtoBuf.ProtoMember(11)]
         public global::System.Collections.Generic.List<NItemInfo> Items { get; } = new global::System.Collections.Generic.List<NItemInfo>();
 
+        [global::ProtoBuf.ProtoMember(12)]
+        public NBagInfo Bag { get; set; }
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -580,6 +583,10 @@ namespace SkillBridge.Message
         Material = 1,
         [global::ProtoBuf.ProtoEnum(Name = @"TASK")]
         Task = 2,
+        [global::ProtoBuf.ProtoEnum(Name = @"EQUIP")]
+        Equip = 3,
+        [global::ProtoBuf.ProtoEnum(Name = @"RIDE")]
+        Ride = 4,
     }
 
 }

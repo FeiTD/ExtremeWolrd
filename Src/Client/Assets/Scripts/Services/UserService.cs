@@ -268,6 +268,7 @@ namespace Assets.Scripts.Services
                 {
                     Users.Instance.CurrentCharacter = response.Character;
                     ItemManager.Instance.Init(response.Character.Items);
+                    BagManager.Instance.Init(response.Character.Bag);
                 }
             }
 

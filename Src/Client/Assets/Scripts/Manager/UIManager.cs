@@ -19,7 +19,8 @@ namespace Assets.Scripts.Manager
         Dictionary<Type,UIElement> UIResource = new Dictionary<Type,UIElement>();
         public UIManager()
         {
-            UIResource.Add(typeof(UITips),new UIElement() { Cache = true,Resource="UI/UITips"});
+            UIResource.Add(typeof(UITips),new UIElement() { Cache = true,Resource= "UI/UI/Prefabs/UITips" });
+            UIResource.Add(typeof(UIBag), new UIElement() { Cache = true, Resource = "UI/UI/Prefabs/UIBag" });
         }
         public T Show<T>()
         {
@@ -34,7 +35,7 @@ namespace Assets.Scripts.Manager
                 else
                 {
                     UnityEngine.Object prefab = Resources.Load(info.Resource);
-                    if(prefab != null)
+                    if(prefab == null)
                     {
                         return default(T);
                     }

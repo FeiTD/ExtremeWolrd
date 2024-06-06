@@ -20,7 +20,7 @@ namespace GameServer.Entities
         public TCharacter Data;
         private CharacterType player;
         private TCharacter cha;
-        ItemManager ItemManager;
+        public ItemManager ItemManager;
         public Character(Vector3Int pos, Vector3Int dir) : base(pos, dir)
         {
         }
@@ -44,6 +44,11 @@ namespace GameServer.Entities
 
             ItemManager = new ItemManager(this);
             ItemManager.GetItemInfos(this.Info.Items);
+
+            this.Info.Bag = new NBagInfo();
+            this.Info.Bag.Unlocked = cha.Bag.Unlocked;
+            //this.Info.Bag.
+            this.Info.Bag.Items = cha.Bag.Items;
         }
 
         public void PostProcess(NetMessageResponse message)

@@ -50,6 +50,8 @@ enum ITEM_TYPE{
 	NORMAL = 0;
 	MATERIAL = 1;
 	TASK = 2; //任务道具
+	EQUIP = 3;
+	RIDE = 4;
 }
 
 message NUserInfo {
@@ -75,6 +77,7 @@ message NCharacterInfo {
 	int32 ConfigId = 10;
 
 	repeated NItemInfo Items = 11; //道具数组
+	NBagInfo Bag = 12;//背包
 }
 
 message NItemInfo{

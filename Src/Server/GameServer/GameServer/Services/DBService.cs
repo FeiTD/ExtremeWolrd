@@ -24,7 +24,7 @@ namespace GameServer.Services
 
         internal void Save()
         {
-            throw new NotImplementedException();
+            entities.SaveChangesAsync();
         }
     }
 }

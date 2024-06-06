@@ -1,4 +1,5 @@
-﻿using Assets.Scripts.Models;
+﻿using Assets.Scripts.Manager;
+using Assets.Scripts.Models;
 using Assets.Scripts.Services;
 using System.Collections;
 using System.Collections.Generic;
@@ -30,4 +31,9 @@ public class UIMain : MonoSingleton<UIMain>{
 		SceneManager.Instance.LoadScene("CharactorSelect");
 		UserService.Instance.SendGameLeave();
     }
+
+	public void OpenBag()
+	{
+		UIManager.Instance.Show<UIBag>();
+	}
 }
