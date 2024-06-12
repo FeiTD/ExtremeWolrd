@@ -16,6 +16,10 @@ namespace GameServer.Services
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<BagSaveRequest>(this.OnBagSave);
         }
 
+        public void Init()
+        {
+
+        }
         private void OnBagSave(NetConnection<NetSession> sender, BagSaveRequest request)
         {
             Character character = sender.Session.Character;

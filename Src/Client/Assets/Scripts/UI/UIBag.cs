@@ -27,7 +27,8 @@ public class UIBag : UIWindow
 
 	IEnumerator InitBags()
 	{
-		for(int i =0;i < BagManager.Instance.Items.Length;i++)
+        money.text = Users.Instance.CurrentCharacter.Id.ToString();
+        for (int i =0;i < BagManager.Instance.Items.Length;i++)
 		{
 			var item = BagManager.Instance.Items[i];
 			if(item.ItemId > 0)
@@ -43,11 +44,6 @@ public class UIBag : UIWindow
 			slots[i].color = Color.gray;
 		}
 		yield return null;
-	}
-
-	public void SetTitle(string title)
-	{
-		money.text = Users.Instance.CurrentCharacter.Id.ToString();
 	}
 
     public void Reset()

@@ -10,7 +10,7 @@ namespace Assets.Scripts.Manager
 {
     public class NpcManager:Singleton<NpcManager>
     {
-        public delegate bool NpcActionHandler(NpcDefine npc);
+        public delegate bool NpcActionHandler(NpcDefine npc); 
         Dictionary<NpcFunction, NpcActionHandler> NpcEvents = new Dictionary<NpcFunction, NpcActionHandler>();
         public void RegisterNpcFunction(NpcFunction func,NpcActionHandler action)
         {
@@ -59,7 +59,7 @@ namespace Assets.Scripts.Manager
 
         private bool DoTaskInteractive(NpcDefine npc)
         {
-            MessageBox.Show("触发对话");
+            //MessageBox.Show("触发对话");
             return true;
         }
 
@@ -72,6 +72,5 @@ namespace Assets.Scripts.Manager
             }
             return null;
         }
-        
     }
 }

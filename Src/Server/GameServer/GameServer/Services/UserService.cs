@@ -84,7 +84,7 @@ namespace GameServer.Services
                     info.Id = c.ID;
                     info.Name = c.Name;
                     info.Type = CharacterType.Player;
-                    info.Class = (CharacterClass)c.Class;                  
+                    info.Class = (CharacterClass)c.Class; 
                     sender.Session.Response.userLogin.Userinfo.Player.Characters.Add(info);
                 }
             }
@@ -107,6 +107,7 @@ namespace GameServer.Services
                     MapPosX = 5000, //初始出生位置X
                     MapPosY = 4000, //初始出生位置Y
                     MapPosZ = 820,
+                    Gold = 1000,
                 }) ;
                 var bag = new TCharacterBag();
                 bag.Owner = character;

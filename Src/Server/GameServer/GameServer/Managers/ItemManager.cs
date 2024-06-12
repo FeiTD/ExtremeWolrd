@@ -69,6 +69,7 @@ namespace GameServer.Managers
                 Items.Add(itemID, item);
             }
             //DBService.Instance.Save();
+            this.Owner.StatusManager.AddItemChanged(itemID,count,StatusAction.Add);
             return true;
         }
 
@@ -79,6 +80,7 @@ namespace GameServer.Managers
             if (item.Count < count) return false;
             item.Remove(count);
             //DBService.Instance.Save();
+            this.Owner.StatusManager.AddItemChanged(itemID, count, StatusAction.Delete);
             return true;
         }
 

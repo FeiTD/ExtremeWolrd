@@ -25,8 +25,8 @@ namespace Assets.Scripts.Manager
 
         private bool OnNpcInvokeShop(NpcDefine npc)
         {
-            var test = UIManager.Instance.Show<UITips>();
-            test.Describtion.text = "aaaaaa";
+            //var test = UIManager.Instance.Show<UITips>();
+            //test.Describtion.text = "aaaaaa";
             return true;
         }
     }

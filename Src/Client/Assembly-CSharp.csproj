@@ -76,6 +76,7 @@
      <Compile Include="Assets\Scripts\Manager\ItemManager.cs" />
      <Compile Include="Assets\Scripts\Manager\MiniMapManager.cs" />
      <Compile Include="Assets\Scripts\Manager\NpcManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\ShopManager.cs" />
      <Compile Include="Assets\Scripts\Manager\TestManager.cs" />
      <Compile Include="Assets\Scripts\Manager\UIManager.cs" />
      <Compile Include="Assets\Scripts\Models\BagItem.cs" />
@@ -83,6 +84,7 @@
      <Compile Include="Assets\Scripts\Models\Users.cs" />
      <Compile Include="Assets\Scripts\Network\NetClient.cs" />
      <Compile Include="Assets\Scripts\Scene\SceneManager.cs" />
+     <Compile Include="Assets\Scripts\Services\ItemService.cs" />
      <Compile Include="Assets\Scripts\Services\MapService.cs" />
      <Compile Include="Assets\Scripts\Services\UserService.cs" />
      <Compile Include="Assets\Scripts\UI\MessageBox.cs" />
@@ -96,6 +98,8 @@
      <Compile Include="Assets\Scripts\UI\UIMessageBox.cs" />
      <Compile Include="Assets\Scripts\UI\UIMiniMap.cs" />
      <Compile Include="Assets\Scripts\UI\UINameBar.cs" />
+     <Compile Include="Assets\Scripts\UI\UIShop.cs" />
+     <Compile Include="Assets\Scripts\UI\UIShopItem.cs" />
      <Compile Include="Assets\Scripts\UI\UITabButton.cs" />
      <Compile Include="Assets\Scripts\UI\UITabView.cs" />
      <Compile Include="Assets\Scripts\UI\UITips.cs" />

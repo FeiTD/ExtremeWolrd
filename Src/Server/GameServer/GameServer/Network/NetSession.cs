@@ -11,7 +11,7 @@ using SkillBridge.Message;
 
 namespace Network
 {
-    class NetSession : INetSession
+    public class NetSession : INetSession
     {
         public TUser User { get; set; }
         //public NEntity Entity { get; set; }
@@ -47,9 +47,11 @@ namespace Network
         {
             if (response != null)
             {
-                if (PostResponser != null)
+                if (PostResponser != null && this.Character.StatusManager.HasStatus)
+                {
+                    this.Character.StatusManager.ApplyResponse(Response);
                     this.PostResponser.PostProcess(Response);
-
+                }                   
                 byte[] data = PackageHandler.PackMessage(response);
                 response = null;
                 return data;

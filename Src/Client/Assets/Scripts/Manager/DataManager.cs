@@ -16,8 +16,10 @@ namespace Assets.Scripts.Manager
         public Dictionary<int, CharacterDefine> Characters = null;
         public Dictionary<int, MapDefine> Maps = null;
         public Dictionary<int, TeleporterDefine> Telepoters = null;
-        public Dictionary<int,NpcDefine> Npcs = null;
+        public Dictionary<int, NpcDefine> Npcs = null;
         public Dictionary<int, ItemDefine> Items = null;
+        public Dictionary<int, ShopDefine> Shops = null;
+        public Dictionary<int, Dictionary<int, ShopItemDefine>> ShopItems = null;
 
         public void Load()
         {
@@ -35,6 +37,12 @@ namespace Assets.Scripts.Manager
 
             json = File.ReadAllText(this.DataPath + "ItemDefine.txt");
             this.Items = JsonConvert.DeserializeObject<Dictionary<int, ItemDefine>>(json);
+
+            json = File.ReadAllText(this.DataPath + "ShopDefine.txt");
+            this.Shops = JsonConvert.DeserializeObject<Dictionary<int, ShopDefine>>(json);
+
+            json = File.ReadAllText(this.DataPath + "ShopItemDefine.txt");
+            this.ShopItems = JsonConvert.DeserializeObject<Dictionary<int, Dictionary<int, ShopItemDefine>>>(json);
         }
 
         public IEnumerator LoadData()
@@ -53,6 +61,12 @@ namespace Assets.Scripts.Manager
 
             json = File.ReadAllText(this.DataPath + "ItemDefine.txt");
             this.Items = JsonConvert.DeserializeObject<Dictionary<int, ItemDefine>>(json);
+
+            json = File.ReadAllText(this.DataPath + "ShopDefine.txt");
+            this.Shops = JsonConvert.DeserializeObject<Dictionary<int, ShopDefine>>(json);
+
+            json = File.ReadAllText(this.DataPath + "ShopItemDefine.txt");
+            this.ShopItems = JsonConvert.DeserializeObject<Dictionary<int, Dictionary<int, ShopItemDefine>>>(json);
             yield return null;
         }
 #if UNITY_EDITOR

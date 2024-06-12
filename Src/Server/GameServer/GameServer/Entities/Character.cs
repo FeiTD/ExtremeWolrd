@@ -21,6 +21,21 @@ namespace GameServer.Entities
         private CharacterType player;
         private TCharacter cha;
         public ItemManager ItemManager;
+        public StatusManager StatusManager;
+        public long Gold 
+        { 
+            get
+            {
+                return this.Data.Gold;
+            }
+            set
+            {
+                if (this.Data.Gold == value)
+                    return;
+                this.StatusManager.AddGoldChanged((int)(value - this.Data.Gold));
+                this.Data.Gold = value;
+            }
+        }
         public Character(Vector3Int pos, Vector3Int dir) : base(pos, dir)
         {
         }
@@ -35,7 +50,8 @@ namespace GameServer.Entities
             this.Info.Id = cha.ID;
             this.Info.EntityId = this.entityId;
             this.Info.Name = cha.Name;
-            this.Info.Level = 10;//cha.Level;
+            this.Info.Level = 1;//cha.Level;
+            this.Info.Gold = cha.Gold;
             this.Info.ConfigId = cha.TID;
             this.Info.Class = (CharacterClass)cha.Class;
             this.Info.mapId = cha.MapID;
@@ -47,8 +63,9 @@ namespace GameServer.Entities
 
             this.Info.Bag = new NBagInfo();
             this.Info.Bag.Unlocked = cha.Bag.Unlocked;
-            //this.Info.Bag.
             this.Info.Bag.Items = cha.Bag.Items;
+
+            this.StatusManager = new StatusManager(this);
         }
 
         public void PostProcess(NetMessageResponse message)

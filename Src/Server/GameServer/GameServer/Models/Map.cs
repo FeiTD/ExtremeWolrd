@@ -104,7 +104,7 @@ namespace GameServer.Models
 
         internal void UpdateEntity(NEntitySync entitySync)
         {
-            Log.InfoFormat("UpdateEntity : Position X:{0} Y:{1} Z:{2}",entitySync.Entity.Position.X,entitySync.Entity.Position.Y,entitySync.Entity.Position.Z);
+            //Log.InfoFormat("UpdateEntity : Position X:{0} Y:{1} Z:{2}",entitySync.Entity.Position.X,entitySync.Entity.Position.Y,entitySync.Entity.Position.Z);
             foreach(var kv in this.MapCharacters)
             {
                 if(kv.Value.character.entityId == entitySync.Id)

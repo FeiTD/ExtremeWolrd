@@ -179,4 +179,4 @@ D:\A\ExtremeWolrd\Src\Client\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.
 D:\A\ExtremeWolrd\Src\Client\obj\Debug\Assembly-CSharp.dll
 D:\A\ExtremeWolrd\Src\Client\obj\Debug\Assembly-CSharp.pdb
 D:\A\ExtremeWolrd\Src\Client\Temp\bin\Debug\Protocol.pdb
-D:\A\ExtremeWolrd\Src\Client\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+D:\A\ExtremeWolrd\Src\Client\obj\Debug\Assembly.44154EF1.Up2Date

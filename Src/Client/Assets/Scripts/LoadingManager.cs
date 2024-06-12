@@ -20,6 +20,8 @@ namespace Assets.Scripts
             log4net.Config.XmlConfigurator.ConfigureAndWatch(new System.IO.FileInfo("log4net.xml"));
             TestManager.Instance.Init();
             MapService.Instance.Init();
+            ShopManager.Instance.Init();
+            
             UITips.SetActive(true);
             UILoading.SetActive(false);
             UILogin.SetActive(false);

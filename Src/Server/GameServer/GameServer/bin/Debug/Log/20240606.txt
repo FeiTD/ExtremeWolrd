@@ -533,3 +533,31 @@
 2024-06-06 20:09:09,805 [21] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:Asd : Map:1 Character:1:Asd
 2024-06-06 20:09:09,805 [21] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Asd
 2024-06-06 20:09:09,806 [21] [WARN ] [GameServer] ：Client[] Disconnected
+2024-06-06 20:15:19,148 [1] [INFO ] [GameServer] ：Game Server Init
+2024-06-06 20:15:19,303 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-06-06 20:15:19,567 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-06 20:15:19,568 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-06 20:15:19,569 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-06 20:15:19,569 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-06 20:15:19,569 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-06 20:15:19,569 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-06 20:15:19,571 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-06 20:15:19,576 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-06 20:15:19,727 [1] [WARN ] [GameServer] ：NetService Started
+2024-06-06 20:15:21,578 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-06-06 20:15:21,635 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-06-06 20:15:21,636 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-06-06 20:15:21,638 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-06-06 20:15:41,878 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55394]] Connected
+2024-06-06 20:15:41,942 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-06-06 20:15:42,256 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-06-06 20:15:46,241 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-06-06 20:15:46,244 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-06-06 20:15:46,245 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:Asd Map:1
+2024-06-06 20:15:46,478 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Asd
+2024-06-06 20:15:46,491 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1 Position:(5000, 4000, 820)
+2024-06-06 20:15:46,493 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Asd
+2024-06-06 20:17:52,408 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-06-06 20:17:52,411 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:Asd : Map:1 Character:1:Asd
+2024-06-06 20:17:52,411 [3] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Asd
+2024-06-06 20:17:52,413 [3] [WARN ] [GameServer] ：Client[] Disconnected
