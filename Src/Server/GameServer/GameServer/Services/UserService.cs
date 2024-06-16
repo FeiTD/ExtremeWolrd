@@ -153,21 +153,21 @@ namespace GameServer.Services
             sender.Session.Response.gameEnter.Character = character.Info;
 
             //道具系统测试--------------------------------
-            int itemId = 2;
-            bool hasItem = character.ItemManager.HasItem(itemId);
-            if (hasItem)
-            {
-                //character.ItemManager.RemoveItem(itemId, 1);
-            }
-            else
-            {
-                character.ItemManager.AddItem(1, 200);
-                character.ItemManager.AddItem(2, 200);
-                character.ItemManager.AddItem(3, 200);
-                character.ItemManager.AddItem(4, 200);
-            }
-            Item item = character.ItemManager.GetItem(itemId);
-            DBService.Instance.Save();
+            //int itemId = 2;
+            //bool hasItem = character.ItemManager.HasItem(itemId);
+            //if (hasItem)
+            //{
+            //    //character.ItemManager.RemoveItem(itemId, 1);
+            //}
+            //else
+            //{
+            //    character.ItemManager.AddItem(1, 200);
+            //    character.ItemManager.AddItem(2, 200);
+            //    character.ItemManager.AddItem(3, 200);
+            //    character.ItemManager.AddItem(4, 200);
+            //}
+            //Item item = character.ItemManager.GetItem(itemId);
+            //DBService.Instance.Save();
             //----------------------------------------------
             sender.SendResponse();
             MapManager.Instance[dbchar.MapID].CharacterEnter(sender, character);

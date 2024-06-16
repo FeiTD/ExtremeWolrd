@@ -25,6 +25,11 @@ namespace Assets.Scripts.Models
             this.userInfo = info;
         }
 
+        public void AddGold(int value)
+        {
+            CurrentCharacter.Gold += value;
+        }
+
         public SkillBridge.Message.NCharacterInfo CurrentCharacter { get; set; }
         public PlayerInputController CurrentCharacterObject { get; set; }
     }

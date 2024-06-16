@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.Models;
+using Assets.Scripts.Services;
 using SkillBridge.Message;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,42 @@ namespace Assets.Scripts.Manager
                 Item item = new Item(info);
                 Items.Add(item.Id, item);
             }
+            StatusService.Instance.RegisterStatusNotify(StatusType.Item, OnItemNotify);
+        }
+
+        private bool OnItemNotify(NStatus status)
+        {
+            if (status.Action == StatusAction.Add)
+                this.AddItem(status.Id, status.Value);
+            if(status.Action == StatusAction.Delete)
+                this.RemoveItem(status.Id,status.Value);
+            return true;
+        }
+
+        private void RemoveItem(int id, int value)
+        {
+            if (Items.ContainsKey(id)){
+                if (Items[id].Count >= value)
+                {
+                    Items[id].Count -= value;
+                    BagManager.Instance.RemoveItem(id, value);
+                }       
+            }
+        }
+
+        private void AddItem(int id, int value)
+        {
+            if (Items.ContainsKey(id))
+            {
+                Items[id].Count += value;
+            }
+            else
+            {
+                Item item = new Item(id, value);
+                Items.Add(id, item);
+            }
+            BagManager.Instance.AddItem(id, value);
+            //BagManager.Instance.Reset();
         }
     }
 }

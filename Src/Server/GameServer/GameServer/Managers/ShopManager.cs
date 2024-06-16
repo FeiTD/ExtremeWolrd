@@ -25,9 +25,9 @@ namespace GameServer.Managers
                 {
                     sender.Session.Character.ItemManager.AddItem(shopItem.ItemID,shopItem.Count);
                     sender.Session.Character.Gold -= shopItem.Price;
+                    return Result.Success;
                 }
                 DBService.Instance.Save();
-                return Result.Success;
             }
             return Result.Failed;
         }

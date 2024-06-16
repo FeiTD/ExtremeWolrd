@@ -7,8 +7,24 @@
       "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\services\\bagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\services\\bagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\gameserver\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\gameserver\\network\\netsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\network\\netsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\gameserver\\managers\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\managers\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\gameserver\\managers\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\managers\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BagService.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\BagService.cs",
-              "RelativeDocumentMoniker": "GameServer\\Services\\BagService.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\BagService.cs",
-              "RelativeToolTip": "GameServer\\Services\\BagService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T11:17:48.851Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -41,10 +44,73 @@
               "RelativeDocumentMoniker": "GameServer\\Services\\UserService.cs",
               "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\UserService.cs",
               "RelativeToolTip": "GameServer\\Services\\UserService.cs",
-              "ViewState": "AQIAAJUAAAAAAAAAAAAgwG4AAAAuAAAA",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAgwJsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T11:17:47.774Z",
+              "WhenOpened": "2024-06-16T06:37:02.571Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\ItemService.cs",
+              "RelativeDocumentMoniker": "GameServer\\Services\\ItemService.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\ItemService.cs",
+              "RelativeToolTip": "GameServer\\Services\\ItemService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAADgvxoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T13:55:31.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NetSession.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Network\\NetSession.cs",
+              "RelativeDocumentMoniker": "GameServer\\Network\\NetSession.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Network\\NetSession.cs",
+              "RelativeToolTip": "GameServer\\Network\\NetSession.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAswDMAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T12:35:30.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Character.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities\\Character.cs",
+              "RelativeDocumentMoniker": "GameServer\\Entities\\Character.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities\\Character.cs",
+              "RelativeToolTip": "GameServer\\Entities\\Character.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAWwBwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T12:32:36.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShopManager.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Managers\\ShopManager.cs",
+              "RelativeDocumentMoniker": "GameServer\\Managers\\ShopManager.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Managers\\ShopManager.cs",
+              "RelativeToolTip": "GameServer\\Managers\\ShopManager.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAWwBoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T12:31:51.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItemManager.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Managers\\ItemManager.cs",
+              "RelativeDocumentMoniker": "GameServer\\Managers\\ItemManager.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Managers\\ItemManager.cs",
+              "RelativeToolTip": "GameServer\\Managers\\ItemManager.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAswEcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T12:31:41.983Z"
             }
           ]
         }

@@ -4,6 +4,7 @@ using Assets.Scripts.UI;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.PlayerLoop;
 using UnityEngine.UI;
 
 public class UIBag : UIWindow
@@ -24,10 +25,9 @@ public class UIBag : UIWindow
 		}
 		StartCoroutine(InitBags());
 	}
-
-	IEnumerator InitBags()
+	public IEnumerator InitBags()
 	{
-        money.text = Users.Instance.CurrentCharacter.Id.ToString();
+        money.text = Users.Instance.CurrentCharacter.Gold.ToString();
         for (int i =0;i < BagManager.Instance.Items.Length;i++)
 		{
 			var item = BagManager.Instance.Items[i];

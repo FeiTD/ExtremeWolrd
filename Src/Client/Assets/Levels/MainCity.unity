@@ -26791,7 +26791,6 @@ GameObject:
   - component: {fileID: 849738028}
   - component: {fileID: 849738027}
   - component: {fileID: 849738026}
-  - component: {fileID: 849738029}
   m_Layer: 5
   m_Name: UIBag
   m_TagString: Untagged
@@ -26904,20 +26903,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 849738024}
   m_CullTransparentMesh: 0
---- !u!114 &849738029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 849738024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9811346eaa0f2e449c9eb1dc4b47e43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  money: {fileID: 1194534309}
-  pages: []
-  bagItem: {fileID: 1998580892786704, guid: 2861593751e0a194eacb38c3b347aff2, type: 2}
 --- !u!1001 &850440690
 Prefab:
   m_ObjectHideFlags: 0

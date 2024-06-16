@@ -1,0 +1,218 @@
+
+2024-06-16 14:28:29,844 [1] [INFO ] [GameServer] ：Game Server Init
+2024-06-16 14:28:29,954 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-06-16 14:28:30,371 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-16 14:28:30,371 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-16 14:28:30,372 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-16 14:28:30,371 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-16 14:28:30,371 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-16 14:28:30,372 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-16 14:28:30,371 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-16 14:28:30,375 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-16 14:28:30,442 [1] [WARN ] [GameServer] ：NetService Started
+2024-06-16 14:28:30,979 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-06-16 14:28:30,993 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-06-16 14:28:30,994 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-06-16 14:28:30,994 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-06-16 14:29:43,137 [4] [WARN ] [GameServer] ：Client[127.0.0.1:50936]] Connected
+2024-06-16 14:29:43,264 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-06-16 14:29:43,504 [6] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-06-16 14:30:14,380 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-06-16 14:30:14,389 [6] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Aa  Class:Archer
+2024-06-16 14:30:20,026 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-06-16 14:30:20,031 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:8
+2024-06-16 14:30:20,032 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:10:Aa Map:1
+2024-06-16 14:30:20,126 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:10:Aa
+2024-06-16 14:30:20,144 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:10 Position:(5000, 4000, 820)
+2024-06-16 14:30:40,089 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2024-06-16 14:30:40,092 [6] [INFO ] [GameServer] ：OnItemBuy
+2024-06-16 14:30:40,093 [6] [INFO ] [GameServer] ：OnItemBuy::character:10: Shop:1 ShopItem:6
+2024-06-16 14:30:40,095 [6] [INFO ] [GameServer] ：BuyItem: :character:Aa:Item:3 Count:10 Price:200
+2024-06-16 14:30:40,098 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:10:Aa
+2024-06-16 14:30:54,781 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-06-16 14:30:55,016 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-06-16 14:30:55,277 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-06-16 14:30:55,609 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 14:30:55,725 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 14:30:55,868 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-06-16 14:30:56,049 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 14:30:56,239 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-06-16 14:35:07,031 [14] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:10
+2024-06-16 14:35:07,033 [14] [INFO ] [GameServer] ：SendCharacterLeaveMap To 10:Aa : Map:1 Character:10:Aa
+2024-06-16 14:35:07,038 [14] [WARN ] [GameServer] ：Client[] Disconnected
+2024-06-16 14:36:32,299 [14] [WARN ] [GameServer] ：Client[127.0.0.1:51366]] Connected
+2024-06-16 14:36:32,470 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-06-16 14:36:32,471 [6] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-06-16 14:38:26,388 [1] [INFO ] [GameServer] ：Game Server Init
+2024-06-16 14:38:26,461 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-06-16 14:38:26,481 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-16 14:38:26,483 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-16 14:38:26,483 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-16 14:38:26,483 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-16 14:38:26,483 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-16 14:38:26,483 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-16 14:38:26,485 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-16 14:38:26,485 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-16 14:38:26,574 [1] [WARN ] [GameServer] ：NetService Started
+2024-06-16 14:38:26,986 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-06-16 14:38:26,990 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-06-16 14:38:26,990 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-06-16 14:38:26,992 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-06-16 14:39:41,547 [3] [WARN ] [GameServer] ：Client[127.0.0.1:51500]] Connected
+2024-06-16 14:39:41,741 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-06-16 14:39:41,962 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-06-16 14:39:49,121 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-06-16 14:39:49,125 [9] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:S  Class:Warrior
+2024-06-16 14:39:54,173 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-06-16 14:39:54,177 [10] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:9
+2024-06-16 14:39:54,178 [10] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:11:S Map:1
+2024-06-16 14:39:54,206 [10] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:11 Position:(5000, 4000, 820)
+2024-06-16 14:40:17,216 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2024-06-16 14:40:17,220 [7] [INFO ] [GameServer] ：OnItemBuy
+2024-06-16 14:40:17,220 [7] [INFO ] [GameServer] ：OnItemBuy::character:11: Shop:1 ShopItem:1
+2024-06-16 14:40:17,222 [7] [INFO ] [GameServer] ：BuyItem: :character:S:Item:1 Count:1 Price:10
+2024-06-16 14:40:17,224 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:11:S
+2024-06-16 14:43:20,322 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2024-06-16 14:43:20,322 [8] [INFO ] [GameServer] ：OnItemBuy
+2024-06-16 14:43:20,323 [8] [INFO ] [GameServer] ：OnItemBuy::character:11: Shop:1 ShopItem:2
+2024-06-16 14:43:20,323 [8] [INFO ] [GameServer] ：BuyItem: :character:S:Item:1 Count:10 Price:100
+2024-06-16 14:43:20,323 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:11:S
+2024-06-16 14:43:59,457 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:11
+2024-06-16 14:43:59,459 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 11:S : Map:1 Character:11:S
+2024-06-16 14:43:59,462 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2024-06-16 15:04:40,481 [3] [WARN ] [GameServer] ：Client[127.0.0.1:52213]] Connected
+2024-06-16 15:04:40,655 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-06-16 15:04:40,656 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-06-16 15:04:46,217 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-06-16 15:04:46,217 [11] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:S  Class:Warrior
+2024-06-16 15:04:48,786 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-06-16 15:04:48,787 [6] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:S  Class:Warrior
+2024-06-16 15:04:52,947 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-06-16 15:04:52,947 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Sss  Class:Warrior
+2024-06-16 15:04:56,878 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-06-16 15:04:56,878 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:10
+2024-06-16 15:04:56,879 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:12:Sss Map:1
+2024-06-16 15:04:56,879 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:12 Position:(5000, 4000, 820)
+2024-06-16 15:05:19,024 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2024-06-16 15:05:19,028 [10] [INFO ] [GameServer] ：OnItemBuy
+2024-06-16 15:05:19,029 [10] [INFO ] [GameServer] ：OnItemBuy::character:12: Shop:1 ShopItem:1
+2024-06-16 15:05:19,029 [10] [INFO ] [GameServer] ：BuyItem: :character:Sss:Item:1 Count:1 Price:10
+2024-06-16 15:05:19,030 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:12:Sss
+2024-06-16 15:06:22,733 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:12
+2024-06-16 15:06:22,733 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 12:Sss : Map:1 Character:12:Sss
+2024-06-16 15:06:22,734 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2024-06-16 15:07:54,380 [3] [WARN ] [GameServer] ：Client[127.0.0.1:52270]] Connected
+2024-06-16 15:07:54,555 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-06-16 15:07:54,556 [7] [INFO ] [GameServer] ：UserLoginRequest: User:2  Pass:2
+2024-06-16 15:07:59,277 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-06-16 15:07:59,278 [8] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:A  Class:Warrior
+2024-06-16 15:08:03,980 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-06-16 15:08:03,980 [5] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Aaa  Class:Warrior
+2024-06-16 15:08:05,873 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-06-16 15:08:05,873 [11] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:1
+2024-06-16 15:08:05,875 [11] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:13:Aaa Map:1
+2024-06-16 15:08:05,875 [11] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:13 Position:(5000, 4000, 820)
+2024-06-16 15:08:20,355 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2024-06-16 15:08:20,355 [6] [INFO ] [GameServer] ：OnItemBuy
+2024-06-16 15:08:20,355 [6] [INFO ] [GameServer] ：OnItemBuy::character:13: Shop:1 ShopItem:1
+2024-06-16 15:08:20,356 [6] [INFO ] [GameServer] ：BuyItem: :character:Aaa:Item:1 Count:1 Price:10
+2024-06-16 15:08:20,356 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:13:Aaa
+2024-06-16 15:08:42,338 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-06-16 15:08:43,359 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-06-16 15:08:43,664 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-06-16 15:08:44,004 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2024-06-16 15:08:44,108 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-06-16 15:08:44,317 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-06-16 15:08:44,556 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2024-06-16 15:08:44,588 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-06-16 15:08:45,012 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-06-16 15:08:45,242 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-06-16 15:08:45,446 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-06-16 15:08:45,658 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:45,995 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:46,116 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:46,355 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:46,619 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:46,719 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:47,181 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:47,280 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:47,312 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:47,486 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:48,042 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:48,567 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:49,314 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:49,998 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:50,741 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:51,635 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:52,356 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:53,278 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:53,577 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:53,787 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:53,982 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-16 15:08:54,286 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-16 15:08:54,383 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-16 15:08:54,414 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-16 15:08:54,666 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-16 15:08:54,953 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-16 15:08:55,072 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-16 15:08:56,977 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-16 15:08:58,063 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-16 15:08:58,366 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-16 15:08:58,481 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-16 15:08:58,781 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-16 15:08:58,955 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:59,211 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:59,312 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-16 15:08:59,486 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-06-16 15:08:59,518 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-06-16 15:08:59,665 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-06-16 15:08:59,961 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-06-16 15:09:00,158 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-06-16 15:09:00,244 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-06-16 15:09:01,042 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-06-16 15:09:01,126 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-06-16 15:09:01,627 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-06-16 15:09:01,732 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-06-16 15:09:04,760 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2024-06-16 15:09:04,760 [4] [INFO ] [GameServer] ：OnItemBuy
+2024-06-16 15:09:04,761 [4] [INFO ] [GameServer] ：OnItemBuy::character:13: Shop:2 ShopItem:10
+2024-06-16 15:09:04,761 [4] [INFO ] [GameServer] ：BuyItem: :character:Aaa:Item:1002 Count:1 Price:200
+2024-06-16 15:09:04,761 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:13:Aaa
+2024-06-16 15:09:55,239 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2024-06-16 15:09:55,239 [9] [INFO ] [GameServer] ：OnItemBuy
+2024-06-16 15:09:55,240 [9] [INFO ] [GameServer] ：OnItemBuy::character:13: Shop:2 ShopItem:10
+2024-06-16 15:09:55,240 [9] [INFO ] [GameServer] ：BuyItem: :character:Aaa:Item:1002 Count:1 Price:200
+2024-06-16 15:09:55,240 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:13:Aaa
+2024-06-16 15:12:31,754 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:13
+2024-06-16 15:12:31,755 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 13:Aaa : Map:1 Character:13:Aaa
+2024-06-16 15:12:31,756 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2024-06-16 15:18:34,110 [3] [WARN ] [GameServer] ：Client[127.0.0.1:52555]] Connected
+2024-06-16 15:18:34,463 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-06-16 15:18:34,464 [10] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-06-16 15:18:42,753 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-06-16 15:18:42,753 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:10
+2024-06-16 15:18:42,753 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:12:Sss Map:1
+2024-06-16 15:18:42,760 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:12 Position:(5000, 4000, 820)
+2024-06-16 15:19:08,920 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2024-06-16 15:19:08,920 [8] [INFO ] [GameServer] ：OnItemBuy
+2024-06-16 15:19:08,920 [8] [INFO ] [GameServer] ：OnItemBuy::character:12: Shop:1 ShopItem:6
+2024-06-16 15:19:08,921 [8] [INFO ] [GameServer] ：BuyItem: :character:Sss:Item:3 Count:10 Price:200
+2024-06-16 15:19:08,921 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:12:Sss
+2024-06-16 15:21:35,098 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2024-06-16 15:21:35,099 [5] [INFO ] [GameServer] ：OnItemBuy
+2024-06-16 15:21:35,099 [5] [INFO ] [GameServer] ：OnItemBuy::character:12: Shop:1 ShopItem:4
+2024-06-16 15:21:35,099 [5] [INFO ] [GameServer] ：BuyItem: :character:Sss:Item:2 Count:10 Price:100
+2024-06-16 15:21:35,100 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:12:Sss
+2024-06-16 15:22:07,127 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:12
+2024-06-16 15:22:07,127 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 12:Sss : Map:1 Character:12:Sss
+2024-06-16 15:22:07,127 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2024-06-16 15:22:52,672 [3] [WARN ] [GameServer] ：Client[127.0.0.1:52625]] Connected
+2024-06-16 15:22:52,892 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-06-16 15:22:52,911 [11] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-06-16 15:22:58,860 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-06-16 15:22:58,861 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:10
+2024-06-16 15:22:58,861 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:12:Sss Map:1
+2024-06-16 15:22:58,863 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:12 Position:(5000, 4000, 820)
+2024-06-16 15:23:22,585 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:12
+2024-06-16 15:23:22,586 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 12:Sss : Map:1 Character:12:Sss
+2024-06-16 15:23:22,586 [3] [WARN ] [GameServer] ：Client[] Disconnected

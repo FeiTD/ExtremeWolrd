@@ -34,6 +34,7 @@ public class UIMain : MonoSingleton<UIMain>{
 
 	public void OpenBag()
 	{
-		UIManager.Instance.Show<UIBag>();
+		var bag = UIManager.Instance.Show<UIBag>();
+		//StartCoroutine(bag.InitBags());
 	}
 }
