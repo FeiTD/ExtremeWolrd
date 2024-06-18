@@ -13,7 +13,8 @@ namespace Assets.Scripts.Models
         public int Id;
         public int Count;
         private NItemInfo info;
-        public ItemDefine Define;
+        public ItemDefine ItemDefine;
+        public EquipDefine EquipDefine;
         private int value;
 
         public Item(NItemInfo item)
@@ -21,16 +22,18 @@ namespace Assets.Scripts.Models
             Id = item.Id;
             Count = item.Count;
             info = item;
-            Define = DataManager.Instance.Items[item.Id];
+            ItemDefine = DataManager.Instance.Items[item.Id];
+            EquipDefine = DataManager.Instance.Equips[Id];
         }
 
         public Item(int id, int value)
         {
             Id = id;
-            Define = DataManager.Instance.Items[id];
+            ItemDefine = DataManager.Instance.Items[id];
             info = new NItemInfo() { Count = value ,Id = id};
             Count = value;
             this.value = value;
+            EquipDefine = DataManager.Instance.Equips[id];
         }
     }
 }

@@ -35,6 +35,10 @@ public class UIMain : MonoSingleton<UIMain>{
 	public void OpenBag()
 	{
 		var bag = UIManager.Instance.Show<UIBag>();
-		//StartCoroutine(bag.InitBags());
 	}
+
+	public void OpenEquip()
+	{
+        var equip = UIManager.Instance.Show<UIEquip>();
+    }
 }

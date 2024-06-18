@@ -22,6 +22,8 @@ namespace Common.Data
         public ItemFunction Function { get; set; }
         public int Param { get; set; }
         public List<int> Params { get; set; }
+        public int Level { get; set; }
+        public string LimitClass { get; set; }
     }
 
     public enum ItemFunction

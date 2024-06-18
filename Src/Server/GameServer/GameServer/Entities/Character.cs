@@ -66,6 +66,8 @@ namespace GameServer.Entities
             this.Info.Bag.Items = cha.Bag.Items;
 
             this.StatusManager = new StatusManager(this);
+
+            this.Info.Equips = cha.Equips;
         }
 
         public void PostProcess(NetMessageResponse message)

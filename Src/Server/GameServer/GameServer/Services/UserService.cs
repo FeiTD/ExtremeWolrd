@@ -108,6 +108,7 @@ namespace GameServer.Services
                     MapPosY = 4000, //初始出生位置Y
                     MapPosZ = 820,
                     Gold = 1000,
+                    Equips = new byte[28],
                 }) ;
                 var bag = new TCharacterBag();
                 bag.Owner = character;
@@ -169,6 +170,7 @@ namespace GameServer.Services
             //Item item = character.ItemManager.GetItem(itemId);
             //DBService.Instance.Save();
             //----------------------------------------------
+
             sender.SendResponse();
             MapManager.Instance[dbchar.MapID].CharacterEnter(sender, character);
         }

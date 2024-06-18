@@ -35,7 +35,7 @@ public class UIBag : UIWindow
 			{
 				GameObject go = Instantiate(bagItem, slots[i].transform);
 				var ui = go.GetComponent<UIIconBagItem>();
-				var def = ItemManager.Instance.Items[item.ItemId].Define;
+				var def = ItemManager.Instance.Items[item.ItemId].ItemDefine;
 				ui.SetMainIcon(def.Icon, item.Count.ToString());
 			}
 		}
@@ -48,6 +48,16 @@ public class UIBag : UIWindow
 
     public void Reset()
     {
-		BagManager.Instance.Reset();
+        Clear();
+        //BagManager.Instance.Reset();
     }
+
+	public void Clear()
+	{
+		foreach (var item in slots)
+		{
+			if(item.transform.childCount > 0)
+			Destroy(item.transform.GetChild(0).gameObject);
+		}
+	}
 }

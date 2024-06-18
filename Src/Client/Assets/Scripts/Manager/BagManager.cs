@@ -35,7 +35,7 @@ namespace Assets.Scripts.Manager
             int i = 0;
             foreach(var kv in ItemManager.Instance.Items)
             {
-                if(kv.Value.Count <= kv.Value.Define.StackLimit)
+                if(kv.Value.Count <= kv.Value.ItemDefine.StackLimit)
                 {
                     this.Items[i].ItemId = (ushort)kv.Key;
                     this.Items[i].Count = (ushort)kv.Value.Count;
@@ -43,12 +43,12 @@ namespace Assets.Scripts.Manager
                 else
                 {
                     int count = kv.Value.Count;
-                    while(count > kv.Value.Define.StackLimit)
+                    while(count > kv.Value.ItemDefine.StackLimit)
                     {
                         Items[i].ItemId = (ushort)kv.Key;
                         Items[i].Count = (ushort)kv.Value.Count;
                         i++;
-                        count -= kv.Value.Define.StackLimit;
+                        count -= kv.Value.ItemDefine.StackLimit;
                     }
                     Items[i].ItemId = (ushort)kv.Key;
                     Items[i].Count = (ushort)count;
@@ -104,7 +104,7 @@ namespace Assets.Scripts.Manager
                 ushort canAdd = (ushort)(DataManager.Instance.Items[Itemid].StackLimit - this.Items[i].Count);
                 if (haveNum == 0)
                 {
-                    if (Items[i].ItemId == 0)
+                    if (Items[i].ItemId == 0 || Items[i].ItemId == Itemid)
                     {
                         if(canAdd >= addCount)
                         {
@@ -117,23 +117,6 @@ namespace Assets.Scripts.Manager
                         {
                             Items[i].Count += canAdd;
                             Items[i].ItemId = (ushort)Itemid;
-                            addCount -= canAdd;
-                        }
-                    }
-                }
-                else
-                {
-                    if (Items[i].ItemId == Itemid)
-                    {
-                        if (canAdd >= addCount)
-                        {
-                            Items[i].Count += addCount;
-                            addCount = 0;
-                            break;
-                        }
-                        else
-                        {
-                            Items[i].Count += canAdd;
                             addCount -= canAdd;
                         }
                     }

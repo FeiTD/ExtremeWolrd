@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 222398642765429174}
   - component: {fileID: 114962312881177944}
   - component: {fileID: 114406374496146518}
-  - component: {fileID: 114014195044719222}
+  - component: {fileID: 114808278170704140}
   m_Layer: 5
   m_Name: UIEquipItem
   m_TagString: Untagged
@@ -132,25 +132,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &114014195044719222
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1971211564620592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f65e31fa767c853468a44d74de7f4f51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  icon: {fileID: 114506356085456362}
-  title: {fileID: 114655259433605992}
-  level: {fileID: 114404820497541868}
-  limitClass: {fileID: 114435717220561606}
-  limitCategory: {fileID: 114945710472356206}
-  background: {fileID: 114962312881177944}
-  normalBg: {fileID: 21300000, guid: f2c26ba28b4d05643ba74996bb40967b, type: 3}
-  selectedBg: {fileID: 21300000, guid: bb799af4d1f965c4a93f16cb08f26925, type: 3}
 --- !u!114 &114404820497541868
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -340,6 +321,25 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114808278170704140
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1971211564620592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cefe8c8afd1ce7439c97c651d1be506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 114506356085456362}
+  Title: {fileID: 114655259433605992}
+  Level: {fileID: 114404820497541868}
+  LimitClass: {fileID: 114435717220561606}
+  Category: {fileID: 114945710472356206}
+  Background: {fileID: 114962312881177944}
+  NormalBg: {fileID: 21300000, guid: f2c26ba28b4d05643ba74996bb40967b, type: 3}
+  SelectedBg: {fileID: 21300000, guid: bb799af4d1f965c4a93f16cb08f26925, type: 3}
 --- !u!114 &114945710472356206
 MonoBehaviour:
   m_ObjectHideFlags: 1

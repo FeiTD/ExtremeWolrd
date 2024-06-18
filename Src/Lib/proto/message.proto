@@ -74,6 +74,17 @@ enum STATUS_SOURCE{
 	DELETE = 2;
 }
 
+enum EQUIP_SLOT{
+	WEAPON = 0;
+	ACCESSORY =1;
+	HELMET = 2;//头盔
+	CHEST = 3;//胸甲
+	SHOULDER = 4;//护肩
+	PANTS = 5;//裤子
+	BOOTS = 6;//靴子
+	SLOT_MAX = 7;
+}
+
 message NStatus{
 	STATUS_TYPE type = 1;
 	STATUS_ACTION action = 2;
@@ -111,6 +122,7 @@ message NCharacterInfo {
 	NBagInfo Bag = 12;//背包
 
 	int64 Gold = 13;//金币
+	bytes Equips = 14;//装备
 }
 
 message NItemInfo{
@@ -176,6 +188,7 @@ message NetMessageRequest{
 	MapTeleportRequest mapTeleport = 9;
 
 	ItemBuyRequest itemBuy = 10;
+	ItemEquipRequest itemEquip = 11;
 }
 
 message NetMessageResponse{
@@ -191,6 +204,7 @@ message NetMessageResponse{
 	MapEntitySyncResponse mapEntitySync = 8;
 	ItemBuyResponse itemBuy = 9;
 	StatusNotify statusNotify = 10;
+	ItemEquipResopnse itemEquip = 11;
 	
 }
 
@@ -305,6 +319,17 @@ message ItemBuyRequest
 
 message ItemBuyResponse
 {
+	RESULT result = 1;
+	string errormsg = 2;
+}
+
+message ItemEquipRequest{
+	int32 slot = 1;
+	int32 itemId = 2;
+    bool isEquip = 3;
+}
+
+message ItemEquipResopnse{
 	RESULT result = 1;
 	string errormsg = 2;
 }

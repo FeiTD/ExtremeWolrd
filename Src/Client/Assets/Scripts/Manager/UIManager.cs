@@ -22,6 +22,7 @@ namespace Assets.Scripts.Manager
             UIResource.Add(typeof(UITips),new UIElement() { Cache = true,Resource= "UI/UI/Prefabs/UITips" });
             UIResource.Add(typeof(UIBag), new UIElement() { Cache = false, Resource = "UI/UI/Prefabs/UIBag" });
             UIResource.Add(typeof(UIShop), new UIElement() { Cache = false, Resource = "UI/UI/Prefabs/UIShop" });
+            UIResource.Add(typeof(UIEquip), new UIElement() { Cache = false, Resource = "UI/UI/Prefabs/UIEquip" });
         }
         public T Show<T>()
         {

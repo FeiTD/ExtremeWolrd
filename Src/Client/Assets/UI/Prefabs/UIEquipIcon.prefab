@@ -55,17 +55,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1706361146067454}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f65e31fa767c853468a44d74de7f4f51, type: 3}
+  m_Script: {fileID: 11500000, guid: 6cefe8c8afd1ce7439c97c651d1be506, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 114759963989272076}
-  title: {fileID: 0}
-  level: {fileID: 0}
-  limitClass: {fileID: 0}
-  limitCategory: {fileID: 0}
-  background: {fileID: 114942910548511588}
-  normalBg: {fileID: 21300000, guid: f2c26ba28b4d05643ba74996bb40967b, type: 3}
-  selectedBg: {fileID: 21300000, guid: bb799af4d1f965c4a93f16cb08f26925, type: 3}
+  Icon: {fileID: 114759963989272076}
+  Title: {fileID: 0}
+  Level: {fileID: 0}
+  LimitClass: {fileID: 0}
+  Category: {fileID: 0}
+  Background: {fileID: 0}
+  NormalBg: {fileID: 0}
+  SelectedBg: {fileID: 0}
 --- !u!114 &114694054463194812
 MonoBehaviour:
   m_ObjectHideFlags: 1
