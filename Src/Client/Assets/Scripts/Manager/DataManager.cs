@@ -21,7 +21,7 @@ namespace Assets.Scripts.Manager
         public Dictionary<int, ShopDefine> Shops = null;
         public Dictionary<int, Dictionary<int, ShopItemDefine>> ShopItems = null;
         public Dictionary<int, EquipDefine> Equips = null;
-
+        public Dictionary<int, QuestDefine> Quests = null;
         public void Load()
         {
             string json = File.ReadAllText(this.DataPath + "CharacterDefine.txt");
@@ -47,6 +47,9 @@ namespace Assets.Scripts.Manager
 
             json = File.ReadAllText(this.DataPath + "EquipDefine.txt");
             this.Equips = JsonConvert.DeserializeObject<Dictionary<int, EquipDefine>>(json);
+
+            json = File.ReadAllText(this.DataPath + "QuestDefine.txt");
+            this.Quests = JsonConvert.DeserializeObject<Dictionary<int, QuestDefine>>(json);
         }
 
         public IEnumerator LoadData()
@@ -74,6 +77,9 @@ namespace Assets.Scripts.Manager
 
             json = File.ReadAllText(this.DataPath + "EquipDefine.txt");
             this.Equips = JsonConvert.DeserializeObject<Dictionary<int, EquipDefine>>(json);
+
+            json = File.ReadAllText(this.DataPath + "QuestDefine.txt");
+            this.Quests = JsonConvert.DeserializeObject<Dictionary<int, QuestDefine>>(json);
 
             yield return null;
         }

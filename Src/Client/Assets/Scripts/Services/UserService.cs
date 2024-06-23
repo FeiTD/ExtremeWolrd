@@ -270,6 +270,7 @@ namespace Assets.Scripts.Services
                     ItemManager.Instance.Init(response.Character.Items);
                     BagManager.Instance.Init(response.Character.Bag);
                     EquipManager.Instance.Init(response.Character.Equips);
+                    QuestManager.Instance.Init(response.Character.Quests);
                 }
             }
 

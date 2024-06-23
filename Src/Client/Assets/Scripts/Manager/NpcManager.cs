@@ -59,8 +59,10 @@ namespace Assets.Scripts.Manager
 
         private bool DoTaskInteractive(NpcDefine npc)
         {
-            //MessageBox.Show("触发对话");
-            return true;
+            var Status = QuestManager.Instance.GetNpcQuestStatus(npc.ID);
+            if (Status == NpcQuestStatus.None)
+                return false;
+            return QuestManager.Instance.OpenNpcQuest(npc.ID);
         }
 
         public NpcDefine GetNpcDefine(int ID)

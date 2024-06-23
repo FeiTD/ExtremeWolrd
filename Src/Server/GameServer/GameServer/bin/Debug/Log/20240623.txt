@@ -1,0 +1,71 @@
+
+2024-06-23 21:27:41,764 [1] [INFO ] [GameServer] ：Game Server Init
+2024-06-23 21:27:42,212 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-06-23 21:27:43,486 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-23 21:27:43,486 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-23 21:27:43,486 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-23 21:27:43,486 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-23 21:27:43,488 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-23 21:27:43,488 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-23 21:27:43,489 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-23 21:27:43,508 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-23 21:27:43,724 [1] [WARN ] [GameServer] ：NetService Started
+2024-06-23 21:27:45,591 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-06-23 21:27:45,606 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-06-23 21:27:45,606 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-06-23 21:27:45,606 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-06-23 21:29:57,166 [1] [INFO ] [GameServer] ：Game Server Init
+2024-06-23 21:29:57,321 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-06-23 21:29:57,621 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-23 21:29:57,621 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-23 21:29:57,621 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-23 21:29:57,621 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-23 21:29:57,623 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-23 21:29:57,621 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-23 21:29:57,632 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-23 21:29:57,632 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-06-23 21:29:57,759 [1] [WARN ] [GameServer] ：NetService Started
+2024-06-23 21:30:00,205 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-06-23 21:30:00,686 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-06-23 21:30:01,192 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-06-23 21:30:01,382 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-06-23 21:30:37,350 [3] [WARN ] [GameServer] ：Client[127.0.0.1:64430]] Connected
+2024-06-23 21:30:37,701 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-06-23 21:30:38,187 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-06-23 21:30:46,137 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-06-23 21:30:46,140 [4] [INFO ] [GameServer] ：UserLoginRequest: User:3  Pass:3
+2024-06-23 21:30:50,412 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-06-23 21:30:50,420 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-06-23 21:30:50,422 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:Ads Map:1
+2024-06-23 21:30:50,686 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1 Position:(5000, 4000, 820)
+2024-06-23 21:31:26,408 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-06-23 21:31:37,333 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-06-23 21:32:13,847 [15] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-06-23 21:32:13,849 [15] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:Ads : Map:1 Character:1:Ads
+2024-06-23 21:32:13,852 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2024-06-23 21:33:17,967 [15] [WARN ] [GameServer] ：Client[127.0.0.1:64465]] Connected
+2024-06-23 21:33:18,323 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-06-23 21:33:18,329 [4] [INFO ] [GameServer] ：UserLoginRequest: User:3  Pass:3
+2024-06-23 21:33:21,420 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-06-23 21:33:21,421 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-06-23 21:33:21,422 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:Ads Map:1
+2024-06-23 21:33:21,423 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1 Position:(5000, 4000, 820)
+2024-06-23 21:33:37,542 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-06-23 21:33:37,621 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-06-23 21:33:38,072 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-06-23 21:33:38,256 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-23 21:33:38,349 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-06-23 21:33:38,548 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-23 21:33:38,739 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-23 21:33:38,839 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-23 21:33:39,908 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-23 21:33:39,994 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-06-23 21:33:40,081 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-23 21:33:40,222 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-23 21:33:40,298 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-23 21:33:40,456 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-23 21:33:40,522 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-06-23 21:33:40,660 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-06-23 21:35:12,783 [13] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-06-23 21:35:12,786 [13] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:Ads : Map:1 Character:1:Ads
+2024-06-23 21:35:12,786 [13] [WARN ] [GameServer] ：Client[] Disconnected

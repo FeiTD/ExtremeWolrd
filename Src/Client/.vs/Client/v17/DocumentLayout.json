@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\A\\ExtremeWolrd\\Src\\Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\ui\\uishop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uishop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\ui\\uiqueststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uiqueststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\manager\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\ui\\uiworldelementmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uiworldelementmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|D:\\A\\ExtremeWolrd\\Src\\Client\\assets\\scripts\\ui\\uiworldelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uiworldelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\ui\\uibag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uibag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\manager\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|D:\\A\\ExtremeWolrd\\Src\\Client\\assets\\scripts\\ui\\uinamebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uinamebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Services\\UserService.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Services\\UserService.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Services\\UserService.cs",
-              "ViewState": "AQIAAPsAAAAAAAAAAAAYwA0BAAAUAAAA",
+              "DocumentIndex": 0,
+              "Title": "UIQuestStatus.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIQuestStatus.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIQuestStatus.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIQuestStatus.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIQuestStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T12:46:52.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ItemManager.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Manager\\ItemManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\ItemManager.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Manager\\ItemManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Manager\\ItemManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T12:46:43.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataManager.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Manager\\DataManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\DataManager.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Manager\\DataManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Manager\\DataManager.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAWwBoAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T12:11:24.36Z",
+              "WhenOpened": "2024-06-23T13:14:08.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UIBag.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIBag.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIBag.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIBag.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\UIBag.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Title": "UINameBar.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UINameBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UINameBar.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UINameBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UINameBar.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T11:47:58.242Z",
+              "WhenOpened": "2024-06-23T12:48:20.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIWorldElementManager.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIWorldElementManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIWorldElementManager.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIWorldElementManager.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIWorldElementManager.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T12:47:46.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UIShop.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIShop.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIShop.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIShop.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\UIShop.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAowD8AAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "UIWorldElement.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIWorldElement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIWorldElement.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIWorldElement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIWorldElement.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwBYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T11:47:06.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T12:47:41.293Z"
             }
           ]
         }

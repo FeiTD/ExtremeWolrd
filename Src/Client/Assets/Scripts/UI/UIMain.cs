@@ -41,4 +41,9 @@ public class UIMain : MonoSingleton<UIMain>{
 	{
         var equip = UIManager.Instance.Show<UIEquip>();
     }
+
+	public void OpenQuest()
+	{
+		var quest = UIManager.Instance.Show<UIQuest>();
+    }
 }
