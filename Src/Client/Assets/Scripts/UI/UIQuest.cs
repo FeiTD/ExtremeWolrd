@@ -19,7 +19,8 @@ public class UIQuest : UIWindow {
     // Use this for initialization
     void Start () {
 		questInfo.gameObject.SetActive(false);
-	}
+		InitAllQuestItems();
+    }
 
     // Update is called once per frame
     void Update () {
@@ -33,14 +34,15 @@ public class UIQuest : UIWindow {
 			if(kv.Value.Define.Type == Common.Data.QuestType.Main)
 			{
 				GameObject go = Instantiate(ItemPrefab, MainRoot);
+				
 				var ui = go.GetComponent<UIQuestItem>();
-				ui.SetItem("[主线]",kv.Value,questInfo);
+				ui.SetItem(kv.Value, questInfo);
 			}
             if (kv.Value.Define.Type == Common.Data.QuestType.Branch)
             {
                 GameObject go = Instantiate(ItemPrefab, MainRoot);
                 var ui = go.GetComponent<UIQuestItem>();
-                ui.SetItem("[支线]", kv.Value,questInfo);
+                ui.SetItem(kv.Value,questInfo);
             }
         }
 	}

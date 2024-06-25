@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.Models;
+using Assets.Scripts.Services;
 using Assets.Scripts.UI;
 using Common.Data;
 using SkillBridge.Message;
@@ -21,10 +22,13 @@ namespace Assets.Scripts.Manager
         public List<NQuestInfo> questInfos;
         public Dictionary<int,Quest> Quests = new Dictionary<int, Quest>();
         public Dictionary<int, Dictionary<NpcQuestStatus, List<Quest>>> npcQuests = new Dictionary<int, Dictionary<NpcQuestStatus, List<Quest>>>();
+        public Action<Quest> OnQuestStatusChanged;
+
         public void Init(List<NQuestInfo> quests)
         {
             questInfos = quests;
             Quests.Clear();
+            npcQuests.Clear();
             InitQuests();
         }
 
@@ -158,6 +162,7 @@ namespace Assets.Scripts.Manager
             {
                 UIQuestInfo info = UIManager.Instance.Show<UIQuestInfo>();
                 info.SetQuest(quest);
+                info.OnClose += OnQuestDialogClose;
                 return true;
             }
             if(quest.Info != null || quest.Info.Status == QuestStatus.Complated)
@@ -166,6 +171,88 @@ namespace Assets.Scripts.Manager
                     MessageBox.Show(quest.Define.DialogIncomplete);
             }
             return false;
+        }
+
+        void OnQuestDialogClose(UIWindow sender,UIWindow.WindowResult result)
+        { 
+            UIQuestInfo dlg = (UIQuestInfo)sender;
+            if(result == UIWindow.WindowResult.Yes)
+            {
+                if (dlg.quest.Info == null)
+                    QuestService.Instance.SenQuestAccept(dlg.quest);
+                else if(dlg.quest.Info.Status == QuestStatus.Complated)
+                    QuestService.Instance.SendQuestSubmit(dlg.quest);
+            }
+            else if(result == UIWindow.WindowResult.No)
+            {
+                MessageBox.Show(dlg.quest.Define.DialogDeny);
+            }
+
+        }
+
+        public void OnQuestAccepted(NQuestInfo quest)
+        {
+            Quest info = this.RefreshQuestStatus(quest);
+            MessageBox.Show(info.Define.DialogAccept);
+        }
+
+        private Quest RefreshQuestStatus(NQuestInfo quest)
+        {
+            npcQuests.Clear();
+            Quest result;
+            if (Quests.ContainsKey(quest.QuestId))
+            {
+                Quests[quest.QuestId].Info = quest;
+                result = Quests[quest.QuestId];
+            }
+            else
+            {
+                result = new Quest(quest);
+                Quests[quest.QuestId] = result;
+            }
+
+            foreach (var kv in DataManager.Instance.Quests)
+            {
+                if (kv.Value.LimitClass != CharacterClass.None && kv.Value.LimitClass != Users.Instance.CurrentCharacter.Class)
+                    continue;
+                if (kv.Value.LimitLevel > Users.Instance.CurrentCharacter.Level)
+                    continue;
+                if (Quests.ContainsKey(kv.Key))
+                    continue;
+                if (kv.Value.PreQuest > 0)
+                {
+                    Quest preQuest;
+                    if (this.Quests.TryGetValue(kv.Value.PreQuest, out preQuest))
+                    {
+                        if (preQuest.Info == null)
+                            continue;
+                        if (preQuest.Info.Status != QuestStatus.Finished)
+                            continue;
+                    }
+                    else
+                        continue;
+                }
+                Quest info = new Quest(kv.Value);
+                this.AddNpcQuest(info.Define.AcceptNPC, info);
+                this.AddNpcQuest(info.Define.SubmitNPC, info);
+                this.Quests[info.Define.ID] = info;
+            }
+
+            if (OnQuestStatusChanged != null)
+                OnQuestStatusChanged(result);
+
+            return result;
+        }
+
+        private void CheckAvailableQuests()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnQuestSubmited(NQuestInfo quest)
+        {
+            Quest info = this.RefreshQuestStatus(quest);
+            MessageBox.Show(info.Define.DialogFinish);
         }
     }
 }

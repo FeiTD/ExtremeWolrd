@@ -45,7 +45,8 @@ namespace Assets.Scripts.Manager
                     }
                     info.Instance = (GameObject)GameObject.Instantiate(prefab);
                 }
-                return info.Instance.GetComponent<T>();
+                var ret = info.Instance.GetComponent<T>();
+                return ret;
             }
             return default(T);
         }

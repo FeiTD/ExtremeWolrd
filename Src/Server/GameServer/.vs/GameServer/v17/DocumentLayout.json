@@ -3,25 +3,8 @@
   "WorkspaceRootPath": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\entities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\entities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECF59EEE-D33E-41EE-B2F8-B59BCDBA856F}|..\\..\\Lib\\Protocol\\Protocol.csproj|d:\\a\\extremewolrd\\src\\lib\\protocol\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\managers\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\managers\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|d:\\a\\extremewolrd\\src\\lib\\common\\data\\questdefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|d:\\a\\extremewolrd\\src\\lib\\common\\data\\shopdefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,78 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Entities.edmx [Diagram1]",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities.edmx",
-              "RelativeDocumentMoniker": "GameServer\\Entities.edmx",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities.edmx [Diagram1]",
-              "RelativeToolTip": "GameServer\\Entities.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-06-23T13:28:18.527Z",
-              "EditorCaption": " [Diagram1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "GameServer\\Services\\UserService.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\UserService.cs",
-              "RelativeToolTip": "GameServer\\Services\\UserService.cs",
-              "ViewState": "AQIAAI0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Character.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities\\Character.cs",
+              "RelativeDocumentMoniker": "GameServer\\Entities\\Character.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities\\Character.cs",
+              "RelativeToolTip": "GameServer\\Entities\\Character.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAASwDUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:27:56.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "message.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Lib\\Protocol\\message.cs",
-              "RelativeDocumentMoniker": "..\\..\\Lib\\Protocol\\message.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Lib\\Protocol\\message.cs",
-              "RelativeToolTip": "..\\..\\Lib\\Protocol\\message.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAAwHoAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T12:28:50.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DataManager.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Managers\\DataManager.cs",
-              "RelativeDocumentMoniker": "GameServer\\Managers\\DataManager.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Managers\\DataManager.cs",
-              "RelativeToolTip": "GameServer\\Managers\\DataManager.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T12:43:36.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ShopDefine.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Lib\\Common\\Data\\ShopDefine.cs",
-              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\Data\\ShopDefine.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Lib\\Common\\Data\\ShopDefine.cs",
-              "RelativeToolTip": "..\\..\\Lib\\Common\\Data\\ShopDefine.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T12:31:34.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QuestDefine.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Lib\\Common\\Data\\QuestDefine.cs",
-              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\Data\\QuestDefine.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Lib\\Common\\Data\\QuestDefine.cs",
-              "RelativeToolTip": "..\\..\\Lib\\Common\\Data\\QuestDefine.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAuwCkAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T12:31:24.697Z",
+              "WhenOpened": "2024-06-25T11:37:48.135Z",
               "EditorCaption": ""
             }
           ]

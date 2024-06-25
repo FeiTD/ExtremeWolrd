@@ -22,6 +22,7 @@ namespace GameServer.Entities
         private TCharacter cha;
         public ItemManager ItemManager;
         public StatusManager StatusManager;
+        public QuestManager QuestManager;
         public long Gold 
         { 
             get
@@ -50,7 +51,7 @@ namespace GameServer.Entities
             this.Info.Id = cha.ID;
             this.Info.EntityId = this.entityId;
             this.Info.Name = cha.Name;
-            this.Info.Level = 1;//cha.Level;
+            this.Info.Level = 10;//cha.Level;
             this.Info.Gold = cha.Gold;
             this.Info.ConfigId = cha.TID;
             this.Info.Class = (CharacterClass)cha.Class;
@@ -68,6 +69,9 @@ namespace GameServer.Entities
             this.StatusManager = new StatusManager(this);
 
             this.Info.Equips = cha.Equips;
+
+            QuestManager = new QuestManager(this);
+            QuestManager.GetQuestInfos(Info.Quests);
         }
 
         public void PostProcess(NetMessageResponse message)

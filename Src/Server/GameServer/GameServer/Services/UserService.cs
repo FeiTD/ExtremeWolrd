@@ -109,6 +109,7 @@ namespace GameServer.Services
                     MapPosZ = 820,
                     Gold = 1000,
                     Equips = new byte[28],
+                   
                 }) ;
                 var bag = new TCharacterBag();
                 bag.Owner = character;

@@ -5,9 +5,8 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class UIQuestItem : MonoBehaviour , ISelectHandler
+public class UIQuestItem : MonoBehaviour , IPointerClickHandler
 {
-	public Text QuestType;
 	public Text QuestDescription;
 	public Image Bg;
 	private bool selected;
@@ -19,17 +18,16 @@ public class UIQuestItem : MonoBehaviour , ISelectHandler
 		get { return selected; }
 		set 
 		{
-			
 			selected = value;
-            if(selected)
+			if (selected)
 			{
-                Bg.color = Color.green;
-            }
+				Bg.color = Color.green;
+			}
 			else
 			{
 				Bg.color = Color.yellow;
-            }
-        }
+			}
+		}
 	}
 
 	// Use this for initialization
@@ -42,22 +40,22 @@ public class UIQuestItem : MonoBehaviour , ISelectHandler
 		
 	}
 
-	public void SetItem(string type,Quest quest,UIQuestInfo info)
+	public void SetItem(Quest quest,UIQuestInfo info)
 	{
 		this.quest = quest;
 		this.info = info;
-		QuestType.text = type;
         QuestDescription.text = quest.Define.Name;
     }
 
-    public void OnSelect(BaseEventData eventData)
+
+    public void OnPointerClick(PointerEventData eventData)
     {
-		if(info.QuestItem != null) 
-		{
+        if (info.QuestItem != null)
+        {
             info.QuestItem.Selected = false;
         }
-		info.QuestItem = this;
-		info.SetQuest(quest);
-		Selected = true;
+        info.QuestItem = this;
+        info.SetQuest(quest);
+        Selected = true;
     }
 }

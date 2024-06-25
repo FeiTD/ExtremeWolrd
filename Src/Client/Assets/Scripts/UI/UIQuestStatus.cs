@@ -13,11 +13,11 @@ public class UIQuestStatus : MonoBehaviour {
     public void SetQuestStatus(NpcQuestStatus status)
     {
 		QuestStatus = status;
-		for(int i = 0; i < 4; i++)
+		for(int i = 1; i < 4; i++)
 		{
-			if (images[i] != null)
+			if (images[i-1] != null)
 			{
-				images[i].gameObject.SetActive(i == (int)status);
+				images[i-1].gameObject.SetActive(i == (int)status);
 			}
 		}
     }

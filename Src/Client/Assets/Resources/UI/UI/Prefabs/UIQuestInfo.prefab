@@ -401,6 +401,7 @@ GameObject:
   - component: {fileID: 223756915929473478}
   - component: {fileID: 114507800163915014}
   - component: {fileID: 114015579667947368}
+  - component: {fileID: 114084497467620440}
   m_Layer: 5
   m_Name: UIQuestInfo
   m_TagString: Untagged
@@ -602,6 +603,29 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u653E\u5F03\u4EFB\u52A1"
+--- !u!114 &114084497467620440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1922679144768180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1071fb34e815b0f43a28ea87a0cfa681, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuestDecription: {fileID: 114093290858305696}
+  QuestTarget: {fileID: 114325133249748916}
+  QuestReward:
+  - {fileID: 224389828192935600}
+  - {fileID: 224366258716769648}
+  - {fileID: 224026542908333318}
+  QuestMoney: {fileID: 114408114817991286}
+  QuestExp: {fileID: 114798960413689082}
+  QuestItem: {fileID: 0}
+  ComPeleted: {fileID: 114758519901338308}
+  Accept: {fileID: 114963008119400602}
+  Cancel: {fileID: 114777579446468904}
 --- !u!114 &114093290858305696
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -836,7 +860,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 35
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -902,7 +926,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 35
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1193,7 +1217,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114404771633851776}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114813131144076548}
+        m_MethodName: OnYesClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114777579446468904
@@ -1234,7 +1269,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114861401237318332}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114813131144076548}
+        m_MethodName: OnNoClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114798960413689082
@@ -1334,7 +1380,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1603181579636502}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1071fb34e815b0f43a28ea87a0cfa681, type: 3}
   m_Name: 
@@ -1399,7 +1445,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 35
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1522,7 +1568,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114124048290716114}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114813131144076548}
+        m_MethodName: OnYesClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114974775606280598
@@ -1835,7 +1892,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -809.50006, y: -511.35}
+  m_AnchoredPosition: {x: 118, y: 34}
   m_SizeDelta: {x: 553.9, y: 556.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224366258716769648
@@ -1927,8 +1984,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 80, y: -63.7}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 268.45013, y: -63.7}
+  m_SizeDelta: {x: 536.9, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224544990467241996
 RectTransform:
@@ -2039,8 +2096,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 80, y: -142.4}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 268.45013, y: -142.4}
+  m_SizeDelta: {x: 536.9, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224713368502317668
 RectTransform:

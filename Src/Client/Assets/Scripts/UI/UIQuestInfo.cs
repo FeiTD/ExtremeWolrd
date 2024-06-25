@@ -1,10 +1,11 @@
 ﻿using Assets.Scripts.Models;
+using Assets.Scripts.UI;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIQuestInfo : MonoBehaviour {
+public class UIQuestInfo : UIWindow {
 	public Text QuestDecription;
 	public Text QuestTarget;
 	public List<Transform> QuestReward;
@@ -14,7 +15,7 @@ public class UIQuestInfo : MonoBehaviour {
     public Button ComPeleted;
     public Button Accept;
     public Button Cancel;
-    Quest quest;
+    public Quest quest;
     // Use this for initialization
     void Start () {
 		//this.gameObject.SetActive(false);
@@ -27,6 +28,7 @@ public class UIQuestInfo : MonoBehaviour {
 
 	public void SetQuest(Quest quest)
 	{
+        this.gameObject.SetActive(true);
 		this.quest = quest;
         UpdateUI();
         if (quest.Info == null)
