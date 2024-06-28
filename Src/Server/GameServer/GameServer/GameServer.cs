@@ -11,6 +11,7 @@ using System.Threading;
 
 using Network;
 using GameServer.Services;
+using GameServer.Managers;
 
 namespace GameServer
 {
@@ -55,6 +56,7 @@ namespace GameServer
             {
                 Time.Tick();
                 Thread.Sleep(100);
+                //MapManager.Instance.Update();
                 //Console.WriteLine("{0} {1} {2} {3} {4}", Time.deltaTime, Time.frameCount, Time.ticks, Time.time, Time.realtimeSinceStartup);
             }
         }

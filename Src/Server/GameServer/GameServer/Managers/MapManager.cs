@@ -10,7 +10,7 @@ namespace GameServer.Managers
 {
     public class MapManager:Singleton<MapManager>
     {
-        Dictionary<int, Map> Maps = new Dictionary<int, Map>();
+        public Dictionary<int, Map> Maps = new Dictionary<int, Map>();
 
         public void Init()
         {

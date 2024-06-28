@@ -1,6 +1,7 @@
 ﻿using Common;
 using Common.Data;
 using GameServer.Entities;
+using GameServer.Managers;
 using GameServer.Services;
 using Network;
 using SkillBridge.Message;
@@ -19,7 +20,6 @@ namespace GameServer.Models
         {
             public NetConnection<NetSession> connection;
             public Character character;
-
             public MapCharacter(NetConnection<NetSession> conn, Character cha)
             {
                 this.connection = conn;
@@ -38,9 +38,15 @@ namespace GameServer.Models
         /// </summary>
         Dictionary<int, MapCharacter> MapCharacters = new Dictionary<int, MapCharacter>();
 
+        public SpawnManager SpawnManager;
+        public MonsterManager MonsterManager;
         internal Map(MapDefine define)
         {
             this.Define = define;
+            SpawnManager = new SpawnManager();
+            MonsterManager = new MonsterManager();
+            SpawnManager.Init(this);
+            MonsterManager.Init(this);
            
         }
 
@@ -62,7 +68,7 @@ namespace GameServer.Models
                 if (kv.Value.character != character)
                     this.AddCharacterEnterMap(kv.Value.connection, character.Info);
             }
-            
+            Update();
             conn.SendResponse();
          }
 
@@ -99,7 +105,7 @@ namespace GameServer.Models
 
         public void Update()
         {
-
+            SpawnManager.Update();
         }
 
         internal void UpdateEntity(NEntitySync entitySync)
@@ -117,6 +123,14 @@ namespace GameServer.Models
                 {
                     MapService.Instance.SendEntityUpdate(kv.Value.connection, entitySync);
                 }
+            }
+        }
+
+        internal void MonsterEnter(Monster monster)
+        {
+            foreach (var kv in this.MapCharacters)
+            {
+                this.AddCharacterEnterMap(kv.Value.connection, monster.Info);
             }
         }
     }
