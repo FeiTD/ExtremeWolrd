@@ -44,7 +44,7 @@ public class MapTools  {
 
                 TeleporterDefine def = DataManager.Instance.Telepoters[teleporter.ID];
                 if (def.MapID != map.Value.ID)
-                {
+                {   
                     EditorUtility.DisplayDialog("错误", string.Format("地图:{0} 中配置的Teleporter:{1} MapID:{2} 错误", map.Value.Resource, teleporter.ID,def.MapID), "确定");
                     return;
                 }

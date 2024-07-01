@@ -138,6 +138,7 @@ message NCharacterInfo {
 	bytes Equips = 14;//装备
 
 	repeated NQuestInfo quests = 15;//任务
+	repeated NFriendInfo friends = 16;
 }
 
 message NItemInfo{
@@ -161,6 +162,13 @@ message NQuestInfo{
 	int32 quest_guid = 2;
 	QUEST_STATUS status = 3;
 	repeated int32 targets = 4;
+}
+
+message NFriendInfo
+{
+	int32 id = 1;
+	NCharacterInfo friendInfo = 2;
+	int32 status = 3;
 }
 ////////////////////////////////////////////////////////////////
 //
@@ -213,6 +221,12 @@ message NetMessageRequest{
 
 	QuestAcceptRequest questAccept = 12;
 	QuestSubmitRequest questSubmit = 13;
+
+	
+	FriendAddRequest friendAddReq = 14;
+	FriendListRequest friendList = 15;
+	FriendRemoveRequest friendRemove = 16;
+	FriendAddResponse friendAddRes = 17;
 }
 
 message NetMessageResponse{
@@ -232,6 +246,11 @@ message NetMessageResponse{
 	
 	QuestAcceptResponse questAccept = 12;
 	QuestSubmitResponse questSubmit = 13;
+
+	FriendAddResponse friendAddRes = 14;
+	FriendListResponse friendList = 15;
+	FriendRemoveResponse friendRemove = 16;
+	FriendAddRequest friendAddReq = 17;
 }
 
 
@@ -388,4 +407,44 @@ message QuestSubmitResponse{
 	RESULT result = 1;
 	string errormsg = 2;
 	NQuestInfo quest = 3;
+}
+
+message FriendAddRequest
+{
+	int32 from_id = 1;
+	string from_name = 2;
+	int32 to_id = 3;
+	string to_name = 4;
+}
+
+message FriendAddResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	FriendAddRequest request = 3;
+}
+
+message FriendListRequest
+{
+
+}
+
+message FriendListResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	repeated NFriendInfo friends = 3;
+}
+
+message FriendRemoveRequest
+{
+	int32 id = 1;
+	int32 friendId = 2;
+}
+
+message FriendRemoveResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	int32 id = 3;
 }
