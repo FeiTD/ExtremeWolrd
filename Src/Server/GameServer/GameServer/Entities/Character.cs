@@ -23,6 +23,7 @@ namespace GameServer.Entities
         public ItemManager ItemManager;
         public StatusManager StatusManager;
         public QuestManager QuestManager;
+        public FriendManager FriendManager;
         public long Gold 
         { 
             get
@@ -72,11 +73,23 @@ namespace GameServer.Entities
 
             QuestManager = new QuestManager(this);
             QuestManager.GetQuestInfos(Info.Quests);
+
+            FriendManager = new FriendManager(this);
+            FriendManager.GetFriendInfos(this.Info.Friends);
+            var a = Info.Friends;
         }
 
         public void PostProcess(NetMessageResponse message)
         {
             Log.InfoFormat("PostProcess > Character: characterID:{0}:{1}", this.Id, this.Info.Name);
+            FriendManager.PostProcess(message);
+            if (StatusManager.HasStatus)
+                StatusManager.PostProcess(message);
+        }
+
+        public void Clear()
+        {
+            FriendManager.UpdateFriendInfo(Info, 0);
         }
     }
 }

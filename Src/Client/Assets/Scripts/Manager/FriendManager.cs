@@ -11,8 +11,12 @@ namespace Assets.Scripts.Manager
         public List<NFriendInfo> friends = new List<NFriendInfo>();
         public void Init(List<NFriendInfo> friends)
         {
-            friends.Clear();
-            this.friends = friends;
+            this.friends.Clear();
+            foreach(var friend in friends)
+            {
+                this.friends.Add(friend);
+            }
+            
         }
     }
 }

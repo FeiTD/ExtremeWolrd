@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIFriendList : MonoBehaviour {
+public class UIFriendList : UIWindow {
 	public Transform Root;
 	public UIFriendItem selectitem;
     public GameObject friendItemPrefab;
@@ -55,6 +55,11 @@ public class UIFriendList : MonoBehaviour {
             }
 
             FriendService.Instance.SendFriendAdd(friendId);
+            this.OnNoClick();
+        };
+        inputbox.OnNo = () =>
+        {
+            this.OnNoClick();
         };
     }
 
@@ -71,11 +76,9 @@ public class UIFriendList : MonoBehaviour {
 
     public void ClearItems()
     {
-        var allchild = Root.transform.GetChild(1);
-        foreach (Transform go in allchild)
+        foreach (UIFriendItem go in Root.GetComponentsInChildren<UIFriendItem>())
         {
-            if (Root.transform.childCount > 1)
-                Destroy(go);
+                Destroy(go.gameObject);
         }
     }
 
@@ -85,7 +88,7 @@ public class UIFriendList : MonoBehaviour {
         {
             GameObject go = Instantiate(friendItemPrefab, Root);
             UIFriendItem friendItem = go.GetComponent<UIFriendItem>();
-            friendItem.Set(info);
+            friendItem.Set(info,this);
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Common;
 using GameServer.Entities;
+using Network;
 using SkillBridge.Message;
 using System;
 using System.Collections.Generic;
@@ -48,7 +49,7 @@ namespace GameServer.Managers
                 this.AddStatus(StatusType.Money,0,-goldDelta, StatusAction.Delete);
             }
         }
-        public void ApplyResponse(NetMessageResponse message)
+        public void PostProcess(NetMessageResponse message)
         {
             if (message.statusNotify == null)
                 message.statusNotify = new StatusNotify();

@@ -7,6 +7,7 @@
     <EntitySet Name="CharacterItems" EntityType="ExtremeWorldModel.Store.CharacterItems" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="CharacterBag" EntityType="ExtremeWorldModel.Store.CharacterBag" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="TCharacterQuests" EntityType="ExtremeWorldModel.Store.TCharacterQuests" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TChracterFriends" EntityType="ExtremeWorldModel.Store.TChracterFriends" store:Type="Tables" Schema="dbo" />
     <AssociationSet Name="UserPlayer" Association="ExtremeWorldModel.Store.UserPlayer">
       <End Role="User" EntitySet="Users" />
       <End Role="Player" EntitySet="Players" />
@@ -26,6 +27,10 @@
     <AssociationSet Name="TCharacterTCharacterQuest" Association="ExtremeWorldModel.Store.TCharacterTCharacterQuest">
       <End Role="TCharacter" EntitySet="Characters" />
       <End Role="TCharacterQuest" EntitySet="TCharacterQuests" />
+    </AssociationSet>
+    <AssociationSet Name="ChracterFriend" Association="ExtremeWorldModel.Store.ChracterFriend">
+      <End Role="TCharacter" EntitySet="Characters" />
+      <End Role="TChracterFriend" EntitySet="TChracterFriends" />
     </AssociationSet>
   </EntityContainer>
   <EntityType Name="Users">
@@ -58,6 +63,7 @@
     <Property Name="MapPosZ" Type="int" Nullable="false" />
     <Property Name="Gold" Type="bigint" Nullable="false" />
     <Property Name="Equips" Type="binary" Nullable="false" MaxLength="28" />
+    <Property Name="Level" Type="bigint" Nullable="false" />
     <Property Name="Player_ID" Type="int" Nullable="false" />
     <Property Name="Bag_Id" Type="int" Nullable="false" />
   </EntityType>
@@ -89,6 +95,17 @@
     <Property Name="Target3" Type="int" Nullable="false" />
     <Property Name="Status" Type="int" Nullable="false" />
     <Property Name="QuestID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TChracterFriends">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FriendID" Type="int" Nullable="false" />
+    <Property Name="FriendName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Class" Type="int" Nullable="false" />
+    <Property Name="Level" Type="bigint" Nullable="false" />
+    <Property Name="TCharacterID" Type="int" Nullable="false" />
   </EntityType>
   <Association Name="UserPlayer">
     <End Role="User" Type="ExtremeWorldModel.Store.Users" Multiplicity="*" />
@@ -146,6 +163,18 @@
         <PropertyRef Name="ID" />
       </Principal>
       <Dependent Role="TCharacterQuest">
+        <PropertyRef Name="TCharacterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ChracterFriend">
+    <End Role="TCharacter" Type="ExtremeWorldModel.Store.Characters" Multiplicity="1" />
+    <End Role="TChracterFriend" Type="ExtremeWorldModel.Store.TChracterFriends" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TCharacter">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TChracterFriend">
         <PropertyRef Name="TCharacterID" />
       </Dependent>
     </ReferentialConstraint>

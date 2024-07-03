@@ -25,6 +25,7 @@ namespace Assets.Scripts.Manager
             UIResource.Add(typeof(UIEquip), new UIElement() { Cache = false, Resource = "UI/UI/Prefabs/UIEquip" });
             UIResource.Add(typeof(UIQuest), new UIElement() { Cache = false, Resource = "UI/UI/Prefabs/UIQuest" });
             UIResource.Add(typeof(UIQuestInfo), new UIElement() { Cache = false, Resource = "UI/UI/Prefabs/UIQuestInfo" });
+            UIResource.Add(typeof(UIFriendList), new UIElement() { Cache = false, Resource = "UI/UI/Prefabs/UIFriendList" });
         }
         public T Show<T>()
         {

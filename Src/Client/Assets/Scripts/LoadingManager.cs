@@ -21,7 +21,7 @@ namespace Assets.Scripts
             TestManager.Instance.Init();
             MapService.Instance.Init();
             ShopManager.Instance.Init();
-            
+            FriendService.Instance.Init();
             UITips.SetActive(true);
             UILoading.SetActive(false);
             UILogin.SetActive(false);

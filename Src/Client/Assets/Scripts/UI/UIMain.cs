@@ -46,4 +46,9 @@ public class UIMain : MonoSingleton<UIMain>{
 	{
 		var quest = UIManager.Instance.Show<UIQuest>();
     }
+
+	public void OpenFriend()
+	{
+		var friend = UIManager.Instance.Show<UIFriendList>();
+	}
 }

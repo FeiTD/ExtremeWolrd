@@ -21,7 +21,7 @@ namespace Network
         public void Disconnected()
         {
             this.PostResponser = null;
-           
+
         }
 
 
@@ -49,9 +49,14 @@ namespace Network
             {
                 if (PostResponser != null && this.Character.StatusManager.HasStatus)
                 {
-                    this.Character.StatusManager.ApplyResponse(Response);
+                    
+                    this.Character.StatusManager.PostProcess(Response);
                     this.PostResponser.PostProcess(Response);
-                }                   
+                }   
+                if(response.Response != null && Character != null)
+                {
+                    this.Character.PostProcess(response.Response);
+                }
                 byte[] data = PackageHandler.PackMessage(response);
                 response = null;
                 return data;

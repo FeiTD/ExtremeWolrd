@@ -109,7 +109,7 @@ namespace GameServer.Services
                     MapPosZ = 820,
                     Gold = 1000,
                     Equips = new byte[28],
-                   
+                    Level = 10,
                 }) ;
                 var bag = new TCharacterBag();
                 bag.Owner = character;
@@ -172,7 +172,9 @@ namespace GameServer.Services
             //DBService.Instance.Save();
             //----------------------------------------------
 
+            sender.Session.PostResponser = character;
             sender.SendResponse();
+            SessionManager.Instance.AddSession(character.Id, sender);
             MapManager.Instance[dbchar.MapID].CharacterEnter(sender, character);
         }
 
@@ -184,6 +186,7 @@ namespace GameServer.Services
             sender.Session.Response.gameLeave = new UserGameLeaveResponse();
             sender.Session.Response.gameLeave.Result = Result.Success;
             sender.Session.Response.gameLeave.Errormsg = "None";
+            SessionManager.Instance.RemoveSession(character.Id);
             sender.SendResponse();
         }
 
@@ -191,6 +194,7 @@ namespace GameServer.Services
         {
             CharacterManager.Instance.RemoveCharacter(character.Info.Id);
             MapManager.Instance[character.Info.mapId].CharacterLeave(character);
+            character.Clear();
         }
     }
 }

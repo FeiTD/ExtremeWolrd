@@ -33,6 +33,7 @@ namespace GameServer
             ItemService.Instance.Init();
             EquipService.Instance.Init();
             QuestService.Instance.Init();
+            FriendService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
             return true;
         }

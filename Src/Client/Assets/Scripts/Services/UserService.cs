@@ -233,6 +233,7 @@ namespace Assets.Scripts.Services
                 SceneManager.Instance.LoadScene("CharactorSelect");
                 //登陆成功逻辑
                 Users.Instance.SetupUserInfo(response.Userinfo);
+                
             }
                 
             if (this.OnLogin != null)
@@ -271,6 +272,7 @@ namespace Assets.Scripts.Services
                     BagManager.Instance.Init(response.Character.Bag);
                     EquipManager.Instance.Init(response.Character.Equips);
                     QuestManager.Instance.Init(response.Character.Quests);
+                    FriendManager.Instance.Init(response.Character.Friends);
                 }
             }
 

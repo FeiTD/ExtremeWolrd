@@ -46,5 +46,10 @@ namespace GameServer.Managers
             EntityManager.Instance.RemoveEntity(ch.Data.MapID, ch);
             this.Characters.Remove(characterId);
         }
+
+        internal object GetCharacter(int friendID)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
