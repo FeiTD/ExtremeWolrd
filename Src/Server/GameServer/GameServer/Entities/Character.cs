@@ -19,11 +19,12 @@ namespace GameServer.Entities
     {
         public TCharacter Data;
         private CharacterType player;
-        private TCharacter cha;
         public ItemManager ItemManager;
         public StatusManager StatusManager;
         public QuestManager QuestManager;
         public FriendManager FriendManager;
+        public TeamManager TeamManager;
+        public NTeamInfo TeamInfo;
         public long Gold 
         { 
             get
@@ -76,12 +77,15 @@ namespace GameServer.Entities
 
             FriendManager = new FriendManager(this);
             FriendManager.GetFriendInfos(this.Info.Friends);
-            var a = Info.Friends;
+
+            TeamManager = new TeamManager(this);
+            TeamManager.GetTeamInfo(ref TeamInfo);
         }
 
         public void PostProcess(NetMessageResponse message)
         {
             Log.InfoFormat("PostProcess > Character: characterID:{0}:{1}", this.Id, this.Info.Name);
+            TeamManager.PostProcess(message);
             FriendManager.PostProcess(message);
             if (StatusManager.HasStatus)
                 StatusManager.PostProcess(message);
@@ -90,6 +94,7 @@ namespace GameServer.Entities
         public void Clear()
         {
             FriendManager.UpdateFriendInfo(Info, 0);
+            TeamManager.UpdateTeamInfo();
         }
     }
 }

@@ -68,6 +68,28 @@ public class UIFriendList : UIWindow {
 
     }
 
+    public void OnTeamInvite()
+    {
+        var mes = MessageBox.Show(string.Format("是否邀请{0}组队？", selectitem.friend.Name), "", MessageBoxType.Confirm,"确定","取消");
+        mes.OnYes = () =>
+        {
+            if (Users.Instance.TeamInfo.Members.Count >= 5)
+            {
+                MessageBox.Show("队伍人员已满", "", MessageBoxType.Error);
+                return;
+            }
+            foreach (var member in Users.Instance.TeamInfo.Members)
+            {
+                if(selectitem.friend.Id == member.Id)
+                {
+                    MessageBox.Show("对方已经在队伍中了", "", MessageBoxType.Error);
+                    return;
+                }
+            }
+            TeamService.Instance.SendTeamInviteReq(Users.Instance.CurrentCharacter.Id, Users.Instance.CurrentCharacter.Name, selectitem.friend.Id, selectitem.friend.Name);
+        };
+    }
+
     public void RefreshUI()
     {
         ClearItems();

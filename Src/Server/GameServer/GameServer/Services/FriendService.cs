@@ -41,13 +41,13 @@ namespace GameServer.Services
                     requester.Session.Response.friendAddRes.Errormsg = "对方已经成为你的好友";
 
                     requester.SendResponse();
-                    
+                      
                 }
             }
             //sender.Session.Response.friendAddRes = response;
             //sender.Session.Response.friendAddRes.Result = Result.Failed;
             //sender.Session.Response.friendAddRes.Errormsg = "对方已经成为你的好友";
-            sender.SendResponse();
+            //sender.SendResponse();
         }
 
         private void OnFriendRemoveRequest(NetConnection<NetSession> sender, FriendRemoveRequest request)

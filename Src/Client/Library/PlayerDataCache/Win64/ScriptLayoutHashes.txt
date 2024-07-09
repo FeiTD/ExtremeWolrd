@@ -10,7 +10,7 @@ Assets/Levels/Map02.unity
 Assets/Levels/Map03.unity
 SceneListEnd?
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
-173592704fbeb650f256c995e1bf64a3 Assembly-CSharp.dll:.UIFriendItem
+d6e376dfd6bbb3d06c730fb015768c6e Assembly-CSharp.dll:.UIFriendItem
 7b803eb2910e9b4cd5e521ae07b9f7d6 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
 486cd95c82d8305219c352c06b776e1f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 9e61f3535f3c55760a1cedfbd114f4af UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -138,6 +138,7 @@ e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSyste
 98d69a140ec0084cde3b6a5e09aea295 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 96f3ea9f23b6f08e60710ebb4af49174 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
+5c19adb1e54764ed25fcbe4e4082f0c8 Assembly-CSharp.dll:.UITeamItem
 510010a657bde55f21c44a71043d3439 Assembly-CSharp.dll:.NpcController
 b6f9006bb67c47a7f397f902fd2dfd88 Assembly-CSharp.dll:.UIWorldElementManager
 f10ff4dc01022bff64412f0410cb95ec Assembly-CSharp.dll:.UIBag
@@ -191,6 +192,7 @@ d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 98d69a140ec0084cde3b6a5e09aea295 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
+6417aef5a03c45579fd4575cf3cb8c0c Assembly-CSharp.dll:Assets.Scripts.Manager.SpriteManager
 aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 11b417a2d63b8310e5ace3c9d7b120ca Assembly-CSharp.dll:.UIEquip
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
@@ -198,6 +200,7 @@ aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 acdf155b16878eed07689b37a623241f Assembly-CSharp.dll:.MainPlayerCamera
 4e797db401ac8c8c42132a760230c6f7 Assembly-CSharp.dll:.UIWorldElement
 510010a657bde55f21c44a71043d3439 Assembly-CSharp.dll:.TeleporterObject
+3d436a3905451d09880df6273554fc9b Assembly-CSharp.dll:.TeamSystem
 1d1e2f3e57c3e581b35a6632d136f3a7 Assembly-CSharp.dll:.UIMiniMap
 e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 51630ca360ae5f94479f5be75e6bb8e9 Assembly-UnityScript.dll:.SM_rotateThis

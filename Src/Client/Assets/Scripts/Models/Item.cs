@@ -22,8 +22,10 @@ namespace Assets.Scripts.Models
             Id = item.Id;
             Count = item.Count;
             info = item;
-            ItemDefine = DataManager.Instance.Items[item.Id];
-            EquipDefine = DataManager.Instance.Equips[Id];
+            if(DataManager.Instance.Items.ContainsKey(Id))
+                ItemDefine = DataManager.Instance.Items[item.Id];
+            if (DataManager.Instance.Equips.ContainsKey(Id))
+                EquipDefine = DataManager.Instance.Equips[Id];
         }
 
         public Item(int id, int value)

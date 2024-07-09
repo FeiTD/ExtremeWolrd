@@ -170,6 +170,12 @@ message NFriendInfo
 	NCharacterInfo friendInfo = 2;
 	int32 status = 3;
 }
+
+message NTeamInfo{
+	int32 team_id = 1;
+	int32 leader = 2;
+	repeated NCharacterInfo members = 3;
+}
 ////////////////////////////////////////////////////////////////
 //
 //  Entities
@@ -227,6 +233,11 @@ message NetMessageRequest{
 	FriendListRequest friendList = 15;
 	FriendRemoveRequest friendRemove = 16;
 	FriendAddResponse friendAddRes = 17;
+
+	TeamLeaveRequest teamLeave = 18;
+	TeamInviteRequest teamInviteReq = 19;
+	TeamInfoRequest teamInfo = 20;
+	TeamInviteResponse teamInviteRes = 21;
 }
 
 message NetMessageResponse{
@@ -251,6 +262,10 @@ message NetMessageResponse{
 	FriendListResponse friendList = 15;
 	FriendRemoveResponse friendRemove = 16;
 	FriendAddRequest friendAddReq = 17;
+	TeamLeaveResponse teamLeave = 18;
+	TeamInviteResponse teamInviteRes = 19;
+	TeamInfoResponse teamInfo = 20;
+	TeamInviteRequest teamInviteReq = 21;
 }
 
 
@@ -447,4 +462,38 @@ message FriendRemoveResponse
 	RESULT result = 1;
 	string errormsg = 2;
 	int32 id = 3;
+}
+
+message TeamInviteRequest{
+	int32 from_id = 1;
+	string from_name = 2;
+	int32 to_id = 3;
+	string to_name = 4;
+}
+
+message TeamInviteResponse{
+	RESULT result = 1;
+	string errormsg = 2;
+	TeamInviteRequest request = 3;
+}
+
+message TeamInfoRequest{
+
+}
+
+message TeamInfoResponse{
+	RESULT result = 1;
+	string errormsg = 2;
+	NTeamInfo team = 3;
+}
+
+message TeamLeaveRequest{
+	int32 team_id = 1;
+	int32 character_id = 2;
+}
+
+message TeamLeaveResponse{
+	RESULT result = 1;
+	string errormsg = 2;
+	int32 characterId = 3;
 }

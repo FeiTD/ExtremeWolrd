@@ -30,8 +30,29 @@ namespace Assets.Scripts.Models
             CurrentCharacter.Gold += value;
         }
 
+        internal void InitTeam()
+        {
+            TeamInfo = new NTeamInfo();
+            TeamInfo.TeamId = CurrentCharacter.Id;
+            TeamInfo.Leader = CurrentCharacter.Id;
+            TeamInfo.Members.Add(CurrentCharacter);
+        }
+
+        internal void GetTeam(NTeamInfo team)
+        {
+            TeamInfo = new NTeamInfo();
+            TeamInfo.TeamId = team.TeamId;
+            TeamInfo.Leader = team.Leader;
+            foreach(var i in team.Members)
+            {
+                TeamInfo.Members.Add(i);
+            }
+        }
+
         public SkillBridge.Message.NCharacterInfo CurrentCharacter { get; set; }
         public PlayerInputController CurrentCharacterObject { get; set; }
+
+        public NTeamInfo TeamInfo { get; set; }
     }
        
 }

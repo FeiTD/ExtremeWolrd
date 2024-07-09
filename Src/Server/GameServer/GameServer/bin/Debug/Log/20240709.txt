@@ -1,0 +1,574 @@
+
+2024-07-09 00:00:00,712 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 00:02:27,996 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-09 00:02:28,105 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-09 00:02:28,474 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 00:02:28,474 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 00:02:28,474 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 00:02:28,476 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 00:02:28,492 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 00:02:28,493 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 00:02:28,507 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 00:02:28,533 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 00:02:28,662 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-09 00:02:29,813 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-09 00:02:29,828 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-09 00:02:29,839 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-09 00:02:29,841 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-09 00:03:02,110 [3] [WARN ] [GameServer] ：Client[127.0.0.1:52851]] Connected
+2024-07-09 00:03:02,306 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 00:03:03,003 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-09 00:03:16,816 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-09 00:03:16,826 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-09 00:03:16,831 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:Ad Map:1
+2024-07-09 00:03:17,690 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:03:17,764 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1 Position:(5000, 4000, 820)
+2024-07-09 00:03:17,796 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:03:24,472 [3] [WARN ] [GameServer] ：Client[127.0.0.1:52869]] Connected
+2024-07-09 00:03:24,703 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 00:03:24,780 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3  Pass:3
+2024-07-09 00:03:28,953 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-09 00:03:28,953 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-09 00:03:28,955 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:Ads Map:1
+2024-07-09 00:03:29,039 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:03:29,050 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2 Position:(5000, 4000, 820)
+2024-07-09 00:03:29,054 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:03:29,058 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:03:29,149 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-09 00:03:29,235 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:03:29,288 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-09 00:03:30,083 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:03:30,095 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:310
+2024-07-09 00:03:30,109 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:03:30,111 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:03:30,111 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:03:30,111 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:03:30,113 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:03:30,119 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:03:30,123 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:03:30,123 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:03:30,136 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:03:30,214 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:03:36,764 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2024-07-09 00:03:36,773 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:03:38,506 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-09 00:03:38,538 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:03:38,555 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:03:50,687 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 00:03:59,039 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:03:59,064 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:03:59,335 [4] [ERROR] [GameServer] ：Message handler exception:, 集合已修改；可能无法执行枚举操作。, mscorlib,    在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   在 GameServer.Services.TeamService.OnTeamLeaveReq(NetConnection`1 sender, TeamLeaveRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\TeamService.cs:行号 32
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-09 00:04:57,986 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2024-07-09 00:04:58,002 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:05:02,313 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-09 00:05:02,328 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:05:02,330 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:05:16,572 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2024-07-09 00:05:16,605 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:05:19,539 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-09 00:05:19,540 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:05:19,542 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:06:10,782 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 00:06:10,783 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:06:10,784 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:06:10,785 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:06:17,611 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 00:06:17,613 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:06:17,614 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:06:17,615 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:06:21,115 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 00:06:21,116 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:06:21,161 [5] [ERROR] [GameServer] ：Message handler exception:, 集合已修改；可能无法执行枚举操作。, mscorlib,    在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   在 GameServer.Services.TeamService.OnTeamLeaveReq(NetConnection`1 sender, TeamLeaveRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\TeamService.cs:行号 32
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-09 00:06:33,414 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 00:06:33,416 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:06:33,446 [4] [ERROR] [GameServer] ：Message handler exception:, 集合已修改；可能无法执行枚举操作。, mscorlib,    在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   在 GameServer.Services.TeamService.OnTeamLeaveReq(NetConnection`1 sender, TeamLeaveRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\TeamService.cs:行号 32
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-09 00:06:36,361 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 00:06:36,363 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:06:39,392 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 00:06:39,409 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:06:42,431 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 00:06:42,434 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:06:42,435 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:06:42,436 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:06:44,960 [15] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-07-09 00:06:44,964 [15] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:Ad : Map:1 Character:2:Ads
+2024-07-09 00:06:44,967 [15] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:06:44,990 [15] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:Ads : Map:1 Character:2:Ads
+2024-07-09 00:06:45,092 [15] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 00:06:45,118 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-09 00:06:50,615 [16] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-07-09 00:06:50,617 [16] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:Ad : Map:1 Character:1:Ad
+2024-07-09 00:06:50,618 [16] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 00:06:50,620 [16] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-09 01:15:41,341 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-09 01:15:41,617 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-09 01:15:41,817 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:15:41,817 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:15:41,817 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:15:41,817 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:15:41,817 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:15:41,817 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:15:41,821 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:15:41,824 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:15:41,847 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-09 01:15:43,397 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-09 01:15:43,404 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-09 01:15:43,405 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-09 01:15:43,405 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-09 01:15:59,566 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54821]] Connected
+2024-07-09 01:15:59,660 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 01:16:00,231 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-09 01:16:05,824 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54831]] Connected
+2024-07-09 01:16:05,927 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 01:16:05,927 [4] [INFO ] [GameServer] ：UserLoginRequest: User:3  Pass:3
+2024-07-09 01:16:07,927 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-09 01:16:07,932 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-09 01:16:07,936 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:Ad Map:1
+2024-07-09 01:16:08,208 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:16:08,224 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1 Position:(5000, 4000, 820)
+2024-07-09 01:16:08,227 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:16:11,478 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-09 01:16:11,498 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-09 01:16:11,501 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:Ads Map:1
+2024-07-09 01:16:11,547 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:16:11,550 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2 Position:(5000, 4000, 820)
+2024-07-09 01:16:11,552 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:16:11,552 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:16:12,873 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-09 01:16:12,896 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:16:13,042 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-09 01:16:13,051 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:16:13,224 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-09 01:16:13,232 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:16:13,425 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-09 01:16:13,426 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:16:14,336 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-09 01:16:14,338 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:16:15,237 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-09 01:16:15,237 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:16:18,724 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2024-07-09 01:16:18,727 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:16:20,963 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-09 01:17:40,374 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:17:40,383 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:18:04,911 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 01:21:38,657 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:21:54,058 [4] [ERROR] [GameServer] ：Message handler exception:, 集合已修改；可能无法执行枚举操作。, mscorlib,    在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   在 GameServer.Services.TeamService.OnTeamLeaveReq(NetConnection`1 sender, TeamLeaveRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\TeamService.cs:行号 32
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-09 01:22:07,401 [17] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-07-09 01:22:07,404 [17] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:Ad : Map:1 Character:2:Ads
+2024-07-09 01:22:07,404 [17] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:22:07,408 [17] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:Ads : Map:1 Character:2:Ads
+2024-07-09 01:22:07,411 [17] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:23:41,633 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-09 01:23:41,752 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-09 01:23:41,948 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:23:41,948 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:23:41,950 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:23:41,953 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:23:41,953 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:23:41,954 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:23:41,954 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:23:41,954 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:23:42,065 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-09 01:23:42,678 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-09 01:23:42,705 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-09 01:23:42,706 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-09 01:23:42,709 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-09 01:24:05,166 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55068]] Connected
+2024-07-09 01:24:05,249 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 01:24:05,646 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-09 01:24:11,594 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-09 01:24:11,600 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-09 01:24:11,603 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:Ad Map:1
+2024-07-09 01:24:12,002 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:24:12,035 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1 Position:(5000, 4000, 820)
+2024-07-09 01:24:12,042 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:24:15,318 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-09 01:24:16,298 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-09 01:24:16,552 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-09 01:24:16,796 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-09 01:24:17,045 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-09 01:24:17,437 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-09 01:24:18,170 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-09 01:24:18,962 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-09 01:24:19,499 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55079]] Connected
+2024-07-09 01:24:19,569 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-09 01:24:19,654 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 01:24:19,666 [6] [INFO ] [GameServer] ：UserLoginRequest: User:3  Pass:3
+2024-07-09 01:24:24,817 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-09 01:24:24,819 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-09 01:24:24,823 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:Ads Map:1
+2024-07-09 01:24:24,877 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:24:24,879 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2 Position:(5000, 4000, 820)
+2024-07-09 01:24:24,880 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:24:24,881 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:24:32,831 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2024-07-09 01:24:32,837 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:24:35,126 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-09 01:24:42,531 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:24:42,545 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:25:09,037 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 01:25:19,435 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:25:34,351 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:26:04,971 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 01:26:08,460 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:26:19,531 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 01:26:19,539 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:26:25,303 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 01:26:25,303 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:26:36,016 [18] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-07-09 01:26:36,017 [18] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:Ad : Map:1 Character:1:Ad
+2024-07-09 01:26:36,018 [18] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:26:36,020 [18] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:Ads : Map:1 Character:1:Ad
+2024-07-09 01:26:36,020 [18] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:26:36,022 [18] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-09 01:26:38,167 [18] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-07-09 01:26:38,168 [18] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:Ads : Map:1 Character:2:Ads
+2024-07-09 01:26:38,169 [18] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:26:38,170 [18] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-09 01:28:41,960 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-09 01:28:42,141 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-09 01:28:42,373 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:28:42,375 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:28:42,376 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:28:42,377 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:28:42,377 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:28:42,380 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:28:42,381 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:28:42,388 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:28:42,765 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-09 01:28:44,266 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-09 01:28:44,277 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-09 01:28:44,279 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-09 01:28:44,280 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-09 01:29:01,769 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55217]] Connected
+2024-07-09 01:29:01,869 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 01:29:02,374 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-09 01:29:04,328 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55220]] Connected
+2024-07-09 01:29:04,507 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 01:29:04,508 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3  Pass:3
+2024-07-09 01:29:20,350 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 01:29:20,351 [6] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-09 01:29:20,658 [6] [ERROR] [GameServer] ：Message handler exception:System.InvalidOperationException: 已有打开的与此 Command 相关联的 DataReader，必须首先将它关闭。
+   在 System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   在 System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior), 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 60
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-09 01:29:26,941 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 01:29:26,942 [6] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-09 01:29:26,999 [6] [ERROR] [GameServer] ：Message handler exception:System.InvalidOperationException: 已有打开的与此 Command 相关联的 DataReader，必须首先将它关闭。
+   在 System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   在 System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior), 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 60
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-09 01:29:30,996 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 01:29:30,997 [6] [INFO ] [GameServer] ：UserLoginRequest: User:3  Pass:3
+2024-07-09 01:29:31,077 [6] [ERROR] [GameServer] ：Message handler exception:System.InvalidOperationException: 已有打开的与此 Command 相关联的 DataReader，必须首先将它关闭。
+   在 System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   在 System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior), 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 60
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-09 01:29:40,603 [4] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 执行超时已过期。完成操作之前已超时或服务器未响应。  ---> System.ComponentModel.Win32Exception (0x80004005): 等待的操作过时。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   在 System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.ProcessAttention(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParserStateObject.ResetCancelAndProcessAttention()
+   在 System.Data.SqlClient.TdsParserStateObject.CloseSession()
+   在 System.Data.SqlClient.SqlDataReader.TryCloseInternal(Boolean closeReader)
+   在 System.Data.SqlClient.SqlDataReader.Close()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:208cfe09-6cb9-418e-9a09-679f3a6fde86
+Error Number:-2,State:0,Class:11, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 60
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-09 01:29:40,628 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 执行超时已过期。完成操作之前已超时或服务器未响应。  ---> System.ComponentModel.Win32Exception (0x80004005): 等待的操作过时。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   在 System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadByteArray(Byte[] buff, Int32 offset, Int32 len, Int32& totalRead)
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadString(Int32 length, String& value)
+   在 System.Data.SqlClient.TdsParser.TryCommonProcessMetaData(TdsParserStateObject stateObj, _SqlMetaData col, Nullable`1 cipherTable, Boolean fColMD, SqlCommandColumnEncryptionSetting columnEncryptionSetting)
+   在 System.Data.SqlClient.TdsParser.TryProcessMetaData(Int32 cColumns, TdsParserStateObject stateObj, _SqlMetaDataSet& metaData, SqlCommandColumnEncryptionSetting columnEncryptionSetting)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:208cfe09-6cb9-418e-9a09-679f3a6fde86
+Error Number:-2,State:0,Class:11, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 60
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-09 01:29:48,241 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 01:29:48,253 [4] [INFO ] [GameServer] ：UserLoginRequest: User:3  Pass:3
+2024-07-09 01:29:55,042 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-09 01:29:55,055 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-09 01:29:55,059 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:Ads Map:1
+2024-07-09 01:29:55,983 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:29:56,055 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2 Position:(5000, 4000, 820)
+2024-07-09 01:29:56,099 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:29:59,255 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 01:29:59,375 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-09 01:30:00,801 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-09 01:30:00,989 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2024-07-09 01:30:02,345 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-09 01:30:06,856 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-09 01:30:06,858 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-09 01:30:06,860 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:Ad Map:1
+2024-07-09 01:30:06,891 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:30:06,892 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1 Position:(5000, 4000, 820)
+2024-07-09 01:30:06,895 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:06,901 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:30:10,457 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-09 01:30:10,463 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:12,260 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-09 01:30:12,262 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:13,133 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-09 01:30:13,133 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:13,371 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2024-07-09 01:30:13,373 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:14,418 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-09 01:30:14,419 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:20,353 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2024-07-09 01:30:20,367 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:22,966 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-09 01:30:22,981 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:30:22,991 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:31,205 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 01:30:31,218 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:31,220 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:30:35,549 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-09 01:30:35,552 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:35,855 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-09 01:30:35,857 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:36,155 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2024-07-09 01:30:36,157 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:36,437 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-09 01:30:36,441 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:36,715 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-09 01:30:36,716 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:36,973 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-09 01:30:36,974 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:37,249 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-09 01:30:37,250 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:37,500 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-09 01:30:37,502 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:37,752 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-09 01:30:37,753 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:30:38,131 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-09 01:30:38,132 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:31:03,904 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 01:31:23,412 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:31:34,078 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:31:46,814 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 01:32:05,183 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:32:46,105 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:35:46,203 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-09 01:35:46,433 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-09 01:35:48,241 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:35:48,241 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:35:48,241 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:35:48,241 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:35:48,241 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:35:48,242 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:35:48,244 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:35:48,258 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:35:48,346 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-09 01:35:49,136 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-09 01:35:49,147 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-09 01:35:49,147 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-09 01:35:49,149 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-09 01:36:06,413 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55455]] Connected
+2024-07-09 01:36:06,528 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 01:36:07,003 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-09 01:36:12,846 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55463]] Connected
+2024-07-09 01:36:12,965 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 01:36:12,967 [4] [INFO ] [GameServer] ：UserLoginRequest: User:3  Pass:3
+2024-07-09 01:36:14,999 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-09 01:36:15,005 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-09 01:36:15,007 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:Ad Map:1
+2024-07-09 01:36:15,416 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:36:15,447 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1 Position:(5000, 4000, 820)
+2024-07-09 01:36:15,449 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:36:17,620 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-09 01:36:17,630 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-09 01:36:17,631 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:Ads Map:1
+2024-07-09 01:36:17,667 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:36:17,672 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2 Position:(5000, 4000, 820)
+2024-07-09 01:36:17,880 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:36:17,940 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:36:18,826 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-09 01:36:18,854 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:36:19,085 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-09 01:36:19,087 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:36:19,298 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-09 01:36:19,302 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:36:19,538 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-09 01:36:19,541 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:36:19,787 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-09 01:36:19,787 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:36:26,446 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2024-07-09 01:36:26,454 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:36:29,042 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-09 01:36:29,066 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:36:29,074 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:36:48,634 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 01:37:41,606 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:38:48,984 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:39:23,768 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:39:38,311 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 01:40:04,565 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:40:19,107 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:41:04,727 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-09 01:41:04,920 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-09 01:41:05,677 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:41:05,677 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:41:05,678 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:41:05,679 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:41:05,680 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:41:05,681 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:41:05,686 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:41:05,690 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-09 01:41:05,787 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-09 01:41:07,895 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-09 01:41:08,383 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-09 01:41:08,651 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-09 01:41:09,076 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-09 01:41:33,829 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55651]] Connected
+2024-07-09 01:41:34,100 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2024-07-09 01:41:35,072 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1·  Pass:1
+2024-07-09 01:41:44,629 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 01:41:44,641 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-09 01:41:50,786 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-09 01:41:50,796 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-09 01:41:50,801 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:Ad Map:1
+2024-07-09 01:41:51,541 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:42:03,206 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1 Position:(5000, 4000, 820)
+2024-07-09 01:42:03,213 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:42:11,588 [15] [WARN ] [GameServer] ：Client[127.0.0.1:55681]] Connected
+2024-07-09 01:42:11,962 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-09 01:42:11,971 [4] [INFO ] [GameServer] ：UserLoginRequest: User:3  Pass:3
+2024-07-09 01:42:16,060 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-09 01:42:16,061 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-09 01:42:16,062 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:Ads Map:1
+2024-07-09 01:42:16,197 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:42:16,205 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2 Position:(5000, 4000, 820)
+2024-07-09 01:42:16,210 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:42:16,212 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:42:16,355 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-09 01:42:16,459 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:42:16,737 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-09 01:42:17,371 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:42:17,371 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:248
+2024-07-09 01:42:17,399 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:42:17,399 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:42:17,399 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:42:17,399 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:42:17,399 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:42:17,401 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:42:17,399 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:42:17,399 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:42:21,851 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2024-07-09 01:42:21,853 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:42:26,181 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-09 01:42:26,224 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:42:26,258 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:42:32,015 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-09 01:42:42,572 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Ads
+2024-07-09 01:42:59,891 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:43:02,920 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
+2024-07-09 01:43:26,790 [17] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-07-09 01:43:26,793 [17] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:Ad : Map:1 Character:2:Ads
+2024-07-09 01:43:26,794 [17] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Ad
