@@ -51,4 +51,16 @@ public class UIMain : MonoSingleton<UIMain>{
 	{
 		var friend = UIManager.Instance.Show<UIFriendList>();
 	}
+
+	public void OpenGuild()
+	{
+		if(GuildManager.Instance.Guild == null || GuildManager.Instance.Guild.memberCount == 0)
+		{
+			UIManager.Instance.Show<UICreatOrJoinGuild>();
+		}
+		else
+		{
+			UIManager.Instance.Show<UIGuild>();
+		}
+	}
 }

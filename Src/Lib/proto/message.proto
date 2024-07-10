@@ -98,6 +98,17 @@ enum QUEST_LIST_TYPE{
 	FINISHED = 2;
 }
 
+enum APPLY_RESULT{
+	NONE = 0;
+	ACCEPT = 1;
+	REJECT = 2;
+}
+
+enum GUILD_TITLE{
+	NONE = 0;
+	PRESIDENT = 1;
+	VICE_PRESIDENT = 2;
+}
 message NStatus{
 	STATUS_TYPE type = 1;
 	STATUS_ACTION action = 2;
@@ -139,6 +150,8 @@ message NCharacterInfo {
 
 	repeated NQuestInfo quests = 15;//ÈÎÎñ
 	repeated NFriendInfo friends = 16;
+
+	NGuildInfo guild = 17;
 }
 
 message NItemInfo{
@@ -176,6 +189,38 @@ message NTeamInfo{
 	int32 leader = 2;
 	repeated NCharacterInfo members = 3;
 }
+
+message NGuildInfo{
+	int32 id = 1;
+	string guild_name = 2;
+	int32 leader_id = 3;
+	string leaderName = 4;
+	string notice = 5;
+	int32 memberCount = 6;
+	repeated NGuildMemberInfo members = 7;
+	repeated NGuildApplyInfo applies = 8;
+	int64 creatTime = 9;
+}
+
+message NGuildMemberInfo{
+	int32 id = 1;
+	int32 characterId = 2;
+	GUILD_TITLE title = 3;
+	NCharacterInfo info = 4;
+	int64 joinTime = 5;
+	int64 lastTime = 6;
+	int32 status = 7;
+}
+
+message NGuildApplyInfo{
+	int32 guild_id = 1;
+	int32 character_id = 2;
+	string name = 3;
+	int32 class = 4;
+	int32 level = 5;
+	APPLY_RESULT result = 6;
+}
+
 ////////////////////////////////////////////////////////////////
 //
 //  Entities
@@ -238,6 +283,13 @@ message NetMessageRequest{
 	TeamInviteRequest teamInviteReq = 19;
 	TeamInfoRequest teamInfo = 20;
 	TeamInviteResponse teamInviteRes = 21;
+
+	GuildCreateRequest guildcreat = 22;
+	GuildRequest guild = 23;
+	GuildJoinRequest gulidJoinReq = 24;
+	GuildJoinResponse guildJoinRes = 25;
+	GuildLeaveRequest guildLeave = 26;
+	GuildListRequest guildList = 27;
 }
 
 message NetMessageResponse{
@@ -266,6 +318,13 @@ message NetMessageResponse{
 	TeamInviteResponse teamInviteRes = 19;
 	TeamInfoResponse teamInfo = 20;
 	TeamInviteRequest teamInviteReq = 21;
+
+	GuildCreateResponse guildcreat = 22;
+	GuildRequest guild = 23;
+	GuildJoinRequest gulidJoinReq = 24;
+	GuildJoinResponse guildJoinRes = 25;
+	GuildLeaveResponse guildLeave = 26;
+	GuildListResponse guildList = 27;
 }
 
 
@@ -496,4 +555,56 @@ message TeamLeaveResponse{
 	RESULT result = 1;
 	string errormsg = 2;
 	int32 characterId = 3;
+}
+
+message GuildCreateRequest{
+	string guild_name = 1;
+	string guild_notice = 2;
+}
+
+message GuildCreateResponse{
+	RESULT result = 1;
+	string errormsg = 2;
+	NGuildApplyInfo apply = 3;
+}
+
+
+
+message GuildListRequest{
+
+}
+
+message GuildListResponse{
+	RESULT result = 1;
+	string errormsg = 2;
+	repeated NGuildInfo guilds = 3;
+}
+
+message GuildRequest{
+
+}
+
+message GuildResponse{
+	RESULT result = 1;
+	string errormsg = 2;
+	NGuildInfo guildinfo = 3;
+}
+
+message GuildLeaveRequest{
+
+}
+
+message GuildLeaveResponse{
+	RESULT result = 1;
+	string errormsg = 2;
+}
+
+message GuildJoinRequest{
+
+}
+
+message GuildJoinResponse{
+	RESULT result = 1;
+	string errormsg = 2;
+	NGuildApplyInfo apply = 3;
 }

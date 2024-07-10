@@ -25,6 +25,7 @@ namespace GameServer.Entities
         public FriendManager FriendManager;
         public TeamManager TeamManager;
         public NTeamInfo TeamInfo;
+        public GuildManager GuildManager;
         public long Gold 
         { 
             get
@@ -80,6 +81,9 @@ namespace GameServer.Entities
 
             TeamManager = new TeamManager(this);
             TeamManager.GetTeamInfo(ref TeamInfo);
+
+            GuildManager = new GuildManager(this);
+            //GuildManager
         }
 
         public void PostProcess(NetMessageResponse message)

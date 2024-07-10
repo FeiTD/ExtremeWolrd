@@ -76,6 +76,7 @@
      <Compile Include="Assets\Scripts\Manager\EntityManager.cs" />
      <Compile Include="Assets\Scripts\Manager\EquipManager.cs" />
      <Compile Include="Assets\Scripts\Manager\FriendManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\GuildManager.cs" />
      <Compile Include="Assets\Scripts\Manager\ItemManager.cs" />
      <Compile Include="Assets\Scripts\Manager\MiniMapManager.cs" />
      <Compile Include="Assets\Scripts\Manager\NpcManager.cs" />
@@ -92,6 +93,7 @@
      <Compile Include="Assets\Scripts\Network\NetClient.cs" />
      <Compile Include="Assets\Scripts\Scene\SceneManager.cs" />
      <Compile Include="Assets\Scripts\Services\FriendService.cs" />
+     <Compile Include="Assets\Scripts\Services\GuildService.cs" />
      <Compile Include="Assets\Scripts\Services\ItemService.cs" />
      <Compile Include="Assets\Scripts\Services\MapService.cs" />
      <Compile Include="Assets\Scripts\Services\QuestService.cs" />
@@ -105,12 +107,18 @@
      <Compile Include="Assets\Scripts\UI\UICharacterSelect.cs" />
      <Compile Include="Assets\Scripts\UI\UICharacterView.cs" />
      <Compile Include="Assets\Scripts\UI\UICharInfo.cs" />
+     <Compile Include="Assets\Scripts\UI\UICreatGuild.cs" />
+     <Compile Include="Assets\Scripts\UI\UICreatOrJoinGuild.cs" />
      <Compile Include="Assets\Scripts\UI\UIEqipItem.cs" />
      <Compile Include="Assets\Scripts\UI\UIEquip.cs" />
      <Compile Include="Assets\Scripts\UI\UIFriendItem.cs" />
      <Compile Include="Assets\Scripts\UI\UIFriendList.cs" />
+     <Compile Include="Assets\Scripts\UI\UIGuild.cs" />
+     <Compile Include="Assets\Scripts\UI\UIGuildItem.cs" />
      <Compile Include="Assets\Scripts\UI\UIIconBagItem.cs" />
      <Compile Include="Assets\Scripts\UI\UIInputBox.cs" />
+     <Compile Include="Assets\Scripts\UI\UIJoinGuild.cs" />
+     <Compile Include="Assets\Scripts\UI\UIJoinGuildItem.cs" />
      <Compile Include="Assets\Scripts\UI\UILogin.cs" />
      <Compile Include="Assets\Scripts\UI\UIMain.cs" />
      <Compile Include="Assets\Scripts\UI\UIMessageBox.cs" />

@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\gameserver\\managers\\teammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\managers\\teammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\entities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\entities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\managers\\guildmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\managers\\guildmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\gameserver\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\managers\\friendmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\managers\\friendmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|d:\\a\\extremewolrd\\src\\server\\gameserver\\gameserver\\services\\guildservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\services\\guildservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FriendManager.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Managers\\FriendManager.cs",
-              "RelativeDocumentMoniker": "GameServer\\Managers\\FriendManager.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Managers\\FriendManager.cs",
-              "RelativeToolTip": "GameServer\\Managers\\FriendManager.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAYwEAAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T14:31:02.44Z",
-              "EditorCaption": ""
+              "DocumentIndex": 0,
+              "Title": "Entities.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities.edmx",
+              "RelativeDocumentMoniker": "GameServer\\Entities.edmx",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities.edmx [Diagram1]",
+              "RelativeToolTip": "GameServer\\Entities.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-10T13:23:13.604Z",
+              "EditorCaption": " [Diagram1]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Team.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Models\\Team.cs",
-              "RelativeDocumentMoniker": "GameServer\\Models\\Team.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Models\\Team.cs",
-              "RelativeToolTip": "GameServer\\Models\\Team.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAEwA8AAAAmAAAA",
+              "Title": "GuildService.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\GuildService.cs",
+              "RelativeDocumentMoniker": "GameServer\\Services\\GuildService.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\GuildService.cs",
+              "RelativeToolTip": "GameServer\\Services\\GuildService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvwsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T14:27:15.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "GameServer\\Services\\UserService.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\UserService.cs",
-              "RelativeToolTip": "GameServer\\Services\\UserService.cs",
-              "ViewState": "AQIAALUAAAAAAAAAAAAYwMIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T12:35:34.579Z",
+              "WhenOpened": "2024-07-10T13:10:01.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Character.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities\\Character.cs",
-              "RelativeDocumentMoniker": "GameServer\\Entities\\Character.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities\\Character.cs",
-              "RelativeToolTip": "GameServer\\Entities\\Character.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAYwFkAAAAMAAAA",
+              "Title": "GuildManager.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Managers\\GuildManager.cs",
+              "RelativeDocumentMoniker": "GameServer\\Managers\\GuildManager.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Managers\\GuildManager.cs",
+              "RelativeToolTip": "GameServer\\Managers\\GuildManager.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAxwBIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T13:58:02.98Z",
+              "WhenOpened": "2024-07-10T13:09:54.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TeamService.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\TeamService.cs",
-              "RelativeDocumentMoniker": "GameServer\\Services\\TeamService.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Services\\TeamService.cs",
-              "RelativeToolTip": "GameServer\\Services\\TeamService.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAuwCgAAABKAAAA",
+              "Title": "Character.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities\\Character.cs",
+              "RelativeDocumentMoniker": "GameServer\\Entities\\Character.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Entities\\Character.cs",
+              "RelativeToolTip": "GameServer\\Entities\\Character.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAWwFUAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T12:18:49.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TeamManager.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Managers\\TeamManager.cs",
-              "RelativeDocumentMoniker": "GameServer\\Managers\\TeamManager.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Server\\GameServer\\GameServer\\Managers\\TeamManager.cs",
-              "RelativeToolTip": "GameServer\\Managers\\TeamManager.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAqwG0AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T11:12:42.41Z",
+              "WhenOpened": "2024-07-09T13:50:26.7Z",
               "EditorCaption": ""
             }
           ]

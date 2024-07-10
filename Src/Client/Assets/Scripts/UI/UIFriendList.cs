@@ -100,7 +100,7 @@ public class UIFriendList : UIWindow {
     {
         foreach (UIFriendItem go in Root.GetComponentsInChildren<UIFriendItem>())
         {
-                Destroy(go.gameObject);
+            Destroy(go.gameObject);
         }
     }
 

@@ -1,36 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\A\\ExtremeWolrd\\Src\\Client\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|D:\\A\\ExtremeWolrd\\Src\\Client\\assets\\scripts\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|D:\\A\\ExtremeWolrd\\Src\\Client\\assets\\scripts\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|D:\\A\\ExtremeWolrd\\Src\\Client\\assets\\scripts\\ui\\uifriendlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uifriendlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|D:\\A\\ExtremeWolrd\\Src\\Client\\assets\\scripts\\ui\\teamsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\teamsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|D:\\A\\ExtremeWolrd\\Src\\Client\\assets\\scripts\\ui\\uiteamitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uiteamitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|D:\\A\\ExtremeWolrd\\Src\\Client\\assets\\scripts\\services\\friendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\services\\friendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -38,94 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Users.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Models\\Users.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Models\\Users.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Models\\Users.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Models\\Users.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAADgvyAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T11:54:28.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TeamService.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Services\\TeamService.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Services\\TeamService.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Services\\TeamService.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Services\\TeamService.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAqwDwAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T13:16:47.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Services\\UserService.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Services\\UserService.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Services\\UserService.cs",
-              "ViewState": "AQIAAAYBAAAAAAAAAAAswBMBAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T11:22:41.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FriendService.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Services\\FriendService.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Services\\FriendService.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Services\\FriendService.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Services\\FriendService.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAawFAAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T13:24:44.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UIFriendList.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIFriendList.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIFriendList.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIFriendList.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\UIFriendList.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAewEsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T13:20:59.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UITeamItem.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UITeamItem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UITeamItem.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UITeamItem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\UITeamItem.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAADwvxkAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T12:47:20.525Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TeamSystem.cs",
-              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\TeamSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\TeamSystem.cs",
-              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\TeamSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\TeamSystem.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAADwvzMAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T12:38:08.074Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
