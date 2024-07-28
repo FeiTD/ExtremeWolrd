@@ -114,6 +114,8 @@
      <Compile Include="Assets\Scripts\UI\UIFriendItem.cs" />
      <Compile Include="Assets\Scripts\UI\UIFriendList.cs" />
      <Compile Include="Assets\Scripts\UI\UIGuild.cs" />
+     <Compile Include="Assets\Scripts\UI\UIGuildApplyItem.cs" />
+     <Compile Include="Assets\Scripts\UI\UIGuildApplyList.cs" />
      <Compile Include="Assets\Scripts\UI\UIGuildItem.cs" />
      <Compile Include="Assets\Scripts\UI\UIIconBagItem.cs" />
      <Compile Include="Assets\Scripts\UI\UIInputBox.cs" />

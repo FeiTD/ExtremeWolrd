@@ -649,7 +649,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114966063327466434}
-        m_MethodName: OnNoClick
+        m_MethodName: OnCloseClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1274,6 +1274,7 @@ MonoBehaviour:
   guildowner: {fileID: 114223780833789012}
   prefabs: {fileID: 1401054176877772, guid: 7b4b0fd61977b1d408c709826bdd4380, type: 2}
   guildInfo: {fileID: 1858017668858534}
+  selectItem: {fileID: 0}
 --- !u!114 &114982090842759042
 MonoBehaviour:
   m_ObjectHideFlags: 1

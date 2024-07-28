@@ -6,44 +6,36 @@ using System.Text;
 
 namespace Assets.Scripts.Manager
 {
-    internal class GuildManager:Singleton<GuildManager> 
+    internal class GuildManager:Singleton<GuildManager>
     {
-        public List<NGuildInfo> AllGuilds;
-
         public NGuildInfo Guild;
-
+        public bool HasGuild {
+            get { return Guild != null; }
+        }
         public GuildManager()
         {
             
         }
 
-        internal void CreatGuild(string text1, string text2, NCharacterInfo currentCharacter)
-        {
-            throw new NotImplementedException();
-        }
-
         internal void Init(NGuildInfo guild)
         {
-            if(guild == null)
+            Guild = guild;
+
+        }
+
+        internal NGuildMemberInfo GetMemberInfo(NCharacterInfo currentCharacter)
+        {
+            if (Guild != null)
             {
-                return;
+                foreach(var item in Guild.Members)
+                {
+                    if(currentCharacter.Id == item.characterId)
+                    {
+                        return item;
+                    }
+                }
             }
-            Guild = new NGuildInfo();
-            Guild.Id = guild.Id;
-            Guild.LeaderId = guild.LeaderId;
-            Guild.creatTime = guild.creatTime;
-            Guild.GuildName = guild.GuildName;
-            Guild.Notice = guild.Notice;
-            Guild.leaderName = guild.leaderName;
-            Guild.memberCount = guild.memberCount;
-            foreach (var g in guild.Applies)
-            {
-                Guild.Applies.Add(g);
-            }
-            foreach(var m in guild.Members)
-            {
-                Guild.Members.Add(m);
-            }
+            return null;
         }
     }
 }

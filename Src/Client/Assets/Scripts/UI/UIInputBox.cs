@@ -25,7 +25,7 @@ public class UIInputBox : MonoBehaviour {
 
     public void OnClickYes()
     {
-        //Destroy(this.gameObject);
+        Destroy(this.gameObject);
         if (this.OnYes != null)
             this.OnYes();
     }
@@ -37,6 +37,10 @@ public class UIInputBox : MonoBehaviour {
             this.OnNo();
     }
 
+    public void Close()
+    {
+        Destroy(this.gameObject);
+    }
     public void Init(string tips, string content, string btnOK, string btnCancel)
     {
         Tips.text = tips;

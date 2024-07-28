@@ -30,6 +30,7 @@ namespace Assets.Scripts.Manager
             UIResource.Add(typeof(UICreatGuild), new UIElement() { Cache = false, Resource = "UI/UI/Prefabs/UICreatGuild" });
             UIResource.Add(typeof(UICreatOrJoinGuild), new UIElement() { Cache = false, Resource = "UI/UI/Prefabs/UICreatOrJoinGuild" });
             UIResource.Add(typeof(UIJoinGuild), new UIElement() { Cache = false, Resource = "UI/UI/Prefabs/UIJoinGuild" });
+            UIResource.Add(typeof(UIGuildApplyList), new UIElement() { Cache = false, Resource = "UI/UI/Prefabs/UIGuildApplyList" });
         }
         public T Show<T>()
         {

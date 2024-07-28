@@ -1,5 +1,6 @@
 ﻿using Assets.Scripts.Manager;
 using Assets.Scripts.Models;
+using Assets.Scripts.Services;
 using Assets.Scripts.UI;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ public class UICreatGuild : UIWindow {
 	public InputField guildnotice;
 	// Use this for initialization
 	void Start () {
-		
+		GuildService.Instance.OnGuildCreat += OnGuildCreat;
 	}
 	
 	// Update is called once per frame
@@ -27,13 +28,20 @@ public class UICreatGuild : UIWindow {
 			if(Users.Instance.CurrentCharacter.Gold < 0)
 			{
 				MessageBox.Show("金币不足");
-                message.OnClickNo();
-				return;
 			}
 			else
 			{
-				GuildManager.Instance.CreatGuild(guildname.text, guildnotice.text, Users.Instance.CurrentCharacter);
+				GuildService.Instance.SendGuildCreat(guildname.text,guildnotice.text);
 			}
-		};
+            message.Close();
+        };
+	}
+
+	public void OnGuildCreat(bool success)
+	{
+		if (success)
+		{
+			
+		}
 	}
 }

@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 07/10/2024 21:25:00
+-- Date Created: 07/19/2024 20:19:55
 -- Generated from EDMX file: D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Entities.edmx
 -- --------------------------------------------------
 
@@ -110,9 +110,9 @@ CREATE TABLE [dbo].[Characters] (
     [Gold] bigint  NOT NULL,
     [Equips] binary(28)  NOT NULL,
     [Level] bigint  NOT NULL,
+    [GuildId] int  NOT NULL,
     [Player_ID] int  NOT NULL,
-    [Bag_Id] int  NOT NULL,
-    [Guild_Id] int  NOT NULL
+    [Bag_Id] int  NOT NULL
 );
 GO
 
@@ -174,7 +174,7 @@ CREATE TABLE [dbo].[TGuildMember] (
     [Name] nvarchar(max)  NOT NULL,
     [Class] int  NOT NULL,
     [Level] int  NOT NULL,
-    [Title] nvarchar(max)  NOT NULL,
+    [Title] int  NOT NULL,
     [JoinTime] datetime  NOT NULL,
     [LastTime] datetime  NOT NULL,
     [GuildId] int  NOT NULL,
@@ -189,7 +189,7 @@ CREATE TABLE [dbo].[TGuilApply] (
     [Name] nvarchar(max)  NOT NULL,
     [Class] int  NOT NULL,
     [Level] int  NOT NULL,
-    [Result] nvarchar(max)  NOT NULL,
+    [Result] int  NOT NULL,
     [ApplyTime] datetime  NOT NULL,
     [GuildId] int  NOT NULL,
     [TGuildId] int  NOT NULL
@@ -382,21 +382,6 @@ GO
 CREATE INDEX [IX_FK_GuilApply]
 ON [dbo].[TGuilApply]
     ([TGuildId]);
-GO
-
--- Creating foreign key on [Guild_Id] in table 'Characters'
-ALTER TABLE [dbo].[Characters]
-ADD CONSTRAINT [FK_CharacterTGuild]
-    FOREIGN KEY ([Guild_Id])
-    REFERENCES [dbo].[TGuild]
-        ([Id])
-    ON DELETE NO ACTION ON UPDATE NO ACTION;
-GO
-
--- Creating non-clustered index for FOREIGN KEY 'FK_CharacterTGuild'
-CREATE INDEX [IX_FK_CharacterTGuild]
-ON [dbo].[Characters]
-    ([Guild_Id]);
 GO
 
 -- --------------------------------------------------

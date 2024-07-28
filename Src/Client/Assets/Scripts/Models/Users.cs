@@ -53,6 +53,7 @@ namespace Assets.Scripts.Models
         public PlayerInputController CurrentCharacterObject { get; set; }
 
         public NTeamInfo TeamInfo { get; set; }
+
     }
        
 }

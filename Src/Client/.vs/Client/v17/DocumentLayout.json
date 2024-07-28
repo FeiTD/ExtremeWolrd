@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\A\\ExtremeWolrd\\Src\\Client\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\ui\\uijoinguild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uijoinguild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\ui\\uiguild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uiguild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\services\\guildservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\services\\guildservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\ui\\uijoinguilditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uijoinguilditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|d:\\a\\extremewolrd\\src\\client\\assets\\scripts\\ui\\uiminimap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uiminimap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Manager\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\UIManager.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Manager\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\UIManager.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwB8AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T11:36:05.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UIMiniMap.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIMiniMap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIMiniMap.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIMiniMap.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIMiniMap.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAIwB8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T11:31:49.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UIJoinGuildItem.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIJoinGuildItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIJoinGuildItem.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIJoinGuildItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIJoinGuildItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T11:30:04.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UIJoinGuild.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIJoinGuild.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIJoinGuild.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIJoinGuild.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIJoinGuild.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAiwCcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T13:57:55.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GuildService.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Services\\GuildService.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Services\\GuildService.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\Services\\GuildService.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Services\\GuildService.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAAEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T13:57:33.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIGuild.cs",
+              "DocumentMoniker": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIGuild.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIGuild.cs",
+              "ToolTip": "D:\\A\\ExtremeWolrd\\Src\\Client\\Assets\\Scripts\\UI\\UIGuild.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIGuild.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAIwC4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T13:54:45.8Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -23,6 +23,7 @@ namespace Assets.Scripts
             ShopManager.Instance.Init();
             FriendService.Instance.Init();
             TeamService.Instance.Init();
+            GuildService.Instance.Init();
             UITips.SetActive(true);
             UILoading.SetActive(false);
             UILogin.SetActive(false);

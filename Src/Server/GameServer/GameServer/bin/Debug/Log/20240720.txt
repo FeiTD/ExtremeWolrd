@@ -1,0 +1,1556 @@
+
+2024-07-20 19:26:32,949 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-20 19:26:33,129 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-20 19:26:33,369 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 19:26:33,369 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 19:26:33,369 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 19:26:33,369 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 19:26:33,369 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 19:26:33,371 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 19:26:33,371 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 19:26:33,369 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 19:26:33,412 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-20 19:26:36,702 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-20 19:26:36,713 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-20 19:26:36,714 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-20 19:26:36,714 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-20 19:26:40,706 [14] [WARN ] [GameServer] ：Client[127.0.0.1:51796]] Connected
+2024-07-20 19:26:41,035 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 19:26:41,472 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-20 19:26:49,977 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 19:26:49,982 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-20 19:26:49,985 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:Aa Map:1
+2024-07-20 19:26:57,425 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 19:26:57,551 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1 Position:(5000, 4000, 820)
+2024-07-20 19:26:57,585 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 19:27:01,886 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:27:02,184 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:02,292 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:02,358 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:02,450 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:02,549 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:02,703 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:03,781 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:27:04,377 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:27:04,379 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 19:27:10,850 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-07-20 19:27:11,170 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:11,287 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:11,376 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:27:11,483 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:27:11,557 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:27:11,644 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:27:11,748 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:27:11,840 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:27:11,912 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:27:12,008 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:27:12,099 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:27:12,177 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:12,273 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:12,391 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:12,466 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:12,862 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:27:12,903 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:27:13,004 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:27:13,099 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:27:13,203 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 19:27:13,303 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 19:27:13,387 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 19:27:13,486 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 19:27:13,558 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 19:27:13,646 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 19:27:13,741 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 19:27:13,781 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2024-07-20 19:27:13,848 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:27:14,514 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:14,699 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:14,797 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:14,897 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:14,998 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:15,106 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:15,170 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:15,274 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:15,374 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:27:15,478 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:27:15,650 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:27:15,820 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-07-20 19:27:16,048 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 19:27:16,060 [6] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:Aa Map:1
+2024-07-20 19:27:16,066 [6] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-07-20 19:27:16,069 [6] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:Aa : Map:1 Character:1:Aa
+2024-07-20 19:27:16,071 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 19:27:16,079 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 19:27:18,701 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 19:27:18,702 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-20 19:27:18,702 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:Aa Map:1
+2024-07-20 19:27:22,161 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 19:27:22,161 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1 Position:(5000, 4000, 820)
+2024-07-20 19:27:22,162 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 19:27:24,386 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:27:24,734 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:24,849 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:25,230 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:27:35,066 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:27:35,302 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 19:27:38,323 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 19:27:38,392 [4] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:Aa Map:1
+2024-07-20 19:27:38,401 [4] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-07-20 19:27:38,402 [4] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:Aa : Map:1 Character:1:Aa
+2024-07-20 19:27:38,406 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 19:27:38,409 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 19:27:42,899 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 19:27:42,920 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Ad  Class:Warrior
+2024-07-20 19:27:42,980 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 19:27:46,861 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2024-07-20 19:27:46,861 [5] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Adadad  Class:Warrior
+2024-07-20 19:27:47,156 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 19:27:50,779 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-20 19:27:50,780 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:4
+2024-07-20 19:27:50,781 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:8:Adadad Map:1
+2024-07-20 19:27:53,731 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:8:Adadad
+2024-07-20 19:27:53,732 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:8 Position:(5000, 4000, 820)
+2024-07-20 19:27:53,732 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:8:Adadad
+2024-07-20 19:27:55,155 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:27:58,586 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:27:59,053 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:59,152 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:59,251 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:59,350 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:27:59,565 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:28:00,418 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:28:01,240 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:28:01,246 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:8:Adadad
+2024-07-20 19:30:21,633 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:30:21,633 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:8:Adadad
+2024-07-20 19:31:20,671 [14] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:8
+2024-07-20 19:31:20,672 [14] [INFO ] [GameServer] ：SendCharacterLeaveMap To 8:Adadad : Map:1 Character:8:Adadad
+2024-07-20 19:31:20,672 [14] [INFO ] [GameServer] ：PostProcess > Character: characterID:8:Adadad
+2024-07-20 19:31:20,672 [14] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-20 19:33:08,728 [14] [WARN ] [GameServer] ：Client[127.0.0.1:52006]] Connected
+2024-07-20 19:33:08,920 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 19:33:08,920 [4] [INFO ] [GameServer] ：UserLoginRequest: User:2  Pass:2
+2024-07-20 19:33:11,612 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-20 19:33:11,612 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:1
+2024-07-20 19:33:11,614 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:4:V Map:1
+2024-07-20 19:33:16,309 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:V
+2024-07-20 19:33:16,326 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:4 Position:(5000, 4000, 820)
+2024-07-20 19:33:16,327 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:V
+2024-07-20 19:33:19,726 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:33:19,865 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:33:20,101 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:33:20,921 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:33:21,937 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:33:21,999 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:V
+2024-07-20 19:37:00,294 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:37:00,296 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:V
+2024-07-20 19:37:16,735 [19] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:4
+2024-07-20 19:37:16,735 [19] [INFO ] [GameServer] ：SendCharacterLeaveMap To 4:V : Map:1 Character:4:V
+2024-07-20 19:37:16,736 [19] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:V
+2024-07-20 19:37:16,736 [19] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-20 19:39:03,206 [20] [WARN ] [GameServer] ：Client[127.0.0.1:52092]] Connected
+2024-07-20 19:39:03,461 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 19:39:03,461 [4] [INFO ] [GameServer] ：UserLoginRequest: User:2  Pass:2
+2024-07-20 19:39:07,339 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 19:39:07,340 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-20 19:39:07,340 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:D Map:1
+2024-07-20 19:39:11,689 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:D
+2024-07-20 19:39:11,693 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2 Position:(5000, 4000, 820)
+2024-07-20 19:39:11,694 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:D
+2024-07-20 19:39:16,283 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:39:16,797 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:39:16,899 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:39:17,124 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:39:17,594 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:39:17,630 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:39:17,725 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:39:18,150 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:39:18,152 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:D
+2024-07-20 19:39:18,247 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:39:20,556 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 19:39:20,557 [4] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:2:D Map:1
+2024-07-20 19:39:20,557 [4] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-07-20 19:39:20,557 [4] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:D : Map:1 Character:2:D
+2024-07-20 19:39:20,557 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:D
+2024-07-20 19:39:20,557 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:D
+2024-07-20 19:39:20,987 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 19:39:20,987 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:2:D Map:1
+2024-07-20 19:39:21,300 [5] [ERROR] [GameServer] ：Message handler exception:, 给定关键字不在字典中。, mscorlib,    在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.Managers.CharacterManager.RemoveCharacter(Int32 characterId) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 45
+   在 GameServer.Services.UserService.CharacterLeave(Character character) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 177
+   在 GameServer.Services.UserService.OnGameLeave(NetConnection`1 sender, UserGameLeaveRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 167
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-20 19:39:23,043 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-20 19:39:23,043 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:1
+2024-07-20 19:39:23,043 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:4:V Map:1
+2024-07-20 19:39:24,582 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:V
+2024-07-20 19:39:24,583 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:4 Position:(5000, 4000, 820)
+2024-07-20 19:39:24,583 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:V
+2024-07-20 19:39:27,471 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:39:27,650 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:39:29,397 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:39:31,077 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:39:31,077 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:V
+2024-07-20 19:39:59,324 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:39:59,324 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:V
+2024-07-20 19:40:29,230 [27] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:4
+2024-07-20 19:40:29,230 [27] [INFO ] [GameServer] ：SendCharacterLeaveMap To 4:V : Map:1 Character:4:V
+2024-07-20 19:40:29,231 [27] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:V
+2024-07-20 19:40:29,231 [27] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-20 19:41:52,120 [27] [WARN ] [GameServer] ：Client[127.0.0.1:52143]] Connected
+2024-07-20 19:41:52,343 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 19:41:52,371 [4] [INFO ] [GameServer] ：UserRegisterRequest: User:4  Pass:4
+2024-07-20 19:41:57,276 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 19:41:57,276 [4] [INFO ] [GameServer] ：UserLoginRequest: User:4  Pass:4
+2024-07-20 19:42:03,307 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 19:42:03,307 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Qe  Class:Warrior
+2024-07-20 19:42:06,378 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 19:42:06,379 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-20 19:42:06,379 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:9:Qe Map:1
+2024-07-20 19:42:08,215 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:42:08,216 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:9 Position:(5000, 4000, 820)
+2024-07-20 19:42:08,221 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:42:11,952 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:42:12,147 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:42:12,249 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:42:12,497 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:42:12,734 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:42:12,939 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:42:13,126 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:42:13,337 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:42:13,751 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:42:13,865 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 19:42:13,952 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 19:42:14,150 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 19:42:14,305 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 19:42:14,689 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 19:42:14,767 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 19:42:14,851 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 19:42:15,421 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:42:15,422 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:42:30,359 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:42:30,360 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:42:47,612 [24] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:9
+2024-07-20 19:42:47,612 [24] [INFO ] [GameServer] ：SendCharacterLeaveMap To 9:Qe : Map:1 Character:9:Qe
+2024-07-20 19:42:47,612 [24] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:42:47,613 [24] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-20 19:43:51,046 [24] [WARN ] [GameServer] ：Client[127.0.0.1:52186]] Connected
+2024-07-20 19:43:51,275 [24] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 19:43:51,276 [4] [INFO ] [GameServer] ：UserLoginRequest: User:4  Pass:4
+2024-07-20 19:43:55,869 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 19:43:55,869 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-20 19:43:55,869 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:9:Qe Map:1
+2024-07-20 19:43:57,039 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:43:57,039 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:9 Position:(5000, 4000, 820)
+2024-07-20 19:43:57,040 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:44:01,937 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:44:01,938 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:44:18,667 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:44:18,667 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:44:38,776 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:44:38,779 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:45:49,100 [25] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:9
+2024-07-20 19:45:49,101 [25] [INFO ] [GameServer] ：SendCharacterLeaveMap To 9:Qe : Map:1 Character:9:Qe
+2024-07-20 19:45:49,101 [25] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:45:49,102 [25] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-20 19:47:06,910 [25] [WARN ] [GameServer] ：Client[127.0.0.1:52258]] Connected
+2024-07-20 19:47:06,999 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 19:47:06,999 [4] [INFO ] [GameServer] ：UserLoginRequest: User:4  Pass:4
+2024-07-20 19:47:09,842 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 19:47:09,842 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-20 19:47:09,843 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:9:Qe Map:1
+2024-07-20 19:47:11,452 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:47:11,458 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:9 Position:(5000, 4000, 820)
+2024-07-20 19:47:11,465 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:47:15,778 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:47:15,999 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:47:16,153 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:47:16,317 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:47:16,485 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:47:16,636 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:47:16,797 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:47:16,942 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:47:17,111 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:47:17,412 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:47:17,558 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:47:17,690 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:47:17,824 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:47:17,961 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:47:18,097 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:47:19,382 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:47:19,382 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:47:21,908 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:47:21,910 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:47:28,420 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-07-20 19:47:31,526 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:47:45,732 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2024-07-20 19:47:45,945 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:47:51,929 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-07-20 19:47:52,123 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:47:52,253 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:47:52,384 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:47:52,511 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:47:52,638 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:47:52,779 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:47:52,923 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:47:53,061 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:47:53,390 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 19:49:22,403 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:49:22,418 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:49:34,122 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:49:34,131 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:49:56,689 [12] [WARN ] [GameServer] ：Client[127.0.0.1:52315]] Connected
+2024-07-20 19:49:57,019 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 19:49:57,020 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-20 19:50:02,268 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-20 19:50:02,269 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:4
+2024-07-20 19:50:02,269 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:8:Adadad Map:1
+2024-07-20 19:50:05,920 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:8:Adadad
+2024-07-20 19:50:05,920 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:8 Position:(5000, 4000, 820)
+2024-07-20 19:50:05,923 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:50:05,924 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:8:Adadad
+2024-07-20 19:50:10,693 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:50:10,699 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:50:10,990 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:50:10,991 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:50:11,150 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:50:11,151 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:50:11,608 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:50:11,609 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:50:12,244 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:50:12,244 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:50:12,618 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:50:12,618 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:50:12,753 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:50:12,753 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:50:12,822 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:50:12,822 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:50:13,869 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:50:13,870 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:50:13,978 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-07-20 19:50:13,978 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:50:14,567 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:50:14,568 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:50:14,774 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-07-20 19:50:14,774 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:50:14,931 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:50:14,931 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:50:15,115 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:50:15,116 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:50:17,305 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:50:17,306 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:8:Adadad
+2024-07-20 19:51:30,152 [30] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:8
+2024-07-20 19:51:30,154 [30] [INFO ] [GameServer] ：SendCharacterLeaveMap To 9:Qe : Map:1 Character:8:Adadad
+2024-07-20 19:51:30,156 [30] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:51:30,158 [30] [INFO ] [GameServer] ：SendCharacterLeaveMap To 8:Adadad : Map:1 Character:8:Adadad
+2024-07-20 19:51:30,158 [30] [INFO ] [GameServer] ：PostProcess > Character: characterID:8:Adadad
+2024-07-20 19:51:30,159 [30] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-20 19:52:02,543 [34] [WARN ] [GameServer] ：Client[127.0.0.1:52338]] Connected
+2024-07-20 19:52:02,870 [34] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 19:52:02,871 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-20 19:52:06,042 [37] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 19:52:06,053 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-20 19:52:06,055 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:Aa Map:1
+2024-07-20 19:52:12,731 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 19:52:12,731 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1 Position:(5000, 4000, 820)
+2024-07-20 19:52:12,733 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:12,737 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 19:52:20,223 [37] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 19:52:20,232 [4] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:Aa Map:1
+2024-07-20 19:52:20,234 [4] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-07-20 19:52:20,242 [4] [INFO ] [GameServer] ：SendCharacterLeaveMap To 9:Qe : Map:1 Character:1:Aa
+2024-07-20 19:52:20,245 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:20,250 [4] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:Aa : Map:1 Character:1:Aa
+2024-07-20 19:52:20,255 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 19:52:20,256 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 19:52:23,616 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-20 19:52:23,617 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:1
+2024-07-20 19:52:23,617 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:Bb Map:1
+2024-07-20 19:52:23,650 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:23,651 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3 Position:(5000, 4000, 820)
+2024-07-20 19:52:23,652 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:23,653 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:25,934 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:25,936 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:26,120 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:26,121 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:26,180 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:26,183 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:26,229 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:26,239 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:26,291 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:26,291 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:26,433 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:26,437 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:26,540 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:26,543 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:26,606 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:26,606 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:26,676 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:26,676 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:26,710 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:26,710 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:26,819 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:26,820 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:26,890 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:26,893 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:26,944 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:26,947 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,009 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:27,010 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,069 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:27,070 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,112 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:27,119 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,155 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:27,166 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,220 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:27,223 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,269 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:27,273 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,305 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:27,309 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,464 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:27,466 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,509 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:27,516 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,550 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:27,579 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,588 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:27,610 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,643 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:27,645 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,694 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:27,696 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,731 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:27,733 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,774 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:52:27,775 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,864 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:52:27,867 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,921 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2024-07-20 19:52:27,925 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:27,959 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2024-07-20 19:52:27,970 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:28,014 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2024-07-20 19:52:28,015 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:28,204 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2024-07-20 19:52:28,240 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:28,258 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2024-07-20 19:52:28,263 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:28,377 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2024-07-20 19:52:28,380 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:28,513 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2024-07-20 19:52:28,518 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:28,664 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2024-07-20 19:52:28,688 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:28,701 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 19:52:28,927 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:28,929 [37] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 19:52:29,015 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:29,018 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 19:52:29,021 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:29,031 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 19:52:29,033 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:29,081 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2024-07-20 19:52:29,082 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:29,136 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:29,142 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:29,323 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:29,324 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:29,466 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:29,468 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:29,632 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:29,633 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:29,750 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:29,753 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:29,878 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:29,893 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:29,994 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:29,997 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:30,078 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:30,080 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:30,131 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:30,132 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:30,250 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:30,277 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:30,316 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:30,316 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:30,373 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:30,374 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:30,468 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:30,475 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:30,566 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:30,569 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:30,609 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:30,626 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:30,668 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:30,680 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:30,735 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:30,760 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:30,776 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:30,779 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:30,854 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:30,855 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:30,918 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:30,919 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:30,977 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:30,978 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:31,044 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:52:31,047 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:31,100 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:52:31,102 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:31,154 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 19:52:31,163 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:31,206 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 19:52:31,210 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:31,350 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:52:31,355 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:31,417 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:31,421 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:31,469 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:31,472 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:31,508 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:31,509 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:31,549 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:31,553 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:31,604 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:31,608 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:31,698 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-07-20 19:52:31,701 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:31,767 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-07-20 19:52:31,769 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:31,820 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:31,822 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:31,893 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:31,894 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:31,995 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:32,000 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:32,036 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:32,041 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:32,140 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:32,141 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:32,184 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:32,185 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:32,220 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:32,222 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:32,295 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:32,295 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:32,376 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:32,378 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:32,430 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:32,430 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:32,630 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:32,635 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:32,716 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:32,718 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:32,799 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:52:32,801 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:32,981 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:52:32,984 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:33,154 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:33,154 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:33,219 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:33,219 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:33,252 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:33,252 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:33,295 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:52:33,303 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:33,404 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:52:33,405 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:33,476 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:52:33,479 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:33,510 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:52:33,510 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:33,661 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:52:33,668 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:33,759 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:52:33,761 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:33,861 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:52:33,862 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:34,311 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-07-20 19:52:34,311 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:34,380 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:34,380 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:34,473 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:34,479 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:34,620 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:34,620 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:34,689 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:52:34,690 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:37,749 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:52:37,750 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:49,080 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-07-20 19:52:49,082 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:50,794 [39] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:50,794 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:52,510 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:52:52,511 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:52:55,251 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2024-07-20 19:52:55,253 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:55,447 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:52:55,449 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:55,556 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:52:55,560 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:55,638 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:52:55,638 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:55,726 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:52:55,741 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:55,819 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 19:52:55,821 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:55,920 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2024-07-20 19:52:55,924 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:55,984 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:55,986 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:56,054 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:56,055 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:56,123 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 19:52:56,127 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:56,192 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2024-07-20 19:52:56,196 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:56,258 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 19:52:56,260 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:56,388 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 19:52:56,390 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:56,924 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:56,927 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:57,060 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2024-07-20 19:52:57,062 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:57,358 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 19:52:57,359 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:57,492 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:52:57,494 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:57,561 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-07-20 19:52:57,564 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:58,427 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:58,429 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:58,560 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:58,561 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:58,663 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:52:58,668 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:58,759 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:52:58,763 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:58,884 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:52:58,885 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:59,178 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:52:59,181 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:59,361 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:52:59,362 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:59,512 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:52:59,514 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:59,677 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:52:59,678 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:52:59,844 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-07-20 19:52:59,845 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:00,123 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2024-07-20 19:53:00,124 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:00,462 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:53:00,464 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:00,624 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:53:00,625 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:00,749 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-07-20 19:53:00,752 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:01,057 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2024-07-20 19:53:01,058 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:01,660 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:53:01,660 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:02,106 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 19:53:02,108 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:02,410 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-07-20 19:53:02,412 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:04,181 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2024-07-20 19:53:04,182 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:05,250 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:53:05,250 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:05,558 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-07-20 19:53:05,559 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:06,027 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 19:53:06,028 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:06,345 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:53:06,345 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:06,674 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:53:06,675 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:07,366 [38] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:53:07,371 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:07,915 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 19:53:07,916 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:08,479 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2024-07-20 19:53:08,479 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:53:09,885 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 19:53:09,885 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:53:10,715 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:53:10,715 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:53:11,704 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 19:53:11,704 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:3:Bb Map:1
+2024-07-20 19:53:11,704 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2024-07-20 19:53:11,705 [5] [INFO ] [GameServer] ：SendCharacterLeaveMap To 9:Qe : Map:1 Character:3:Bb
+2024-07-20 19:53:11,705 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:53:11,705 [5] [INFO ] [GameServer] ：SendCharacterLeaveMap To 3:Bb : Map:1 Character:3:Bb
+2024-07-20 19:53:11,706 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:11,707 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 19:53:15,293 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-20 19:53:15,294 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:4
+2024-07-20 19:53:15,294 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:8:Adadad Map:1
+2024-07-20 19:53:15,295 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:8:Adadad
+2024-07-20 19:53:15,295 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:8 Position:(5000, 4000, 820)
+2024-07-20 19:53:15,296 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:53:15,297 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:8:Adadad
+2024-07-20 19:53:17,734 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:53:17,737 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:53:17,956 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:53:17,960 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:53:18,174 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:53:18,175 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:53:18,399 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 19:53:18,401 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:53:23,965 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:53:23,966 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:8:Adadad
+2024-07-20 19:54:08,211 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:54:08,211 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:8:Adadad
+2024-07-20 19:54:17,212 [44] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:8
+2024-07-20 19:54:17,212 [44] [INFO ] [GameServer] ：SendCharacterLeaveMap To 9:Qe : Map:1 Character:8:Adadad
+2024-07-20 19:54:17,213 [44] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:54:17,214 [44] [INFO ] [GameServer] ：SendCharacterLeaveMap To 8:Adadad : Map:1 Character:8:Adadad
+2024-07-20 19:54:17,214 [44] [INFO ] [GameServer] ：PostProcess > Character: characterID:8:Adadad
+2024-07-20 19:54:17,214 [44] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-20 19:54:47,203 [45] [WARN ] [GameServer] ：Client[127.0.0.1:52365]] Connected
+2024-07-20 19:54:47,733 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 19:54:47,753 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-20 19:54:53,993 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-20 19:54:53,999 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:3
+2024-07-20 19:54:54,000 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:6:Vad Map:1
+2024-07-20 19:54:54,051 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 19:54:54,059 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:6 Position:(5000, 4000, 820)
+2024-07-20 19:54:54,060 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:54:54,062 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 19:54:59,804 [48] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:54:59,805 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:54:59,875 [48] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:54:59,879 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:54:59,973 [48] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:54:59,978 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:55:00,159 [48] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:55:00,159 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:55:00,249 [48] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:55:00,250 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:55:00,349 [48] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:55:00,349 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:55:00,389 [48] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:55:00,390 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:55:00,604 [48] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 19:55:00,606 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 19:55:33,293 [48] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:55:43,542 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 19:59:50,539 [48] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-07-20 19:59:50,542 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 19:59:50,915 [48] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:59:50,917 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 19:59:51,155 [48] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 19:59:51,156 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 19:59:51,312 [48] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:59:51,315 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 19:59:51,463 [48] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 19:59:51,465 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 19:59:52,063 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-07-20 19:59:52,066 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 19:59:53,498 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 19:59:53,499 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:00:00,673 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2024-07-20 20:00:00,674 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:01,590 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 20:00:01,592 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:01,699 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 20:00:01,701 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:01,743 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 20:00:01,746 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:01,787 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:00:01,788 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:01,882 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:00:01,884 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:01,954 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:00:01,954 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:02,067 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:00:02,069 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:02,137 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-07-20 20:00:02,137 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:02,187 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:00:02,187 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:02,257 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:00:02,257 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:02,444 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:00:02,445 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:03,200 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:00:03,202 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:03,305 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:00:03,306 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:03,394 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:00:03,398 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:03,527 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:00:03,528 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:05,861 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:00:05,862 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:00:06,476 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:00:06,477 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:08,503 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:00:08,504 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:08,601 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:00:08,602 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:08,694 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:00:08,695 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:08,787 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:00:08,787 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:08,875 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:00:08,876 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:08,987 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:00:08,987 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:09,061 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:00:09,062 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:09,196 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:00:09,196 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:10,767 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:00:10,767 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:11,084 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:00:11,084 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:11,390 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:00:11,390 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:11,715 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:00:11,715 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:12,053 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:00:12,053 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:12,381 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:00:12,382 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:12,687 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:00:12,689 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:12,976 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:00:12,976 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:13,409 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:00:13,409 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:13,689 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:00:13,690 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:13,976 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:00:13,977 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:14,294 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:00:14,296 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:14,630 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:00:14,630 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:14,958 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:00:14,961 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:15,282 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:00:15,282 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:15,634 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:00:15,634 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:15,801 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:00:15,802 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:16,731 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:00:16,732 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:16,876 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:00:16,877 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:17,763 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:00:17,763 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:18,462 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-07-20 20:00:18,463 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:35,817 [12] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:6
+2024-07-20 20:00:35,820 [12] [INFO ] [GameServer] ：SendCharacterLeaveMap To 9:Qe : Map:1 Character:6:Vad
+2024-07-20 20:00:35,820 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:00:35,822 [12] [INFO ] [GameServer] ：SendCharacterLeaveMap To 6:Vad : Map:1 Character:6:Vad
+2024-07-20 20:00:35,838 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:00:35,840 [12] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-20 20:13:55,954 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2024-07-20 20:13:56,179 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 20:13:56,329 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 20:13:56,479 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 20:13:56,634 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 20:13:56,793 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 20:13:56,948 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:13:57,102 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:13:57,256 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 20:13:57,413 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 20:13:57,624 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 20:13:57,723 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 20:13:57,878 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:13:58,031 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2024-07-20 20:13:59,399 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 20:16:17,360 [19] [WARN ] [GameServer] ：Client[127.0.0.1:52899]] Connected
+2024-07-20 20:16:17,742 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:16:17,744 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-20 20:16:22,673 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-20 20:16:22,675 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:1
+2024-07-20 20:16:22,676 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:Bb Map:1
+2024-07-20 20:16:22,687 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 20:16:22,691 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3 Position:(5000, 4000, 820)
+2024-07-20 20:16:22,692 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:22,693 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 20:16:29,448 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:16:29,451 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:30,263 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:16:30,264 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:30,439 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:16:30,441 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:30,509 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:16:30,510 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:30,559 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:16:30,559 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:30,721 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:16:30,723 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:30,855 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:16:30,856 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:31,460 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:16:31,461 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:31,593 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:16:31,595 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:31,657 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:16:31,658 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:31,765 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:16:31,765 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:31,899 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:16:31,900 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:31,970 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:16:31,972 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:32,027 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:16:32,028 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:32,744 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 20:16:32,745 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:33,765 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:16:33,767 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 20:16:46,045 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2024-07-20 20:16:46,045 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:46,591 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-20 20:16:46,591 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:46,774 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 20:16:46,775 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:48,722 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 20:16:48,723 [4] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:3:Bb Map:1
+2024-07-20 20:16:48,723 [4] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2024-07-20 20:16:48,724 [4] [INFO ] [GameServer] ：SendCharacterLeaveMap To 9:Qe : Map:1 Character:3:Bb
+2024-07-20 20:16:48,724 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:48,725 [4] [INFO ] [GameServer] ：SendCharacterLeaveMap To 3:Bb : Map:1 Character:3:Bb
+2024-07-20 20:16:48,725 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 20:16:48,726 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Bb
+2024-07-20 20:16:53,882 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-20 20:16:53,883 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:3
+2024-07-20 20:16:53,884 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:6:Vad Map:1
+2024-07-20 20:16:53,884 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:16:53,885 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:6 Position:(5000, 4000, 820)
+2024-07-20 20:16:53,886 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:53,888 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:16:56,152 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 20:16:56,153 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:56,473 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 20:16:56,473 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:56,606 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 20:16:56,607 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:56,717 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 20:16:56,719 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:56,838 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 20:16:56,839 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:56,964 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 20:16:56,964 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:57,081 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 20:16:57,083 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:57,203 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 20:16:57,205 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:57,447 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 20:16:57,447 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:57,509 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:16:57,511 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:57,615 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:16:57,616 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:57,676 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:16:57,677 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:57,870 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:16:57,871 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:57,999 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:16:57,999 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:58,115 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:16:58,115 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:58,220 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:16:58,220 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:58,365 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:16:58,366 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:58,549 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:16:58,549 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:58,700 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:16:58,701 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:58,766 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:16:58,767 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:58,826 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:16:58,827 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:59,000 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:16:59,006 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:59,283 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:16:59,283 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:59,576 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:16:59,576 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:16:59,791 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 20:16:59,792 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:17:00,154 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 20:17:00,155 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:17:09,983 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:17:21,903 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:17:40,207 [45] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-20 20:18:24,119 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:18:43,321 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:18:43,322 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:18:51,002 [44] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:9
+2024-07-20 20:18:51,003 [44] [INFO ] [GameServer] ：SendCharacterLeaveMap To 9:Qe : Map:1 Character:9:Qe
+2024-07-20 20:18:51,003 [44] [INFO ] [GameServer] ：PostProcess > Character: characterID:9:Qe
+2024-07-20 20:18:51,004 [44] [INFO ] [GameServer] ：SendCharacterLeaveMap To 6:Vad : Map:1 Character:9:Qe
+2024-07-20 20:18:51,004 [44] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:18:51,005 [44] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-20 20:18:54,191 [44] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:6
+2024-07-20 20:18:54,191 [44] [INFO ] [GameServer] ：SendCharacterLeaveMap To 6:Vad : Map:1 Character:6:Vad
+2024-07-20 20:18:54,192 [44] [INFO ] [GameServer] ：PostProcess > Character: characterID:6:Vad
+2024-07-20 20:18:54,192 [44] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-20 20:20:23,616 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-20 20:20:24,135 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-20 20:20:26,084 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:20:26,084 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:20:26,084 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:20:26,084 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:20:26,084 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:20:26,086 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:20:26,086 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:20:26,091 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:20:26,149 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-20 20:20:27,484 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-20 20:20:27,508 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-20 20:20:27,508 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-20 20:20:27,510 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-20 20:29:33,704 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53231]] Connected
+2024-07-20 20:29:33,719 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:29:34,676 [4] [INFO ] [GameServer] ：UserRegisterRequest: User:2  Pass:2
+2024-07-20 20:29:38,865 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:29:38,883 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2  Pass:2
+2024-07-20 20:29:40,264 [5] [ERROR] [GameServer] ：Message handler exception:, 内部连接致命错误。错误状态: 15，标记: 224, System.Data,    在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryCloseInternal(Boolean closeReader)
+   在 System.Data.SqlClient.SqlDataReader.Close()
+   在 System.Data.Common.DbDataReader.Dispose(Boolean disposing)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.Finally()
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 60
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-20 20:29:45,700 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2024-07-20 20:29:45,716 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:A'dad  Class:Archer
+2024-07-20 20:30:04,650 [4] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Services.UserService.OnCreatCharacter(NetConnection`1 conn, UserCreateCharacterRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 119
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-20 20:30:09,994 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2024-07-20 20:30:10,322 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:A'dad  Class:Archer
+2024-07-20 20:30:28,961 [4] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Services.UserService.OnCreatCharacter(NetConnection`1 conn, UserCreateCharacterRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 119
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-20 20:30:49,017 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-20 20:30:49,187 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-20 20:30:50,311 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:30:50,311 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:30:50,313 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:30:50,319 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:30:50,326 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:30:50,326 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:30:50,328 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:30:50,329 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:30:50,442 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-20 20:30:54,531 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-20 20:30:54,606 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-20 20:30:54,618 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-20 20:30:54,621 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-20 20:31:08,444 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53256]] Connected
+2024-07-20 20:31:08,713 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:31:09,597 [4] [INFO ] [GameServer] ：UserRegisterRequest: User:1  Pass:1
+2024-07-20 20:31:12,845 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:31:12,866 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-20 20:31:14,034 [5] [ERROR] [GameServer] ：Message handler exception:System.InvalidOperationException: 已有打开的与此 Command 相关联的 DataReader，必须首先将它关闭。
+   在 System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   在 System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior), 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 60
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-20 20:31:22,575 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2024-07-20 20:31:22,588 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:阿达  Class:Wizard
+2024-07-20 20:31:33,353 [4] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Services.UserService.OnCreatCharacter(NetConnection`1 conn, UserCreateCharacterRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 119
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-20 20:31:44,650 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2024-07-20 20:31:44,653 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:阿达  Class:Wizard
+2024-07-20 20:31:55,783 [4] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Services.UserService.OnCreatCharacter(NetConnection`1 conn, UserCreateCharacterRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 119
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-20 20:32:24,309 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-20 20:32:24,673 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-20 20:32:25,184 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:32:25,184 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:32:25,184 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:32:25,185 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:32:25,184 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:32:25,189 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:32:25,194 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:32:25,196 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:32:25,257 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-20 20:32:29,317 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-20 20:32:29,336 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-20 20:32:29,336 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-20 20:32:29,337 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-20 20:32:55,954 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53281]] Connected
+2024-07-20 20:32:56,248 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:32:57,157 [4] [INFO ] [GameServer] ：UserRegisterRequest: User:1  Pass:1
+2024-07-20 20:33:07,240 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:33:07,250 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-20 20:33:14,404 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2024-07-20 20:33:14,462 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:阿达  Class:Warrior
+2024-07-20 20:33:17,235 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 20:33:17,243 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-20 20:33:17,246 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:阿达 Map:1
+2024-07-20 20:33:17,443 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:33:17,494 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1 Position:(5000, 4000, 820)
+2024-07-20 20:33:17,511 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:33:26,073 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53291]] Connected
+2024-07-20 20:33:26,345 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:33:26,350 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:2  Pass:2
+2024-07-20 20:33:31,333 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:33:31,339 [4] [INFO ] [GameServer] ：UserRegisterRequest: User:3  Pass:3
+2024-07-20 20:33:41,264 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:33:41,266 [4] [INFO ] [GameServer] ：UserLoginRequest: User:3  Pass:3
+2024-07-20 20:33:45,460 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2024-07-20 20:33:45,557 [5] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:阿达  Class:None
+2024-07-20 20:33:53,340 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:33:53,341 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Aa  Class:Warrior
+2024-07-20 20:33:57,420 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 20:33:57,421 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-20 20:33:57,422 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:Aa Map:1
+2024-07-20 20:33:57,423 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:33:57,424 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2 Position:(5000, 4000, 820)
+2024-07-20 20:33:57,426 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:33:57,427 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:33:58,582 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 20:33:58,619 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:33:58,759 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 20:33:58,785 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:33:58,881 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 20:33:58,959 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:33:58,983 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 20:33:59,058 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:33:59,063 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 20:33:59,066 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:33:59,133 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 20:33:59,205 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:34:01,023 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:34:01,305 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:34:01,340 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:34:01,480 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:34:01,480 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:34:01,483 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:34:01,532 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:34:01,556 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:34:01,600 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:34:01,788 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:34:01,788 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:90
+2024-07-20 20:34:01,798 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:34:01,798 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:34:01,879 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:34:02,478 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:34:02,562 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:152
+2024-07-20 20:34:03,029 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:34:03,030 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:34:03,030 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:34:04,583 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:34:04,813 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:34:04,900 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:34:05,222 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:34:05,234 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:99
+2024-07-20 20:34:05,494 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:34:05,494 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:34:05,494 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:34:05,496 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:173
+2024-07-20 20:34:05,667 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:34:05,667 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:34:05,675 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:34:05,677 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:34:05,715 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:34:05,938 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:34:07,382 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 20:34:07,384 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:34:24,876 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2024-07-20 20:34:25,188 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:34:34,632 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:34:34,943 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:34:47,652 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:34:47,660 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:34:50,097 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-20 20:36:43,349 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:37:14,561 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2024-07-20 20:37:14,570 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:37:14,571 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:37:28,873 [4] [ERROR] [GameServer] ：Message handler exception:, 在上一个异步操作完成前已在此上下文上开始了第二个操作。请使用“await”以确保在此上下文上调用其他方法前所有异步操作均已完成。任何实例成员均不保证是线程安全的。, EntityFramework,    在 System.Data.Entity.Internal.ThrowingMonitor.EnsureNotEntered()
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesAsync(SaveOptions options, CancellationToken cancellationToken)
+   在 System.Data.Entity.Internal.InternalContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.DbContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.DbContext.SaveChangesAsync()
+   在 GameServer.Services.DBService.Save() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\DBService.cs:行号 27
+   在 GameServer.Models.Guild.JoinAppove(NGuildApplyInfo apply) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Models\Guild.cs:行号 180
+   在 GameServer.Services.GuildService.OnGuildJoinResponse(NetConnection`1 sender, GuildJoinResponse message) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\GuildService.cs:行号 127
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-20 20:37:37,797 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:37:37,800 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:37:48,977 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-20 20:38:03,952 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:38:23,360 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:38:23,361 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:39:30,917 [22] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-07-20 20:39:30,922 [22] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:阿达 : Map:1 Character:1:阿达
+2024-07-20 20:39:30,939 [22] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:阿达
+2024-07-20 20:39:30,951 [22] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:Aa : Map:1 Character:1:阿达
+2024-07-20 20:39:30,951 [22] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:39:30,959 [22] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-20 20:40:02,780 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-20 20:40:03,648 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-20 20:40:04,572 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:40:04,573 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:40:04,574 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:40:04,576 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:40:04,576 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:40:04,576 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:40:04,577 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:40:04,583 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:40:04,718 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-20 20:40:06,822 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-20 20:40:06,887 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-20 20:40:06,894 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-20 20:40:06,902 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-20 20:40:28,266 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53412]] Connected
+2024-07-20 20:40:28,761 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:40:29,427 [4] [INFO ] [GameServer] ：UserLoginRequest: User:3  Pass:3
+2024-07-20 20:40:37,252 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 20:40:37,259 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-20 20:40:37,262 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:Aa Map:1
+2024-07-20 20:40:37,946 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:40:37,980 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2 Position:(5000, 4000, 820)
+2024-07-20 20:40:37,984 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:40:44,096 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:40:44,284 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:40:44,376 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:40:44,457 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:40:44,572 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:40:44,716 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:40:45,655 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:40:45,774 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 20:40:46,100 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:40:46,254 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:40:46,373 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:40:46,473 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:40:46,557 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:40:46,642 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:40:46,751 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:40:46,829 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:40:46,905 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:40:47,027 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:40:47,119 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:40:47,218 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:40:47,324 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:40:47,395 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:40:47,519 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:40:47,580 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:40:47,689 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:40:47,860 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:40:48,852 [13] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-07-20 20:40:48,855 [13] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:Aa : Map:1 Character:2:Aa
+2024-07-20 20:40:48,857 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Aa
+2024-07-20 20:40:48,863 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-20 20:41:24,725 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-20 20:41:24,840 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-20 20:41:24,869 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:41:24,870 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:41:24,870 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:41:24,871 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:41:24,872 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:41:24,872 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:41:24,872 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:41:24,873 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:41:24,952 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-20 20:41:25,539 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-20 20:41:25,546 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-20 20:41:25,546 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-20 20:41:25,547 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-20 20:41:40,417 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53439]] Connected
+2024-07-20 20:41:40,631 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:41:40,820 [4] [INFO ] [GameServer] ：UserLoginRequest: User:2  Pass:2
+2024-07-20 20:41:45,294 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:41:45,301 [7] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Aa  Class:Warrior
+2024-07-20 20:41:47,972 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:41:47,973 [8] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Dd  Class:Warrior
+2024-07-20 20:41:50,683 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 20:41:50,688 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-20 20:41:50,689 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:Dd Map:1
+2024-07-20 20:41:50,785 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Dd
+2024-07-20 20:41:50,805 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3 Position:(5000, 4000, 820)
+2024-07-20 20:41:50,807 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Dd
+2024-07-20 20:41:52,604 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:41:52,935 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:41:53,101 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:41:53,780 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:41:53,879 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:41:53,980 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:41:54,062 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:41:54,162 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:41:54,245 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:41:54,343 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:41:54,445 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:41:54,560 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:41:55,837 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:41:55,969 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:41:56,070 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:41:56,153 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:41:56,268 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:41:56,636 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:41:58,762 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 20:42:04,171 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2024-07-20 20:42:04,320 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Dd
+2024-07-20 20:42:07,537 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:42:07,596 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Dd
+2024-07-20 20:42:12,100 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:42:12,117 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Dd
+2024-07-20 20:42:22,115 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:42:22,118 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Dd
+2024-07-20 20:42:29,736 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-20 20:42:29,737 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Dd
+2024-07-20 20:42:39,350 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-07-20 20:42:39,559 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:42:39,618 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:42:39,662 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:42:39,712 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:42:39,772 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:42:39,871 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:42:39,955 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:42:40,056 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:42:40,252 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:42:41,488 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:42:41,643 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:42:41,878 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:42:42,047 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:42:42,214 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:42:42,397 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:42:42,587 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:42:42,808 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:42:43,144 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:42:43,360 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:42:43,465 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:42:43,655 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-20 20:42:43,857 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:42:44,154 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:42:44,259 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:42:44,415 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:42:44,621 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:42:44,805 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:42:45,095 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:42:45,294 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:42:45,341 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:42:45,387 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:42:45,422 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:42:45,475 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:42:45,531 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 20:42:45,585 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:42:45,636 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:43:03,495 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-07-20 20:43:04,795 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 20:43:27,702 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:43:27,916 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:43:28,120 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:43:28,298 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:43:28,474 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:43:28,741 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2024-07-20 20:43:28,903 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:43:28,932 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:43:29,078 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 20:43:29,387 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:43:29,642 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:43:29,743 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-20 20:43:29,938 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 20:43:30,150 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 20:43:30,456 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 20:43:30,585 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 20:43:30,679 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 20:43:30,878 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 20:43:31,105 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-20 20:43:37,589 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2024-07-20 20:43:37,591 [6] [INFO ] [GameServer] ：OnItemBuy
+2024-07-20 20:43:37,591 [6] [INFO ] [GameServer] ：OnItemBuy::character:3: Shop:1 ShopItem:6
+2024-07-20 20:43:37,592 [6] [INFO ] [GameServer] ：BuyItem: :character:Dd:Item:3 Count:10 Price:200
+2024-07-20 20:43:37,594 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Dd
+2024-07-20 20:43:37,594 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Dd
+2024-07-20 20:43:57,343 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2024-07-20 20:43:57,344 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 3:Dd : Map:1 Character:3:Dd
+2024-07-20 20:43:57,345 [3] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:Dd
+2024-07-20 20:43:57,348 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-20 20:45:02,402 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-20 20:45:02,454 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-20 20:45:02,474 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:45:02,474 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:45:02,474 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:45:02,475 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:45:02,476 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:45:02,478 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:45:02,478 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:45:02,478 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:45:02,560 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-20 20:45:02,876 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-20 20:45:02,882 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-20 20:45:02,882 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-20 20:45:02,883 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-20 20:45:21,898 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53551]] Connected
+2024-07-20 20:45:22,027 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:45:22,453 [4] [INFO ] [GameServer] ：UserRegisterRequest: User:1  Pass:1
+2024-07-20 20:45:26,938 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:45:26,942 [6] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-20 20:45:32,315 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:45:32,323 [8] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Aa  Class:Archer
+2024-07-20 20:45:35,748 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 20:45:35,754 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-20 20:45:35,756 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:Aa Map:1
+2024-07-20 20:45:35,819 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:45:35,834 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1 Position:(5000, 4000, 820)
+2024-07-20 20:45:35,844 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:45:38,501 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:45:40,770 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:45:46,100 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53582]] Connected
+2024-07-20 20:45:46,197 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:45:46,197 [10] [INFO ] [GameServer] ：UserRegisterRequest: User:2  Pass:2
+2024-07-20 20:45:50,387 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:45:50,387 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2  Pass:2
+2024-07-20 20:45:53,870 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2024-07-20 20:45:53,870 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Bb  Class:None
+2024-07-20 20:46:04,142 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-20 20:46:04,144 [6] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:C  Class:Warrior
+2024-07-20 20:46:06,514 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-20 20:46:06,515 [8] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:1
+2024-07-20 20:46:06,515 [8] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:C Map:1
+2024-07-20 20:46:06,516 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:C
+2024-07-20 20:46:06,516 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3 Position:(5000, 4000, 820)
+2024-07-20 20:46:06,517 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:46:06,518 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:C
+2024-07-20 20:46:09,291 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:46:09,292 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:46:09,520 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-20 20:46:09,521 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:46:10,751 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-20 20:46:10,751 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:46:15,066 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-20 20:46:15,066 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:46:19,234 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-07-20 20:46:19,352 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:C
+2024-07-20 20:46:24,615 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:46:24,705 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:C
+2024-07-20 20:46:35,492 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:46:35,494 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:46:38,843 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-20 20:46:38,875 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:C
+2024-07-20 20:46:41,793 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-20 20:46:41,795 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:46:46,188 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2024-07-20 20:46:46,202 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:46:54,955 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:46:54,955 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:47:07,178 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:47:07,182 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:C
+2024-07-20 20:47:18,151 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:47:18,182 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:47:20,108 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:47:20,110 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:47:28,580 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:47:28,584 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:47:30,543 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:47:30,544 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:47:59,308 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:47:59,308 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:C
+2024-07-20 20:48:06,253 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:48:06,255 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:C
+2024-07-20 20:48:09,078 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:48:09,080 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:48:33,026 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-07-20 20:48:33,028 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:Aa : Map:1 Character:1:Aa
+2024-07-20 20:48:33,030 [3] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-20 20:48:33,032 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 3:C : Map:1 Character:1:Aa
+2024-07-20 20:48:33,033 [3] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:C
+2024-07-20 20:48:33,041 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-20 20:48:34,017 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2024-07-20 20:48:34,017 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 3:C : Map:1 Character:3:C
+2024-07-20 20:48:34,017 [3] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:C
+2024-07-20 20:48:34,018 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-20 20:51:19,759 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-20 20:51:19,860 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-20 20:51:22,814 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:51:22,814 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:51:22,814 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:51:22,817 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:51:22,832 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:51:22,832 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:51:22,833 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:51:22,833 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-20 20:51:23,040 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-20 20:51:23,813 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-20 20:51:23,820 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-20 20:51:23,821 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-20 20:51:23,822 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-20 20:52:26,827 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53760]] Connected
+2024-07-20 20:52:27,246 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:52:27,699 [4] [INFO ] [GameServer] ：UserRegisterRequest: User:5  Pass:5
+2024-07-20 20:52:33,993 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:52:34,000 [5] [INFO ] [GameServer] ：UserLoginRequest: User:5  Pass:5
+2024-07-20 20:52:39,718 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-20 20:52:39,724 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:A  Class:Archer
+2024-07-20 20:52:41,975 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-20 20:52:41,979 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-20 20:52:41,980 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:4:A Map:1
+2024-07-20 20:52:42,131 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:A
+2024-07-20 20:52:42,152 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:4 Position:(5000, 4000, 820)
+2024-07-20 20:52:42,155 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:A
+2024-07-20 20:52:46,524 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-20 20:52:48,668 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-20 20:53:06,031 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-07-20 20:53:06,159 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:A
+2024-07-20 20:53:18,298 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:53:18,362 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:A
+2024-07-20 20:53:34,970 [15] [WARN ] [GameServer] ：Client[127.0.0.1:53776]] Connected
+2024-07-20 20:53:35,084 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-20 20:53:35,084 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-20 20:53:40,913 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-20 20:53:40,914 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:V  Class:Warrior
+2024-07-20 20:53:42,989 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-20 20:53:42,990 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:1
+2024-07-20 20:53:42,991 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:V Map:1
+2024-07-20 20:53:42,991 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:5:V
+2024-07-20 20:53:42,993 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:5 Position:(5000, 4000, 820)
+2024-07-20 20:53:42,994 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:A
+2024-07-20 20:53:42,996 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:5:V
+2024-07-20 20:54:07,748 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:54:07,751 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:5:V
+2024-07-20 20:54:15,833 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-20 20:54:42,548 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2024-07-20 20:54:49,838 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:5:V
+2024-07-20 20:55:19,533 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:55:19,536 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:A
+2024-07-20 20:55:55,861 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:55:55,862 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:A
+2024-07-20 20:56:44,035 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:57:13,427 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:A
+2024-07-20 20:57:34,342 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-20 20:57:34,343 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:5:V
+2024-07-20 20:57:36,681 [22] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:5
+2024-07-20 20:57:36,684 [22] [INFO ] [GameServer] ：SendCharacterLeaveMap To 4:A : Map:1 Character:5:V
+2024-07-20 20:57:36,684 [22] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:A
+2024-07-20 20:57:36,686 [22] [INFO ] [GameServer] ：SendCharacterLeaveMap To 5:V : Map:1 Character:5:V
+2024-07-20 20:57:36,687 [22] [INFO ] [GameServer] ：PostProcess > Character: characterID:5:V
+2024-07-20 20:57:36,688 [22] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-20 20:57:39,054 [24] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:4
+2024-07-20 20:57:39,054 [24] [INFO ] [GameServer] ：SendCharacterLeaveMap To 4:A : Map:1 Character:4:A
+2024-07-20 20:57:39,055 [24] [INFO ] [GameServer] ：PostProcess > Character: characterID:4:A
+2024-07-20 20:57:39,055 [24] [WARN ] [GameServer] ：Client[] Disconnected

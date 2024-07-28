@@ -19,7 +19,7 @@ namespace GameServer
         public string Name { get; set; }
         public int Class { get; set; }
         public int Level { get; set; }
-        public string Title { get; set; }
+        public int Title { get; set; }
         public System.DateTime JoinTime { get; set; }
         public System.DateTime LastTime { get; set; }
         public int GuildId { get; set; }

@@ -47,9 +47,14 @@ namespace GameServer.Managers
             this.Characters.Remove(characterId);
         }
 
-        internal object GetCharacter(int friendID)
+        internal Character GetCharacter(int characterId)
         {
-            throw new NotImplementedException();
+            foreach(var i in Characters)
+            {
+                if (i.Value.Id == characterId)
+                    return i.Value;
+            }
+            return null;
         }
     }
 }

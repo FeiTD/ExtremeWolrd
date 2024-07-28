@@ -1,0 +1,343 @@
+
+2024-07-17 19:32:25,080 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-17 19:32:25,196 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-17 19:32:25,472 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:32:25,472 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:32:25,472 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:32:25,472 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:32:25,472 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:32:25,472 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:32:25,473 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:32:25,473 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:32:25,517 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-17 19:32:26,173 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-17 19:32:26,184 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-17 19:32:26,185 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-17 19:32:26,185 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-17 19:37:07,676 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-17 19:37:08,225 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-17 19:37:09,642 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:37:09,642 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:37:09,643 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:37:09,644 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:37:09,645 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:37:09,646 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:37:09,646 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:37:09,655 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:37:09,709 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-17 19:37:24,764 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-17 19:37:25,515 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-17 19:37:26,115 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:37:26,115 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:37:26,118 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:37:26,118 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:37:26,119 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:37:26,122 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:37:26,123 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:37:26,123 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:37:26,256 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-17 19:37:26,939 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-17 19:37:26,948 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-17 19:37:26,948 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-17 19:37:26,948 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-17 19:37:39,401 [3] [WARN ] [GameServer] ：Client[127.0.0.1:57765]] Connected
+2024-07-17 19:37:39,475 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-17 19:37:39,771 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-17 19:37:49,127 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-17 19:37:49,131 [4] [INFO ] [GameServer] ：UserRegisterRequest: User:1  Pass:1
+2024-07-17 19:37:52,310 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-17 19:37:52,311 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-17 19:37:57,026 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-17 19:37:57,037 [4] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Aa  Class:Warrior
+2024-07-17 19:38:01,366 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-17 19:38:01,371 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:0
+2024-07-17 19:38:01,373 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:Aa Map:1
+2024-07-17 19:38:11,523 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-17 19:38:11,542 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1 Position:(5000, 4000, 820)
+2024-07-17 19:38:11,544 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-17 19:38:17,120 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-17 19:38:17,400 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 19:38:17,447 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 19:38:17,603 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 19:38:17,781 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 19:38:19,051 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-17 19:38:21,843 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-17 19:38:23,733 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-07-17 19:38:23,891 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-17 19:38:24,032 [4] [ERROR] [GameServer] ：Message handler exception:, Possible recursion detected (offset: 3 level(s)): SkillBridge.Message.NCharacterInfo, protobuf-net,    在 ProtoBuf.ProtoWriter.CheckRecursionStackAndPush(Object instance)
+   在 ProtoBuf.ProtoWriter.StartSubItem(Object instance, ProtoWriter writer, Boolean allowFixed)
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_47(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_45(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_23(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_47(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_45(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_23(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_47(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_45(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_23(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_47(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_45(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_23(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_47(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_45(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_23(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_47(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_45(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_23(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_47(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_45(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_23(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_47(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_45(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_23(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_47(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_45(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_43(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_7(Object , ProtoWriter )
+   在 ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   在 proto_1(Object , ProtoWriter )
+   在 ProtoBuf.Meta.TypeModel.SerializeCore(ProtoWriter writer, Object value)
+   在 ProtoBuf.Meta.TypeModel.Serialize(Stream dest, Object value, SerializationContext context)
+   在 ProtoBuf.Serializer.Serialize[T](Stream destination, T instance)
+   在 Network.PackageHandler`1.PackMessage(NetMessage message) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\PackageHandler.cs:行号 91
+   在 Network.NetSession.GetResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetSession.cs:行号 60
+   在 Network.NetConnection`1.SendResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetConnection.cs:行号 134
+   在 GameServer.Services.GuildService.OnGuildCreateRequest(NetConnection`1 sender, GuildCreateRequest message) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\GuildService.cs:行号 137
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-17 19:38:29,191 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-07-17 19:38:29,194 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-17 19:38:58,438 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-07-17 19:40:01,135 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-17 19:40:54,741 [18] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-07-17 19:40:54,748 [18] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:Aa : Map:1 Character:1:Aa
+2024-07-17 19:40:54,752 [18] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:Aa
+2024-07-17 19:41:31,100 [18] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-17 19:42:07,165 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-17 19:42:07,403 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-17 19:42:08,420 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:42:08,421 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:42:08,420 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:42:08,421 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:42:08,420 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:42:08,422 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:42:08,422 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:42:08,423 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 19:42:08,904 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-17 19:42:09,612 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-17 19:42:09,617 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-17 19:42:09,619 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-17 19:42:09,619 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-17 19:42:20,774 [3] [WARN ] [GameServer] ：Client[127.0.0.1:57917]] Connected
+2024-07-17 19:42:20,849 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-17 19:42:21,102 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-17 19:42:27,656 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-07-17 19:42:27,662 [5] [INFO ] [GameServer] ：UserCreatCharacterRequest: Name:Asd  Class:Warrior
+2024-07-17 19:42:29,062 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-17 19:42:29,065 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:1
+2024-07-17 19:42:29,067 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:Asd Map:1
+2024-07-17 19:42:29,092 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 19:42:29,107 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2 Position:(5000, 4000, 820)
+2024-07-17 19:42:29,108 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 19:42:31,959 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-17 19:42:32,022 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 19:42:32,095 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 19:42:32,368 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 19:42:32,541 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 19:42:33,427 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 19:42:33,572 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-17 19:42:38,866 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-07-17 19:42:38,935 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 19:42:39,015 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 19:42:39,211 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 19:42:39,476 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-17 19:42:39,644 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-17 19:42:39,721 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-17 19:42:39,917 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-07-17 19:42:51,562 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2024-07-17 19:42:51,961 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-17 19:42:52,283 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-17 19:42:52,414 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-17 19:42:52,621 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-07-17 19:42:52,832 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-17 19:42:53,118 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-17 19:42:53,329 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-17 19:42:53,717 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 19:42:53,870 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 19:42:54,172 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 19:42:54,378 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 19:42:54,463 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-17 19:42:54,663 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-17 19:42:54,861 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-17 19:42:55,066 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-17 19:42:55,265 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-17 19:42:55,463 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-17 19:42:55,652 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-17 19:43:04,018 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-07-17 19:43:24,833 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 19:48:12,946 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-17 19:48:12,949 [4] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:2:Asd Map:1
+2024-07-17 19:48:12,951 [4] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-07-17 19:48:12,952 [4] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:Asd : Map:1 Character:2:Asd
+2024-07-17 19:48:12,952 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 19:48:16,311 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-07-17 19:48:16,314 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:1009
+2024-07-17 19:48:16,317 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 19:48:17,352 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2024-07-17 19:48:17,352 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:200
+2024-07-17 19:48:20,537 [8] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-17 19:48:29,409 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-17 19:48:29,409 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:1
+2024-07-17 19:48:29,411 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:Asd Map:1
+2024-07-17 20:16:50,841 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-17 20:16:51,022 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-17 20:16:51,560 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 20:16:51,560 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 20:16:51,560 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 20:16:51,561 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 20:16:51,560 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 20:16:51,563 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 20:16:51,567 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 20:16:51,579 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-17 20:16:52,036 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-17 20:16:54,053 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-17 20:16:54,069 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-17 20:16:54,070 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-17 20:16:54,073 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-17 20:17:41,261 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59083]] Connected
+2024-07-17 20:17:41,555 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-17 20:17:42,004 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-17 20:17:48,100 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-17 20:17:48,108 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:1
+2024-07-17 20:17:48,111 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:Asd Map:1
+2024-07-17 20:18:21,468 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 20:18:22,770 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2 Position:(5000, 4000, 820)
+2024-07-17 20:18:22,772 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 20:18:38,891 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-17 20:18:40,445 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-07-17 20:18:51,048 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-07-17 20:18:51,053 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:Asd : Map:1 Character:2:Asd
+2024-07-17 20:18:51,055 [3] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 20:19:02,351 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-17 20:20:03,274 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59192]] Connected
+2024-07-17 20:20:03,724 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-17 20:20:03,724 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-17 20:20:07,115 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-17 20:20:07,116 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:1
+2024-07-17 20:20:07,116 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:Asd Map:1
+2024-07-17 20:20:09,963 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 20:20:09,964 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2 Position:(5000, 4000, 820)
+2024-07-17 20:20:09,965 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 20:20:19,106 [17] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-07-17 20:20:19,106 [17] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:Asd : Map:1 Character:2:Asd
+2024-07-17 20:20:19,107 [17] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 20:20:19,108 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-17 20:26:00,617 [17] [WARN ] [GameServer] ：Client[127.0.0.1:59532]] Connected
+2024-07-17 20:26:00,944 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-17 20:26:00,945 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-17 20:26:03,403 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-17 20:26:03,404 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:1
+2024-07-17 20:26:03,404 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:Asd Map:1
+2024-07-17 20:26:03,405 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 20:26:03,406 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2 Position:(5000, 4000, 820)
+2024-07-17 20:26:03,406 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 20:26:06,321 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-17 20:26:07,053 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 20:26:07,231 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 20:26:07,697 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-17 20:26:31,705 [17] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-07-17 20:26:31,818 [17] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:Asd : Map:1 Character:2:Asd
+2024-07-17 20:26:32,029 [17] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 20:26:32,294 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-17 20:27:30,286 [17] [WARN ] [GameServer] ：Client[127.0.0.1:59577]] Connected
+2024-07-17 20:27:30,477 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-17 20:27:30,477 [4] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2024-07-17 20:27:32,747 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-17 20:27:32,748 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:1
+2024-07-17 20:27:32,748 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:Asd Map:1
+2024-07-17 20:27:32,749 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 20:27:32,750 [4] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2 Position:(5000, 4000, 820)
+2024-07-17 20:27:32,751 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 20:27:36,634 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-07-17 20:27:37,091 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 20:27:37,241 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 20:27:37,612 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 20:27:38,046 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-17 20:27:51,733 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2024-07-17 20:27:52,042 [4] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 20:28:04,591 [4] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Models.Guild.get_Id() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Models\Guild.cs:行号 19
+   在 GameServer.Models.Guild.GuildInfo(Character character) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Models\Guild.cs:行号 43
+   在 GameServer.Entities.Character.PostProcess(NetMessageResponse message) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 101
+   在 Network.NetSession.GetResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetSession.cs:行号 58
+   在 Network.NetConnection`1.SendResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetConnection.cs:行号 134
+   在 GameServer.Services.GuildService.OnGuildLeaveRequest(NetConnection`1 sender, GuildLeaveRequest message) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\GuildService.cs:行号 42
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-17 20:28:15,491 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-07-17 20:28:15,736 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 20:28:15,825 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 20:28:16,054 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 20:28:16,195 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-17 20:28:16,390 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-17 20:28:16,687 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-17 20:28:16,780 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-17 20:28:16,923 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-17 20:28:17,123 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-17 20:28:17,294 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-07-17 20:28:18,495 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-17 20:28:18,669 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-07-17 20:28:18,946 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-07-17 20:28:19,014 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2024-07-17 20:28:19,139 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 20:28:19,304 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-07-17 20:28:19,899 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-07-17 20:28:22,918 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-07-17 20:28:22,923 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:2:Asd Map:1
+2024-07-17 20:28:22,924 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-07-17 20:28:22,925 [5] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:Asd : Map:1 Character:2:Asd
+2024-07-17 20:28:22,926 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 20:28:22,931 [5] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:Asd
+2024-07-17 20:28:33,139 [5] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Models.Guild.get_Id() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Models\Guild.cs:行号 19
+   在 GameServer.Models.Guild.GuildInfo(Character character) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Models\Guild.cs:行号 43
+   在 GameServer.Entities.Character.PostProcess(NetMessageResponse message) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 101
+   在 Network.NetSession.GetResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetSession.cs:行号 58
+   在 Network.NetConnection`1.SendResponse() 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Network\NetConnection.cs:行号 134
+   在 GameServer.Services.UserService.OnGameLeave(NetConnection`1 sender, UserGameLeaveRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 172
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-17 20:29:02,633 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-17 20:29:02,636 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:1
+2024-07-17 20:29:02,637 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:Asd Map:1
+2024-07-17 20:29:57,920 [4] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Managers.GuildManager.GetGuild(Int32 charid) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Managers\GuildManager.cs:行号 66
+   在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 83
+   在 GameServer.Managers.CharacterManager.AddCharacter(TCharacter cha) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 36
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\A\ExtremeWolrd\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 146
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\A\ExtremeWolrd\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2024-07-17 20:30:04,329 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-17 20:30:04,330 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterIdx:1
+2024-07-17 20:30:04,331 [4] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:Asd Map:1

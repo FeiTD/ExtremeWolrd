@@ -55,7 +55,7 @@ public class UIFriendList : UIWindow {
             }
 
             FriendService.Instance.SendFriendAdd(friendId);
-            this.OnNoClick();
+            inputbox.Close();
         };
         inputbox.OnNo = () =>
         {

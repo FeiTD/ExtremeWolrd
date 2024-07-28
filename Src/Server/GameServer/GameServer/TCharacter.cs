@@ -34,6 +34,7 @@ namespace GameServer
         public long Gold { get; set; }
         public byte[] Equips { get; set; }
         public long Level { get; set; }
+        public int GuildId { get; set; }
     
         public virtual TPlayer Player { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
@@ -43,6 +44,5 @@ namespace GameServer
         public virtual ICollection<TCharacterQuest> Quests { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<TChracterFriend> Friends { get; set; }
-        public virtual TGuild Guild { get; set; }
     }
 }

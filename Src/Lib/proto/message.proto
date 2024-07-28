@@ -109,6 +109,14 @@ enum GUILD_TITLE{
 	PRESIDENT = 1;
 	VICE_PRESIDENT = 2;
 }
+
+enum GUILD_ADMIN_COMMAND{
+	KICKOUT = 1;
+	PROMOTE = 2;
+	DEPOST = 3;
+	TRANSFER = 4;
+}
+
 message NStatus{
 	STATUS_TYPE type = 1;
 	STATUS_ACTION action = 2;
@@ -151,7 +159,7 @@ message NCharacterInfo {
 	repeated NQuestInfo quests = 15;//ÈÎÎñ
 	repeated NFriendInfo friends = 16;
 
-	NGuildInfo guild = 17;
+	//NGuildInfo guild = 17;
 }
 
 message NItemInfo{
@@ -213,8 +221,8 @@ message NGuildMemberInfo{
 }
 
 message NGuildApplyInfo{
-	int32 guild_id = 1;
-	int32 character_id = 2;
+	int32 guiId = 1;
+	int32 characterId = 2;
 	string name = 3;
 	int32 class = 4;
 	int32 level = 5;
@@ -290,6 +298,7 @@ message NetMessageRequest{
 	GuildJoinResponse guildJoinRes = 25;
 	GuildLeaveRequest guildLeave = 26;
 	GuildListRequest guildList = 27;
+	GuildAdminRequest guildAdmin = 28;
 }
 
 message NetMessageResponse{
@@ -320,11 +329,12 @@ message NetMessageResponse{
 	TeamInviteRequest teamInviteReq = 21;
 
 	GuildCreateResponse guildcreat = 22;
-	GuildRequest guild = 23;
+	GuildResponse guild = 23;
 	GuildJoinRequest gulidJoinReq = 24;
 	GuildJoinResponse guildJoinRes = 25;
 	GuildLeaveResponse guildLeave = 26;
 	GuildListResponse guildList = 27;
+	GuildAdminResponse guildAdmin = 28;
 }
 
 
@@ -565,7 +575,7 @@ message GuildCreateRequest{
 message GuildCreateResponse{
 	RESULT result = 1;
 	string errormsg = 2;
-	NGuildApplyInfo apply = 3;
+	NGuildInfo guildinfo = 3;
 }
 
 
@@ -600,11 +610,22 @@ message GuildLeaveResponse{
 }
 
 message GuildJoinRequest{
-
+	NGuildApplyInfo apply = 1;
 }
 
 message GuildJoinResponse{
 	RESULT result = 1;
 	string errormsg = 2;
 	NGuildApplyInfo apply = 3;
+}
+
+message GuildAdminRequest{
+	GUILD_ADMIN_COMMAND command = 1;
+	int32 target = 2;
+}
+
+message GuildAdminResponse{
+	RESULT result = 1;
+	string errormsg = 2;
+	GuildAdminRequest command = 3;
 }

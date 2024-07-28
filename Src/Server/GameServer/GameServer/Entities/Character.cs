@@ -1,13 +1,9 @@
 ﻿using Common;
 using GameServer.Core;
 using GameServer.Managers;
+using GameServer.Models;
 using Network;
 using SkillBridge.Message;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GameServer.Entities
 {
@@ -26,6 +22,8 @@ namespace GameServer.Entities
         public TeamManager TeamManager;
         public NTeamInfo TeamInfo;
         public GuildManager GuildManager;
+        public Guild Guild;
+        public double GuildUpdateTS;
         public long Gold 
         { 
             get
@@ -82,8 +80,7 @@ namespace GameServer.Entities
             TeamManager = new TeamManager(this);
             TeamManager.GetTeamInfo(ref TeamInfo);
 
-            GuildManager = new GuildManager(this);
-            //GuildManager
+            Guild = GuildManager.Instance.GetGuild(Info.Id);
         }
 
         public void PostProcess(NetMessageResponse message)
@@ -91,6 +88,20 @@ namespace GameServer.Entities
             Log.InfoFormat("PostProcess > Character: characterID:{0}:{1}", this.Id, this.Info.Name);
             TeamManager.PostProcess(message);
             FriendManager.PostProcess(message);
+            if(Guild != null)
+            {
+                if(message.Guild == null)
+                {
+                    message.Guild = new GuildResponse();
+                    message.Guild.Result = Result.Success;
+                    message.Guild.Guildinfo = this.Guild.GuildInfo(this);
+                }    
+                if (GuildUpdateTS < this.Guild.timestamp && message.mapCharacterEnter == null)
+                {
+                    GuildUpdateTS = this.Guild.timestamp;
+                    Guild.PostProcess(this,message);
+                }
+            }
             if (StatusManager.HasStatus)
                 StatusManager.PostProcess(message);
         }
