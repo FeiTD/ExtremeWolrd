@@ -1,0 +1,18 @@
+
+2024-07-29 22:56:00,957 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-29 22:56:00,975 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-29 22:56:01,142 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-29 22:56:01,142 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-29 22:56:01,142 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-29 22:56:01,142 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-29 22:56:01,142 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-29 22:56:01,142 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-29 22:56:01,142 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-29 22:56:01,142 [4] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-29 22:59:35,355 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-29 22:59:35,551 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:文城
+2024-07-29 22:59:35,553 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:挪威的森林
+2024-07-29 22:59:35,553 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:异空间
+2024-07-29 22:59:35,553 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:异世界
+2024-07-29 22:59:42,463 [20] [WARN ] [GameServer] ：Client[127.0.0.1:62941]] Connected
+2024-07-29 22:59:42,595 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:14

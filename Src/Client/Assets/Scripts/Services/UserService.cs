@@ -274,7 +274,6 @@ namespace Assets.Scripts.Services
                     QuestManager.Instance.Init(response.Character.Quests);
                     FriendManager.Instance.Init(response.Character.Friends);
                     Users.Instance.InitTeam();
-                    GuildManager.Instance.Init(response.Character.Guild);
                 }
             }
 

@@ -12,3 +12,17 @@ D:\A\ExtremeWolrd\Src\Lib\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 D:\A\ExtremeWolrd\Src\Lib\Common\obj\Debug\Common.csproj.Up2Date
 D:\A\ExtremeWolrd\Src\Lib\Common\obj\Debug\Common.dll
 D:\A\ExtremeWolrd\Src\Lib\Common\obj\Debug\Common.pdb
+C:\D\Resource\ExtremelyWorld\ExtremeWolrd\Src\Lib\Common\bin\Debug\Common.dll
+C:\D\Resource\ExtremelyWorld\ExtremeWolrd\Src\Lib\Common\bin\Debug\Common.pdb
+C:\D\Resource\ExtremelyWorld\ExtremeWolrd\Src\Lib\Common\bin\Debug\log4net.dll
+C:\D\Resource\ExtremelyWorld\ExtremeWolrd\Src\Lib\Common\bin\Debug\protobuf-net.dll
+C:\D\Resource\ExtremelyWorld\ExtremeWolrd\Src\Lib\Common\bin\Debug\Protocol.dll
+C:\D\Resource\ExtremelyWorld\ExtremeWolrd\Src\Lib\Common\bin\Debug\UnityEngine.dll
+C:\D\Resource\ExtremelyWorld\ExtremeWolrd\Src\Lib\Common\bin\Debug\Protocol.pdb
+C:\D\Resource\ExtremelyWorld\ExtremeWolrd\Src\Lib\Common\bin\Debug\log4net.xml
+C:\D\Resource\ExtremelyWorld\ExtremeWolrd\Src\Lib\Common\bin\Debug\protobuf-net.xml
+C:\D\Resource\ExtremelyWorld\ExtremeWolrd\Src\Lib\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\D\Resource\ExtremelyWorld\ExtremeWolrd\Src\Lib\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\D\Resource\ExtremelyWorld\ExtremeWolrd\Src\Lib\Common\obj\Debug\Common.csproj.CopyComplete
+C:\D\Resource\ExtremelyWorld\ExtremeWolrd\Src\Lib\Common\obj\Debug\Common.dll
+C:\D\Resource\ExtremelyWorld\ExtremeWolrd\Src\Lib\Common\obj\Debug\Common.pdb

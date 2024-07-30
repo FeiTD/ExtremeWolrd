@@ -8,7 +8,7 @@
 
 SET QUOTED_IDENTIFIER OFF;
 GO
-USE [ExtremeWorld];
+USE [ExtremelyWorld];
 GO
 IF SCHEMA_ID(N'dbo') IS NULL EXECUTE(N'CREATE SCHEMA [dbo]');
 GO
